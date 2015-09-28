@@ -64,6 +64,7 @@ int main(){
 	int case_result;	 //记录当前的结果
 	int edge_vex_count=0;//记录当前循环的边的总数
 	int case_num;        //记录当前是几次实验
+	int mode_num=9901;   //结果取模的底
 
 	Node* nodeHead[300];
 	FOR(k,300){//初始化节点
@@ -78,7 +79,7 @@ int main(){
 		FOR(kk,k_count){fscanf(fp,"%i %i",&input_edges[kk].node1,&input_edges[kk].node2);}//输入边
 	
 		case_result=1;//实验结果复位
-		for(int ii=n_count-1;ii>1;ii--)case_result*=ii;  //计算(n-1)!
+		for(int ii=n_count-1;ii>2;ii--){case_result*=ii;case_result=case_result%mode_num;}//计算(n-1)!/2
 
 		int edge_index=1;
 		FOR(j,1<<k_count){//当前循环，j中二进制1的位置m表示第m条边需要考虑，二进制1的数量表示考虑的边的总数
@@ -98,34 +99,40 @@ int main(){
 				}
 			}
 			//包含的边为奇数时，需要减掉当前值，为偶数时，则需要加上当前值
-			int temp=1;//记录当前边集构成的环的数量
+			int cur_result=1;//记录当前边集构成的环的数量
 
-			//下面两个循环来计算(n-1-edge_count)!*(2^edge_count)
-			for(int k=n_count-1-edge_vex_count;k>1;k--) temp*=(k); 
-			FOR(k,edge_vex_count) temp*=2;	
+			//下面两个循环来计算(n-1-edge_count)!
+			for(int k=n_count-1-edge_vex_count;k>1;k--) {
+				cur_result*=k; 
+				cur_result=cur_result%mode_num;
+			}
 
+			int edge_free_degree=edge_vex_count-1;
 			two_edge_vex_count=0;
 			FOR(k,n_count){//判断边的集合中节点出现的次数，次数>2时，不可能存在这种情况，应把当前结果置为0
 				//初始化
 				two_edge_vex_set[k]=0;
 
 				if(edge_vex[k]>2){
-					temp=0;break;//当某点发出的边数大于2时，不可能构成Hamiltonian环
+					cur_result=0;break;//当某点发出的边数大于2时，不可能构成Hamiltonian环
 				}
 				if(edge_vex[k]==2){
-					temp=temp>>1;//当某点发出的边数为2时，自由度减小1
+					edge_free_degree--;//当某点发出的边数为2时，自由度减小1
 					two_edge_vex_set[k]=1;//从k点出发的边数为2，因而该集标志为1
 					two_edge_vex_count++;
 				}
 			}
+			if(edge_free_degree>0) cur_result*=(1<<edge_free_degree);//每一条边有一个自由度，每个出现了2次的顶点则减小一个自由度
+			cur_result=cur_result%mode_num;
 			//错误1：需要检测是不是有自环现象---------太重要了，纠结在这好久了！！！！！
 			//错误2：又犯了一个致命错误，为什么自环不需要考虑，因为算法考虑的是固定1的位置，对其它元素进行排序，从而其它元素的自环是不成立的
 			//错误3：致命错误，链表是最开始就建立的，但是在判断是否存在自环时，就是用的这个链表而未加判断该条边是否需要考虑，增加one_edge_vex_set,发现这个思路仍然有问题
 			//错误4：one_edge_vex_set只能表明点存在，但是不能表明该条边是否存在，比如假设当前1-5的边实际上不考虑，但是5的点存在，这样在链表中存在1-5的边时，
 			//就不能判断出来，所以解决办法只能是动态建立链表
+			//错误5：在大规模数据中，没有考虑数据溢出
 
 			//下面为自环检测
-			while(two_edge_vex_count&&temp){
+			while(two_edge_vex_count&&cur_result){
 				FOR(k,n_count){
 					if(!two_edge_vex_count) break;
 
@@ -165,32 +172,29 @@ int main(){
 						}
 					}
 					if(isCycle){//存在自环，跳出当前循环
-						temp=0;
+						cur_result=0;
 						two_edge_vex_count=0;
 						break;
 					}	
 				}
 			}
 
-			if(edge_vex_count==n_count && temp)temp=2;//当边数恰好为点数的2倍时，其可以构成两条环路
 			/*if(!COUNT_VALUE) {
-				int temp_mod = (temp/2)%9901;
-				//if(edge_vex_count==EDGE_NUM&&temp) printf(" edge_index:%i value:%i temp value %i\n",edge_index++,temp_mod,j);
+				int temp_mod = (cur_result/2)%9901;
+				//if(edge_vex_count==EDGE_NUM&&cur_result) printf(" edge_index:%i value:%i temp value %i\n",edge_index++,temp_mod,j);
 			}else {
-				if(edge_vex_count==EDGE_NUM&&temp&&(temp/2)%9901==TEMP_VALUE) printf(" edge_index:%i value:%i temp value %i\n",edge_index++,(temp/2)%9901,j);
+				if(edge_vex_count==EDGE_NUM&&cur_result&&(cur_result/2)%9901==TEMP_VALUE) printf(" edge_index:%i value:%i temp value %i\n",edge_index++,(cur_result/2)%9901,j);
 			}*/
 			if(edge_vex_count<=n_count){
 				if(edge_vex_count%2){
-					case_result -= temp;
+					case_result += mode_num-cur_result;
 				}else if(edge_vex_count){
-					case_result += temp;
+					case_result += cur_result;
 				}
+				case_result=case_result%mode_num;
 			}
 		}
-		//cout<<case_result<<endl;
-		case_result =(case_result)/2;
-		//if(case_result<0) case_result=0;
-		case_result = case_result%9901;
+		
 		//fprintf(fp,"Case #%i: %i\n",case_num,case_result);
 		printf("Case #%i: %i\n",case_num+1,case_result);
 	}
