@@ -45,8 +45,13 @@ int main(){
 					cur_need_change=0;
 					continue;
 				}
-				if(price[k]<price[k-1]&&price[k+1]>price[k-1]){
-				}if(price[k]<price[k-1]){
+				if(price[k]<price[k-1]&&price[k+1]>price[k-1]){//比如 10 |5 30
+					price[k]=(price[k-1]+price[k+1])/2;
+					change_sets[change_count]=products[cur_change_index];
+					change_count++;
+				}else if(price[k]<price[k-1]&&price[k]<price[k+1]){//比如 10 |5 50
+					
+				}else{
 					if(products[k].compare(products[k-1]) < 0) cur_change_index=k;
 					else cur_change_index=k-1;
 					unfit_index=k;
@@ -66,7 +71,8 @@ int main(){
 			cout<<endl;
 		}
 	}
-	
+	fin.close();
+
 	printf("\n press any key to continue...");
 	getchar();
 	return 0;
