@@ -21,8 +21,8 @@ void sortCheckerArray();//将checker按照其value进行排序
 
 int linePos[CHECKMAXNUM];//存取直线元素的位置
 int layerSmallNum[CHECKMAXNUM];//存取每层的最小元素
-int isPosOccupyBit[CHECKMAXNUM];
-int posOccupyValue[CHECKMAXNUM];
+int gisPosOccupyBit[CHECKMAXNUM];
+int gposOccupyValue[CHECKMAXNUM];
 
 int smallestValue;//最小的距离
 checker checkArray[CHECKMAXNUM];
@@ -68,11 +68,13 @@ int main(){
 			getline(fin,temp);
 
 			smallestValue=0x7fffffff;
+			int tempValue;
+			getLayerSmallNum();//获取每一层的最小的元素
 			FOR(j,3) {
 				getLinePosForSnum(sNum,j);//获取三类直线位置
-				checkIfInLine();//判断当前的点是否在直线内
-				getLayerSmallNum();//获取每一层的最小的元素
-				smallestValue=countCheckValue(isPosOccupyBit,0,sNum,posOccupyValue);//计算最短的改变距离
+				checkIfInLine();//判断当前的点是否在直线内				
+				tempValue=countCheckValue(gisPosOccupyBit,0,sNum,gposOccupyValue);//计算最短的改变距离
+				if(tempValue<smallestValue) smallestValue=tempValue;
 			}
 			cout<<"Case #"<<i+1<<": "<<smallestValue;
 			cout<<endl;
@@ -123,95 +125,62 @@ int countCheckValue(int isPosOccupyBit[],int start_pos,int to_pos,int posOccupyV
 			}else if(tempLen==smallLen)smallLenCount++;
 			else break;
 		}
+		
+		if(smallLen*checkArray[jj].value>smallestValue) return smallestValue+1;
 
 		if(smallLenCount==1){//只有1个最小位置时
+			if(tempPosOccupyBit[smallPos]){
+				checkArray[tempPosOccupyValue[smallPos]].isInLine=0;
+			}
 			tempPosOccupyBit[smallPos]=1;
 			tempPosOccupyValue[smallPos]=jj;
-			smallestMoveValue+=tempLen;
+			smallestMoveValue+=smallLen*checkArray[jj].value;
 			continue;
 		}
 
 		//有两个以上的最小位置时
 		int tempSmallLenCount=smallLenCount;
 		int tempSmallPos=smallPos;
+		int curSmallMoveValue=0x7fffffff,temp;
 		while(tempSmallLenCount){
 			if(tempPosOccupyBit[tempSmallPos] && checkArray[tempPosOccupyValue[tempSmallPos]].value>=checkArray[jj].value){
 				tempSmallPos++;
 				continue;
 			}
+			//找到可以调整的位置，遍历该位置
 			int tempPosOccupyBit1[CHECKMAXNUM],tempPosOccupyValue1[CHECKMAXNUM];
-			int curSmallMoveValue=0x7fffffff,temp;
 			FOR(i,sNum){
 				tempPosOccupyBit1[i]=tempPosOccupyBit[i];
 				tempPosOccupyValue1[i]=tempPosOccupyValue[i];
-				checkArray[jj].isInLine=1;
-				if(tempPosOccupyBit1[tempSmallPos]){
-					checkArray[tempPosOccupyValue1[tempSmallPos]].isInLine=0;
-					tempPosOccupyValue1[tempSmallPos]=jj;
-				}else{
-					tempPosOccupyBit1[tempSmallPos]=1;
-					tempPosOccupyValue1[tempSmallPos]=jj;
-				}
-				temp=countCheckValue(tempPosOccupyBit1,jj+1,end_pos,tempPosOccupyValue1);
-				if(temp<curSmallMoveValue){
-					curSmallMoveValue=temp;
-					smallPos=i;
-				}
+			}
+			checkArray[jj].isInLine=1;
+			if(tempPosOccupyBit1[tempSmallPos]){
+				checkArray[tempPosOccupyValue1[tempSmallPos]].isInLine=0;
+				tempPosOccupyValue1[tempSmallPos]=jj;
+			}else{
+				tempPosOccupyBit1[tempSmallPos]=1;
+				tempPosOccupyValue1[tempSmallPos]=jj;
+			}
+			for(int kk=jj+1;kk<end_pos+1;kk++) checkArray[kk].isInLine=0;
+			temp=countCheckValue(tempPosOccupyBit1,jj+1,end_pos+1,tempPosOccupyValue1);
+			if(temp<curSmallMoveValue){
+				curSmallMoveValue=temp;
+				smallPos=tempSmallPos;
 			}
 			tempSmallPos++;
 			tempSmallLenCount--;
 		}
+		if(tempPosOccupyBit[smallPos]){
+			checkArray[tempPosOccupyValue[smallPos]].isInLine=0;
+		}
 		tempPosOccupyBit[smallPos]=1;
 		tempPosOccupyValue[smallPos]=jj;
-		smallestMoveValue+=tempLen;
+		smallestMoveValue+=smallLen*checkArray[jj].value;
 	}
+	if(smallestMoveValue>smallestValue)return smallestValue+1;
 	smallestMoveValue=smallestMoveValue+countCheckValue(tempPosOccupyBit,end_pos+1,to_pos,tempPosOccupyValue);
 	return smallestMoveValue;
 }
-
-//void countCheckValue(){
-//	int isPosOccupyBit[CHECKMAXNUM];
-//	FOR(i,sNum) isPosOccupyBit[i]=0;
-//
-//	smallestValue=0;
-//	int ii=0,jj;
-//	while(ii<sNum){
-//		int start_pos=ii;
-//		int end_pos=ii;
-//		checker temp=checkArray[ii];
-//		int cur_value=temp.value;
-//		//找到最大value的元素位置
-//		for(jj=ii+1;jj<sNum;jj++){
-//			if(checkArray[jj].value==cur_value){
-//				end_pos=jj;
-//				if(checkArray[jj].isInLine){
-//					FOR(k,sNum){
-//						if(linePos[k]==checkArray[jj].value){
-//							if(isPosOccupyBit[k]==0)isPosOccupyBit[k]=1;
-//							else checkArray[jj].isInLine=0;
-//							break;
-//						}
-//					}
-//				}
-//			}else{
-//				break;
-//			}
-//		}
-//		ii=end_pos+1;
-//		//根据最大元素的位置确定最小的移动距离
-//		int tempPos,tempSmall,tempLen;
-//		for(int k=start_pos;k<=end_pos;k++){
-//			tempPos=0;tempSmall=0x7fffffff;
-//			FOR(kk,sNum){
-//				if(isPosOccupyBit[kk])continue;
-//				else{
-//					tempLen=findCheckerToCheckerLen(linePos[kk],checkArray[k].pos);
-//					if(tempSmall>tempLen)
-//				}
-//			}
-//		}	
-//	}
-//}
 
 void sortCheckerArray(){
 	//插入排序
@@ -224,30 +193,6 @@ void sortCheckerArray(){
 		}
 		if(j==-1)checkArray[0]=temp;
 	}
-//	FOR(i,sNum){
-//		int tempPos,tempValue,tempInline;
-//		tempPos=checkArray[i].pos;
-//		tempValue=checkArray[i].value;
-//		tempInline=checkArray[i].isInLine;
-//		int j;
-//		for(j=i-1;j>=0;j--){
-//			if(tempValue>checkArray[j].value){
-//				checkArray[j+1].pos=checkArray[j].pos;
-//				checkArray[j+1].value=checkArray[j].value;
-//				checkArray[j+1].isInLine=checkArray[j].isInLine;
-//			}else {
-//				checkArray[j+1].pos=tempPos;
-//				checkArray[j+1].value=tempValue;
-//				checkArray[j+1].isInLine=tempInline;
-//				break;
-//			}
-//		}
-//		if(j==-1){
-//			checkArray[0].pos=tempPos;
-//			checkArray[0].value=tempValue;
-//			checkArray[0].isInLine=tempInline;
-//		}
-//	}
 }
 
 //获取每一层的最小元素
@@ -286,16 +231,18 @@ void getLinePosForSnum(int sNum, int lineStyle){
 void checkIfInLine(){
 	checker* p;
 	FOR(j,sNum){
-		isPosOccupyBit[j]=0;
-		posOccupyValue[j]=0;
-
+		gisPosOccupyBit[j]=0;
+		gposOccupyValue[j]=0;
+		checkArray[j].isInLine=0;
+	}
+	FOR(j,sNum){
 		p=&checkArray[j];
 		FOR(i,sNum){
 			if(p->pos==linePos[i]){
-				p->isInLine=1;break;
-				isPosOccupyBit[i]=1;
-				posOccupyValue[i]=j;
-
+				p->isInLine=1;
+				gisPosOccupyBit[i]=1;
+				gposOccupyValue[i]=j;
+				break;
 			}
 		}
 	}
