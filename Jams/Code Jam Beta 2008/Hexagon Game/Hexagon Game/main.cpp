@@ -15,9 +15,10 @@ struct checker{
 void getLayerSmallNum();//获取每一层的最小元素
 void getLinePosForSnum(int sNum, int lineStyle);//获取满足条件的直线的位置
 void checkIfInLine();//判断当前元素是否在直线中
-int countCheckValue(int isPosOccupyBit[],int start_pos,int to_pos,int posOccupyValue[]);//计算最短移动距离
+void countCheckValue(int isPosOccupyBit[],int start_pos,int curMoveValue,int posOccupyValue[]);//计算最短移动距离
 int findCheckerToCheckerLen(int pos1,int pos2);//计算两点之间的距离
 void sortCheckerArray();//将checker按照其value进行排序
+int malcin();
 
 int linePos[CHECKMAXNUM];//存取直线元素的位置
 int layerSmallNum[CHECKMAXNUM];//存取每层的最小元素
@@ -68,26 +69,28 @@ int main(){
 			getline(fin,temp);
 
 			smallestValue=0x7fffffff;
-			int tempValue;
 			getLayerSmallNum();//获取每一层的最小的元素
 			FOR(j,3) {
 				getLinePosForSnum(sNum,j);//获取三类直线位置
 				checkIfInLine();//判断当前的点是否在直线内				
-				tempValue=countCheckValue(gisPosOccupyBit,0,sNum,gposOccupyValue);//计算最短的改变距离
-				if(tempValue<smallestValue) smallestValue=tempValue;
+				//countCheckValue(gisPosOccupyBit,0,0,gposOccupyValue);//计算最短的改变距离
 			}
-			cout<<"Case #"<<i+1<<": "<<smallestValue;
-			cout<<endl;
+			/*cout<<"Case #"<<i+1<<": "<<smallestValue;
+			cout<<endl;*/
 		}
 	}
+	malcin();
+
 	printf("\n press any key to continue...");
 	getchar();
 	return 0;
 }
 
 //计算最短移动距离
-int countCheckValue(int isPosOccupyBit[],int start_pos,int to_pos,int posOccupyValue[]){
-	if(start_pos>=to_pos) return 0;
+int cout_count=1;
+void countCheckValue(int isPosOccupyBit[],int start_pos,int curMoveValue,int posOccupyValue[]){
+	if(start_pos>=sNum){if(curMoveValue<smallestValue)smallestValue=curMoveValue; return;}
+	if(curMoveValue>=smallestValue)return;
 
 	int tempPosOccupyBit[CHECKMAXNUM],tempPosOccupyValue[CHECKMAXNUM];
 	FOR(i,sNum){
@@ -95,91 +98,55 @@ int countCheckValue(int isPosOccupyBit[],int start_pos,int to_pos,int posOccupyV
 		tempPosOccupyValue[i]=posOccupyValue[i];
 	}
 
-	//找到从start_pos开始到to_pos的value最大的checkers
-	int end_pos=start_pos,jj;
-	int cur_value=checkArray[start_pos].value;
-	for(jj=start_pos+1;jj<to_pos;jj++){
-		if(checkArray[jj].value==cur_value){
-			end_pos=jj;
-		}else{
-			break;
+	int tempCheckerPos=checkArray[start_pos].pos;
+	int tempCheckerValue=checkArray[start_pos].value;
+	int tempLen;
+	int tempMoveValue;
+	int tempSmallestMoveValue=0x7fffffff;
+	int smallChange=0x7fffffff;
+	int smallChange_start,smallChange_end;
+	//找到start_pos可以移动最小距离的位置起始点
+	FOR(i,sNum){
+		tempLen=findCheckerToCheckerLen(linePos[i],tempCheckerPos);
+		if(smallChange>tempLen){smallChange_start=i;smallChange_end=i;smallChange=tempLen;}
+		else if(smallChange==tempLen)smallChange_end=i;
+		else break;
+	}
+	tempMoveValue=tempCheckerValue*smallChange+curMoveValue;
+	if(tempMoveValue>=smallestValue)return;//如果最小移动的距离还大于当前最小值，则不用再继续计算了
+
+	for(int i=smallChange_start;i<=smallChange_end;i++){//先计算最小移动位置
+		if(i) tempPosOccupyBit[i-1]=isPosOccupyBit[i-1];//复位
+		if(!tempPosOccupyBit[i]){//当前没有被占
+			tempPosOccupyBit[i]=1;
+			tempPosOccupyValue[i]=start_pos;
+			countCheckValue(tempPosOccupyBit,start_pos+1,tempMoveValue,tempPosOccupyValue);
 		}
 	}
-	//给这些checkers安排位置，获得最小的移动距离
-	int smallestMoveValue=0;
-	for(jj=start_pos;jj<=end_pos;jj++){
-		if(checkArray[jj].isInLine)continue;
-		int smallLenCount=0;
-		int smallLen=0x7fffffff;
-		int smallPos;
-		int tempLen;
-		FOR(k,sNum){
-			if(tempPosOccupyBit[k] && checkArray[tempPosOccupyValue[k]].value>=checkArray[jj].value)
-				continue;
-			
-			tempLen=findCheckerToCheckerLen(linePos[k],checkArray[jj].pos);
-			if(tempLen<smallLen){
-				smallLen=tempLen;
-				smallPos=k;
-				smallLenCount=1;
-			}else if(tempLen==smallLen)smallLenCount++;
-			else break;
-		}
-		
-		if(smallLen*checkArray[jj].value>smallestValue) return smallestValue+1;
 
-		if(smallLenCount==1){//只有1个最小位置时
-			if(tempPosOccupyBit[smallPos]){
-				checkArray[tempPosOccupyValue[smallPos]].isInLine=0;
-			}
-			tempPosOccupyBit[smallPos]=1;
-			tempPosOccupyValue[smallPos]=jj;
-			smallestMoveValue+=smallLen*checkArray[jj].value;
-			continue;
-		}
+	for(int i=1;i<sNum;i++){
+		tempMoveValue+=tempCheckerValue;
+		if(tempMoveValue>=smallestValue) break;
 
-		//有两个以上的最小位置时
-		int tempSmallLenCount=smallLenCount;
-		int tempSmallPos=smallPos;
-		int curSmallMoveValue=0x7fffffff,temp;
-		while(tempSmallLenCount){
-			if(tempPosOccupyBit[tempSmallPos] && checkArray[tempPosOccupyValue[tempSmallPos]].value>=checkArray[jj].value){
-				tempSmallPos++;
-				continue;
+		int temp_small=smallChange_start-i;
+		int temp_large=smallChange_start+i;
+		if(temp_small>=0 && temp_small<sNum){
+			if(!tempPosOccupyBit[temp_small]){//当前没有被占
+				tempPosOccupyBit[temp_small]=1;
+				tempPosOccupyValue[temp_small]=start_pos;
+				countCheckValue(tempPosOccupyBit,start_pos+1,tempMoveValue,tempPosOccupyValue);
+				tempPosOccupyBit[temp_small]=0;
 			}
-			//找到可以调整的位置，遍历该位置
-			int tempPosOccupyBit1[CHECKMAXNUM],tempPosOccupyValue1[CHECKMAXNUM];
-			FOR(i,sNum){
-				tempPosOccupyBit1[i]=tempPosOccupyBit[i];
-				tempPosOccupyValue1[i]=tempPosOccupyValue[i];
-			}
-			checkArray[jj].isInLine=1;
-			if(tempPosOccupyBit1[tempSmallPos]){
-				checkArray[tempPosOccupyValue1[tempSmallPos]].isInLine=0;
-				tempPosOccupyValue1[tempSmallPos]=jj;
-			}else{
-				tempPosOccupyBit1[tempSmallPos]=1;
-				tempPosOccupyValue1[tempSmallPos]=jj;
-			}
-			for(int kk=jj+1;kk<end_pos+1;kk++) checkArray[kk].isInLine=0;
-			temp=countCheckValue(tempPosOccupyBit1,jj+1,end_pos+1,tempPosOccupyValue1);
-			if(temp<curSmallMoveValue){
-				curSmallMoveValue=temp;
-				smallPos=tempSmallPos;
-			}
-			tempSmallPos++;
-			tempSmallLenCount--;
 		}
-		if(tempPosOccupyBit[smallPos]){
-			checkArray[tempPosOccupyValue[smallPos]].isInLine=0;
+		if(temp_large>=0 && temp_large<sNum){
+			if(!tempPosOccupyBit[temp_large]){//当前没有被占
+				tempPosOccupyBit[temp_large]=1;
+				tempPosOccupyValue[temp_large]=start_pos;
+				countCheckValue(tempPosOccupyBit,start_pos+1,tempMoveValue,tempPosOccupyValue);
+				tempPosOccupyBit[temp_large]=0;
+			}
 		}
-		tempPosOccupyBit[smallPos]=1;
-		tempPosOccupyValue[smallPos]=jj;
-		smallestMoveValue+=smallLen*checkArray[jj].value;
 	}
-	if(smallestMoveValue>smallestValue)return smallestValue+1;
-	smallestMoveValue=smallestMoveValue+countCheckValue(tempPosOccupyBit,end_pos+1,to_pos,tempPosOccupyValue);
-	return smallestMoveValue;
 }
 
 void sortCheckerArray(){
@@ -240,8 +207,8 @@ void checkIfInLine(){
 		FOR(i,sNum){
 			if(p->pos==linePos[i]){
 				p->isInLine=1;
-				gisPosOccupyBit[i]=1;
-				gposOccupyValue[i]=j;
+				//gisPosOccupyBit[i]=1;
+				//gposOccupyValue[i]=j;
 				break;
 			}
 		}
