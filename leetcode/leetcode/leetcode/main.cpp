@@ -7,8 +7,9 @@ void let_287();
 
 int main(){
 	//let_290();
-	//let_289();
-	let_287();
+	//let_287();
+	let_289();
+	
 
 	printf("press any key to continue....");
 	getchar();
