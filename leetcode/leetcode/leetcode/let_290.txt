@@ -1,0 +1,9 @@
+4
+abba
+dog cat cat dog
+abbc
+dog cat cat fish
+aaba
+dog cat cat dog
+abba
+dog dog dog dog 
