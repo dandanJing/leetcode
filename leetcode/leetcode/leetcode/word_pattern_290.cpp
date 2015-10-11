@@ -1,5 +1,5 @@
 #include"top.h"
-using namespace std;
+
 
 typedef std::map<string,string> patternStrPair;
 
@@ -33,6 +33,13 @@ public:
 				if(patternStrIter->second!=temp_str)return false;
 			}
 		}
+		//检查是否str过长
+		temp_str="";
+		while(str_pos < str.size() && str[str_pos++] != ' '){
+			temp_str+=str[str_pos-1];
+		}
+		if(temp_str.size() > 0) return false;
+
 		return true;
 	}
 };
@@ -41,11 +48,12 @@ void let_290(){
 	ifstream fin;
 	fin.open("let_290.txt");
 	string temp;
-	//getline(fin,temp); ??-----------------考虑string的处理
-	int N;fin>>N;
+	getline(fin,temp); //??-----------------考虑string的处理
+	ISS is(temp);
+	int N;is>>N;
+	//int N;fin>>N;
 	Solution sol;//??----------------怎么可以不定义类而使用类的公共函数
 	string pattern,str;
-	getline(fin,pattern);
 	FOR(i,N){
 		getline(fin,pattern);
 		getline(fin,str);

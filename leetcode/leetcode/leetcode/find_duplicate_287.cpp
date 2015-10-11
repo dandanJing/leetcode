@@ -1,5 +1,4 @@
 #include"top.h"
-using namespace std;
 
 int findDuplicateOp(vector<int>& nums,int div_small,int div_middle,int div_large);
 class Solution{
