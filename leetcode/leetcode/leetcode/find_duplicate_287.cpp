@@ -1,32 +1,29 @@
 #include"top.h"
 
 int findDuplicateOp(vector<int>& nums,int div_small,int div_middle,int div_large);
-class Solution{
-public:
-	int findDuplicate(vector<int>& nums){
-		int div_small=1,div_middle=nums.size()/2,div_large=nums.size()-1;
-		while(1){
-			if(div_small==div_large) return div_small;
-			else if (div_small>div_large) return -1;
+int Solution::findDuplicate(vector<int>& nums){
+	int div_small=1,div_middle=nums.size()/2,div_large=nums.size()-1;
+	while(1){
+		if(div_small==div_large) return div_small;
+		else if (div_small>div_large) return -1;
 
-			int small_count=0,large_count=0;
-			FOR(i,nums.size()){
-				int temp=nums[i];
-				if(temp>=div_small && temp<=div_middle)small_count++;
-				else if(temp>div_middle && temp<=div_large)large_count++;
-			}
-
-			if(small_count>div_middle-div_small+1) {
-				div_large=div_middle;
-				div_middle=(div_middle+div_small)/2;
-			}else{
-				div_small=div_middle+1;
-				div_middle=(div_middle+1+div_large)/2;
-			}
+		int small_count=0,large_count=0;
+		FOR(i,nums.size()){
+			int temp=nums[i];
+			if(temp>=div_small && temp<=div_middle)small_count++;
+			else if(temp>div_middle && temp<=div_large)large_count++;
 		}
-		//return findDuplicateOp(nums,1,nums.size()/2,nums.size()-1);
+
+		if(small_count>div_middle-div_small+1) {
+			div_large=div_middle;
+			div_middle=(div_middle+div_small)/2;
+		}else{
+			div_small=div_middle+1;
+			div_middle=(div_middle+1+div_large)/2;
+		}
 	}
-};
+	//return findDuplicateOp(nums,1,nums.size()/2,nums.size()-1);
+}
 
 void let_287(){
 	fstream fin;
