@@ -47,5 +47,8 @@
     <ClCompile Include="first_bad_version_278.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="H_Index_274.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

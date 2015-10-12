@@ -11,7 +11,7 @@ int Solution::firstBadVersion(int n){
 	int start_pos=1;
 	int end_pos=n;
 	int middle;
-	while(1){
+	while(1){//-----------------!!!当心middle与start_pos或者end_pos之一相等，造成死循环
 		if(start_pos==end_pos) return start_pos;
 
 		middle=(end_pos+start_pos)/2;

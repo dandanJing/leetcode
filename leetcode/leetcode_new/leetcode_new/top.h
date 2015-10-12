@@ -20,4 +20,5 @@ public:
 	vector<string> addOperators(string num, int target);
 	int numSquares(int n) ;
 	int firstBadVersion(int n) ;
+	int hIndex(vector<int>& citations) ;
 };
