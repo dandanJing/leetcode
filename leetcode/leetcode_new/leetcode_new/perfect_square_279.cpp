@@ -16,7 +16,7 @@ void findSmallestNum(int value,int cur_num){
 
 	int max_sqrt=(int)sqrt(value);
 	cur_num++;
-	for(int i=1;i<=max_sqrt;i++)
+	for(int i=max_sqrt;i>=1;i--)
 		findSmallestNum(value-i*i,cur_num);
 }
 
