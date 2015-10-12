@@ -82,6 +82,7 @@
     <ClCompile Include="find_duplicate_287.cpp" />
     <ClCompile Include="game_of_life_289.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="move_zeros_283.cpp" />
     <ClCompile Include="peeking_iterator_284.cpp" />
     <ClCompile Include="word_pattern_290.cpp" />
   </ItemGroup>

@@ -15,4 +15,5 @@ public:
 	bool wordPattern(string pattern,string str);
 	int findDuplicate(vector<int>& nums);
 	void gameOfLife(vector<vector<int>>& board);
+	void moveZeroes(vector<int>& nums);
 };
