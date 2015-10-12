@@ -41,5 +41,8 @@
     <ClCompile Include="expression_add_op_282.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="perfect_square_279.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
