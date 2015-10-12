@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.opensdf
 *.exe
 *.sdf
@@ -8,3 +9,15 @@
 *.ilk
 *.obj
 
+=======
+*.opensdf
+*.exe
+*.sdf
+*.in
+*.out
+*.idb
+*.pdb
+*.ilk
+*.obj
+
+>>>>>>> 194f7f9854ba2b4239e312aded309268c3e9d1d4
