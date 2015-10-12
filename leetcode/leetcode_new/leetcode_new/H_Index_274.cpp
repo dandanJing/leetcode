@@ -21,7 +21,7 @@ int Solution::hIndex(vector<int>& citations){
 		cite_sort[j+1]=temp;
 	}
 
-	for(int i=cite_size;i>=0;i--){
+	for(int i=cite_size;i>0;i--){
 		if(cite_sort[cite_size-i]>=i) return i;
 	}
 	
