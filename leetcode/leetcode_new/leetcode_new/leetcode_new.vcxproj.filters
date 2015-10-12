@@ -44,5 +44,8 @@
     <ClCompile Include="perfect_square_279.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="first_bad_version_278.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

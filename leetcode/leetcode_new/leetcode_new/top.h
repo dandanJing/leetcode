@@ -19,4 +19,5 @@ public:
 	void moveZeroes(vector<int>& nums);
 	vector<string> addOperators(string num, int target);
 	int numSquares(int n) ;
+	int firstBadVersion(int n) ;
 };
