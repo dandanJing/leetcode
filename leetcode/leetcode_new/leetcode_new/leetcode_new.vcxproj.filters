@@ -38,5 +38,8 @@
     <ClCompile Include="move_zeros_283.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="expression_add_op_282.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -16,4 +16,5 @@ public:
 	int findDuplicate(vector<int>& nums);
 	void gameOfLife(vector<vector<int>>& board);
 	void moveZeroes(vector<int>& nums);
+	vector<string> addOperators(string num, int target);
 };
