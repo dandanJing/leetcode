@@ -21,4 +21,5 @@ public:
 	int numSquares(int n) ;
 	int firstBadVersion(int n) ;
 	int hIndex(vector<int>& citations) ;
+	string numberToWords(int num) ;
 };
