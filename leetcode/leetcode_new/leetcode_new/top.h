@@ -24,4 +24,6 @@ public:
 	string numberToWords(int num) ;
 	int missingNumber(vector<int>& nums);
 	bool isUgly(int num);
+	int nthUglyNumber(int n);
+	vector<int> singleNumber(vector<int>& nums);
 };
