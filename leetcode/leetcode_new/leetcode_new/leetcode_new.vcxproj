@@ -95,6 +95,7 @@
     <ClCompile Include="single_num_III_260.cpp" />
     <ClCompile Include="ugly_number_263.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
+    <ClCompile Include="valid_anagram_242.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_pattern_290.cpp" />
   </ItemGroup>

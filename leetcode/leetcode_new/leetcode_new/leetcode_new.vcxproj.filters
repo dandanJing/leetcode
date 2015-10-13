@@ -74,5 +74,8 @@
     <ClCompile Include="var_define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="valid_anagram_242.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

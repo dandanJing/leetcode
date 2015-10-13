@@ -35,4 +35,5 @@ public:
 	vector<int> singleNumber(vector<int>& nums);
 	int addDigits(int num);
 	vector<string> binaryTreePaths(TreeNode* root);
+	bool isAnagram(string s, string t);
 };
