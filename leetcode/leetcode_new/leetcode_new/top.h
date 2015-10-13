@@ -26,4 +26,5 @@ public:
 	bool isUgly(int num);
 	int nthUglyNumber(int n);
 	vector<int> singleNumber(vector<int>& nums);
+	int addDigits(int num);
 };

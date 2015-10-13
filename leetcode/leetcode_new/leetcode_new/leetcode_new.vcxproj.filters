@@ -65,5 +65,8 @@
     <ClCompile Include="single_num_III_260.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="add_digits_258.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

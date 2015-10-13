@@ -79,6 +79,7 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="add_digits_258.cpp" />
     <ClCompile Include="expression_add_op_282.cpp" />
     <ClCompile Include="find_duplicate_287.cpp" />
     <ClCompile Include="first_bad_version_278.cpp" />
