@@ -90,6 +90,7 @@
     <ClCompile Include="move_zeros_283.cpp" />
     <ClCompile Include="peeking_iterator_284.cpp" />
     <ClCompile Include="perfect_square_279.cpp" />
+    <ClCompile Include="single_num_III_260.cpp" />
     <ClCompile Include="ugly_number_263.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="word_pattern_290.cpp" />

@@ -8,7 +8,7 @@ int Solution::missingNumber(vector<int>& nums){
 		hasNumVec[nums[i]]=true;
 	}
 	FOR(i,nums_size+1){
-		if(!hasNumVec[i]) return i;
+		if(!hasNumVec[i]) {delete hasNumVec; return i;}
 	}
 }
 
