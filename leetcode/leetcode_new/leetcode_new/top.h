@@ -39,4 +39,5 @@ public:
 	vector<int> diffWaysToCompute(string input) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 	vector<int> maxSlidingWindow(vector<int>& nums, int k);
+	vector<int> productExceptSelf(vector<int>& nums) ;
 };

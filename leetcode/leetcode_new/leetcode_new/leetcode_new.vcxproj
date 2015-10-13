@@ -93,6 +93,7 @@
     <ClCompile Include="move_zeros_283.cpp" />
     <ClCompile Include="peeking_iterator_284.cpp" />
     <ClCompile Include="perfect_square_279.cpp" />
+    <ClCompile Include="product_array_238.cpp" />
     <ClCompile Include="search_2d_matrix_II_240.cpp" />
     <ClCompile Include="single_num_III_260.cpp" />
     <ClCompile Include="slide_window_maximum_239.cpp" />
