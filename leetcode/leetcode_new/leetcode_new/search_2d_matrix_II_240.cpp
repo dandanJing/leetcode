@@ -2,32 +2,42 @@
 
 bool Solution::searchMatrix(vector<vector<int>>& matrix, int target) {
 	if(matrix.size()==0) return false;
+
 	int i=0;
 	int find_pos=0;
+	int start_pos=0;
+	int val1,val2;
 	vector<int> temp;
 	while(i<matrix.size()){
 		temp=matrix[i];
 		if(temp.size()){
-			if(temp[0]==target) return true;
-			else if(temp[0]>target) break;
+			val1=temp[0];val2=temp[temp.size()-1];
+			if(val1==target) return true;
+			else if(val1>target) break;
+
+			if(val2==target)return true;
+			else if(val2<target) start_pos=i;
 		}
 		find_pos=i++;
 	}
 
-	for(int j=0;j<=find_pos;j++){
+	for(int j=start_pos;j<=find_pos;j++){
 		temp=matrix[j];
 		int temp_size=temp.size();
 		if(temp_size==0) continue;
 
-		if(temp[temp_size-1]<target) continue;
-		else if(temp[temp_size-1]==target) return true;
-		for(i=1;i<temp_size-1;i++){//可以改成二分法
-			if(temp[i]==target) return true;
-			else if(temp[i]>target) break;
+		int pos1=0,pos2=temp_size-1,middle;
+		while(1){
+			if(pos1>=pos2-1) break;
+
+			middle=(pos1+pos2)/2;
+			if(temp[middle]==target) return true;
+			else if(temp[middle]>target){pos2=middle;}
+			else {pos1=middle;}
 		}
 	}
 
-	return true;
+	return false;
 }
 
 void let_240(){
@@ -69,5 +79,5 @@ void let_240(){
 	matrix.push_back(temp4);
 	matrix.push_back(temp5);
 	Solution sol;
-	cout<<sol.searchMatrix(matrix,26)<<endl;
+	cout<<sol.searchMatrix(matrix,9)<<endl;
 }
