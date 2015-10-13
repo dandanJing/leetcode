@@ -53,5 +53,8 @@
     <ClCompile Include="Integer_to_english_273.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="missing_num_268.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -24,7 +24,7 @@ void initNumToStrVec(){
 	numToStr.insert(pair<int,string>(19,"Nineteen"));
 	numToStr.insert(pair<int,string>(20,"Twenty"));
 	numToStr.insert(pair<int,string>(30,"Thirty"));
-	numToStr.insert(pair<int,string>(40,"Fourty"));
+	numToStr.insert(pair<int,string>(40,"Forty"));
 	numToStr.insert(pair<int,string>(50,"Fifty"));
 	numToStr.insert(pair<int,string>(60,"Sixty"));
 	numToStr.insert(pair<int,string>(70,"Seventy"));
@@ -37,6 +37,7 @@ void initNumToStrVec(){
 }
 
 string Solution::numberToWords(int num){
+	if(num==0) return "Zero";
 	if(!isInit){
         initNumToStrVec();
         isInit=1;
@@ -50,6 +51,8 @@ string Solution::numberToWords(int num){
 
 	//--------!!!错误1：当心除法，当temp_base=0时，除法会出错
 	//--------!!!错误2：后缀处理，不能忘了，且需要当temp_num>0时才有效
+	//--------!!!错误3：空格处理
+	//--------!!!错误4：输入0
 	while(temp_base){
 		temp_num=temp_residu/temp_base;
 		temp_residu=temp_residu%temp_base;
