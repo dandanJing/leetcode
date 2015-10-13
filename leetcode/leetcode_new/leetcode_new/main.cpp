@@ -1,27 +1,28 @@
 #include"top.h"
 using namespace std;
 
-void let_290();
-void let_289();
-void let_287();
+//void let_290();
+//void let_289();
+//void let_287();
 void let_284();
-void let_283();
-void let_282();
-void let_279();
-void let_278();
-void let_274();
-void let_273();
-void let_268();
-void let_263();
-void let_264();
-void let_260();
-void let_258();
-void let_257();
-void let_242();
-void let_241();
-void let_240();
-void let_239();
+//void let_283();
+//void let_282();
+//void let_279();
+//void let_278();
+//void let_274();
+//void let_273();
+//void let_268();
+//void let_263();
+//void let_264();
+//void let_260();
+//void let_258();
+//void let_257();
+//void let_242();
+//void let_241();
+//void let_240();
+//void let_239();
 void let_238();
+//void let_237();
 
 int main(){
 	//let_290();
@@ -45,6 +46,7 @@ int main(){
 	//let_240();
 	//let_239();
 	let_238();
+	//let_237();
 
 	printf("press any key to continue....");
 	getchar();

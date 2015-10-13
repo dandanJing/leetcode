@@ -79,29 +79,10 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="add_digits_258.cpp" />
-    <ClCompile Include="binary_tree_path_257.cpp" />
-    <ClCompile Include="different_ways_241.cpp" />
-    <ClCompile Include="expression_add_op_282.cpp" />
-    <ClCompile Include="find_duplicate_287.cpp" />
-    <ClCompile Include="first_bad_version_278.cpp" />
-    <ClCompile Include="game_of_life_289.cpp" />
-    <ClCompile Include="H_Index_274.cpp" />
-    <ClCompile Include="Integer_to_english_273.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="missing_num_268.cpp" />
-    <ClCompile Include="move_zeros_283.cpp" />
     <ClCompile Include="peeking_iterator_284.cpp" />
-    <ClCompile Include="perfect_square_279.cpp" />
     <ClCompile Include="product_array_238.cpp" />
-    <ClCompile Include="search_2d_matrix_II_240.cpp" />
-    <ClCompile Include="single_num_III_260.cpp" />
-    <ClCompile Include="slide_window_maximum_239.cpp" />
-    <ClCompile Include="ugly_number_263.cpp" />
-    <ClCompile Include="ugly_num_II_264.cpp" />
-    <ClCompile Include="valid_anagram_242.cpp" />
     <ClCompile Include="var_define.cpp" />
-    <ClCompile Include="word_pattern_290.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

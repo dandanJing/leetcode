@@ -17,10 +17,19 @@ struct TreeNode {
       TreeNode *right;
       TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+
+
+struct ListNode {
+     int val;
+     ListNode *next;
+     ListNode(int x) : val(x), next(NULL) {}
+};
  
+
 class Solution{
 public:
-	bool wordPattern(string pattern,string str);
+	/*bool wordPattern(string pattern,string str);
 	int findDuplicate(vector<int>& nums);
 	void gameOfLife(vector<vector<int>>& board);
 	void moveZeroes(vector<int>& nums);
@@ -31,7 +40,6 @@ public:
 	string numberToWords(int num) ;
 	int missingNumber(vector<int>& nums);
 	bool isUgly(int num);
-	int nthUglyNumber(int n);
 	vector<int> singleNumber(vector<int>& nums);
 	int addDigits(int num);
 	vector<string> binaryTreePaths(TreeNode* root);
@@ -39,5 +47,8 @@ public:
 	vector<int> diffWaysToCompute(string input) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 	vector<int> maxSlidingWindow(vector<int>& nums, int k);
+	
+	void deleteNode(ListNode* node);*/
+	int nthUglyNumber(int n);
 	vector<int> productExceptSelf(vector<int>& nums) ;
 };

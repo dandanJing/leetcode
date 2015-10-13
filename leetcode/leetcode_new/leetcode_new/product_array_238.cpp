@@ -13,6 +13,7 @@ vector<int> Solution::productExceptSelf(vector<int>& nums) {
 	vector<int> result;
 	FOR(i,nums_size) result.push_back(temp[i]);
 
+	delete temp;
 	return result;
 }
 

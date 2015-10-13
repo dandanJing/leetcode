@@ -20,70 +20,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="find_duplicate_287.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="game_of_life_289.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="peeking_iterator_284.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="word_pattern_290.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="move_zeros_283.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="expression_add_op_282.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="perfect_square_279.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="first_bad_version_278.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="H_Index_274.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Integer_to_english_273.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="missing_num_268.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ugly_number_263.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ugly_num_II_264.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="single_num_III_260.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="add_digits_258.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_path_257.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="var_define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="valid_anagram_242.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="different_ways_241.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="search_2d_matrix_II_240.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="slide_window_maximum_239.cpp">
+    <ClCompile Include="peeking_iterator_284.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="product_array_238.cpp">
