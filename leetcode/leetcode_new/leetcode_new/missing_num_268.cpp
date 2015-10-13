@@ -10,6 +10,7 @@ int Solution::missingNumber(vector<int>& nums){
 	FOR(i,nums_size+1){
 		if(!hasNumVec[i]) {delete hasNumVec; return i;}
 	}
+	return 0;
 }
 
 void let_268(){

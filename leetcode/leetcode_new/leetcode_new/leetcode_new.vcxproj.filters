@@ -68,5 +68,11 @@
     <ClCompile Include="add_digits_258.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary_tree_path_257.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="var_define.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 
 enum OPERATION{op_add=1,op_minus=2,op_multi=3};
 void findResult(string num,int target,int num1,int num2, int cur_pos,OPERATION cur_op,string cur_result,vector<string>& result);
-char c[1000];
+extern char c[1000];
 
 vector<string> Solution::addOperators(string num, int target){
 	vector<string> result;

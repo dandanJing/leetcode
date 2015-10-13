@@ -11,6 +11,13 @@ typedef istringstream ISS;
 
 #define FOR(i,n) for(int i=0;i<n;i++)
 
+struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+ 
 class Solution{
 public:
 	bool wordPattern(string pattern,string str);
@@ -27,4 +34,5 @@ public:
 	int nthUglyNumber(int n);
 	vector<int> singleNumber(vector<int>& nums);
 	int addDigits(int num);
+	vector<string> binaryTreePaths(TreeNode* root);
 };

@@ -4,7 +4,7 @@ int Solution::addDigits(int num){
 	int temp=num;
 	int tempdiv;
 	int value;
-	while(temp>10){
+	while(temp>=10){
 		value=0;
 		tempdiv=temp;
 		while(tempdiv){
