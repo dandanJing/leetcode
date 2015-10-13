@@ -1,13 +1,19 @@
-﻿生成启动时间为 2015/10/13 14:51:20。
+﻿生成启动时间为 2015/10/13 16:53:52。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt valid_anagram_242.cpp
-         valid_anagram_242.cpp
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\valid_anagram_242.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\valid_anagram_242.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt different_ways_241.cpp
+         different_ways_241.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(21): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(41): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(65): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\different_ways_241.cpp(94): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\add_digits_258.obj
          Debug\binary_tree_path_257.obj
+         Debug\different_ways_241.obj
          Debug\expression_add_op_282.obj
          Debug\find_duplicate_287.obj
          Debug\first_bad_version_278.obj
@@ -30,4 +36,4 @@
 
 生成成功。
 
-已用时间 00:00:00.97
+已用时间 00:00:01.01
