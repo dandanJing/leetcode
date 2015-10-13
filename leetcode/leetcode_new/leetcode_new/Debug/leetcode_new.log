@@ -1,11 +1,10 @@
-﻿生成启动时间为 2015/10/13 10:25:59。
+﻿生成启动时间为 2015/10/13 10:36:47。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt missing_num_268.cpp
-         missing_num_268.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\missing_num_268.cpp(13): warning C4715: “Solution::missingNumber”: 不是所有的控件路径都返回值
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ugly_number_263.cpp
+         ugly_number_263.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\expression_add_op_282.obj
          Debug\find_duplicate_287.obj
@@ -18,6 +17,7 @@
          Debug\move_zeros_283.obj
          Debug\peeking_iterator_284.obj
          Debug\perfect_square_279.obj
+         Debug\ugly_number_263.obj
          Debug\word_pattern_290.obj
          leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
        FinalizeBuildStatus:
@@ -27,4 +27,4 @@
 
 生成成功。
 
-已用时间 00:00:03.02
+已用时间 00:00:02.35

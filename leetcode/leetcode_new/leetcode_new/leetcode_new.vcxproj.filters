@@ -56,5 +56,8 @@
     <ClCompile Include="missing_num_268.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ugly_number_263.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

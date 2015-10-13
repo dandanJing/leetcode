@@ -23,4 +23,5 @@ public:
 	int hIndex(vector<int>& citations) ;
 	string numberToWords(int num) ;
 	int missingNumber(vector<int>& nums);
+	bool isUgly(int num);
 };
