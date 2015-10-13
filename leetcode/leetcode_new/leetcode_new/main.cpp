@@ -19,6 +19,7 @@ void let_258();
 void let_257();
 void let_242();
 void let_241();
+void let_240();
 
 int main(){
 	//let_290();
@@ -38,7 +39,8 @@ int main(){
 	//let_258();
 	//let_257();
 	//let_242();
-	let_241();
+	//let_241();
+	let_240();
 
 	printf("press any key to continue....");
 	getchar();

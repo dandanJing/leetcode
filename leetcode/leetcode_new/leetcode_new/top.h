@@ -37,4 +37,5 @@ public:
 	vector<string> binaryTreePaths(TreeNode* root);
 	bool isAnagram(string s, string t);
 	vector<int> diffWaysToCompute(string input) ;
+	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 };
