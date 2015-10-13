@@ -83,5 +83,8 @@
     <ClCompile Include="search_2d_matrix_II_240.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="slide_window_maximum_239.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

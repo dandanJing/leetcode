@@ -38,4 +38,5 @@ public:
 	bool isAnagram(string s, string t);
 	vector<int> diffWaysToCompute(string input) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
+	vector<int> maxSlidingWindow(vector<int>& nums, int k);
 };
