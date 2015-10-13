@@ -10,6 +10,11 @@ void let_282();
 void let_279();
 void let_278();
 void let_274();
+void let_273();
+void let_268();
+void let_263();
+void let_264();
+void let_260();
 
 int main(){
 	//let_290();
@@ -20,7 +25,12 @@ int main(){
 	//let_282();
 	//let_279();
 	//let_278();
-	let_274();
+	//let_274();
+	//let_273();
+	//let_268();
+	//let_263();
+	//let_264();
+	let_260();
 
 	printf("press any key to continue....");
 	getchar();

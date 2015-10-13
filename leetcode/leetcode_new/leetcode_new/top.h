@@ -21,4 +21,9 @@ public:
 	int numSquares(int n) ;
 	int firstBadVersion(int n) ;
 	int hIndex(vector<int>& citations) ;
+	string numberToWords(int num) ;
+	int missingNumber(vector<int>& nums);
+	bool isUgly(int num);
+	int nthUglyNumber(int n);
+	vector<int> singleNumber(vector<int>& nums);
 };

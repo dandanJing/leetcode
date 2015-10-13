@@ -50,5 +50,20 @@
     <ClCompile Include="H_Index_274.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Integer_to_english_273.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="missing_num_268.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ugly_number_263.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ugly_num_II_264.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="single_num_III_260.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
