@@ -80,8 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="peeking_iterator_284.cpp" />
     <ClCompile Include="product_array_238.cpp" />
+    <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
