@@ -84,6 +84,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="number_digit_one_233.cpp" />
     <ClCompile Include="palindrome_linked_list_234.cpp" />
+    <ClCompile Include="power_two_231.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
   </ItemGroup>

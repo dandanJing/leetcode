@@ -55,4 +55,5 @@ public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
 	bool isPalindrome(ListNode* head) ;
 	int countDigitOne(int n);
+	bool isPowerOfTwo(int n);
 };

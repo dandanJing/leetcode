@@ -41,5 +41,8 @@
     <ClCompile Include="implement_queue_232.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="power_two_231.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
