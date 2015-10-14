@@ -56,4 +56,5 @@ public:
 	bool isPalindrome(ListNode* head) ;
 	int countDigitOne(int n);
 	bool isPowerOfTwo(int n);
+	int kthSmallest(TreeNode* root, int k);
 };

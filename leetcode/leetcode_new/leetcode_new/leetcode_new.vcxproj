@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="implement_queue_232.cpp" />
+    <ClCompile Include="kth_smallest_BST_230.cpp" />
     <ClCompile Include="lowest_common_ancestor_236.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="number_digit_one_233.cpp" />

@@ -44,5 +44,8 @@
     <ClCompile Include="power_two_231.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="kth_smallest_BST_230.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
