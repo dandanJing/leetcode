@@ -32,5 +32,8 @@
     <ClCompile Include="implement_stack_queue_225.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="summary_ranges_228.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -59,4 +59,5 @@ public:
 	int kthSmallest(TreeNode* root, int k);
 	vector<int> majorityElement(vector<int>& nums);*/
 	int nthUglyNumber(int n);
+	vector<string> summaryRanges(vector<int>& nums);
 };
