@@ -51,4 +51,5 @@ public:
 	void deleteNode(ListNode* node);
 	vector<int> productExceptSelf(vector<int>& nums) ;*/
 	int nthUglyNumber(int n);
+	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
 };
