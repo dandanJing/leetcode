@@ -35,5 +35,8 @@
     <ClCompile Include="summary_ranges_228.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="invert_binary_tree_226.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
