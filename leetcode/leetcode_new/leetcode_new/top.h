@@ -6,6 +6,7 @@
 #include<sstream>
 #include<cmath>
 #include<stack>
+#include<queue>
 using namespace std;
 
 typedef istringstream ISS;
