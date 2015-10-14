@@ -48,7 +48,7 @@ public:
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 	vector<int> maxSlidingWindow(vector<int>& nums, int k);
 	
-	void deleteNode(ListNode* node);*/
+	void deleteNode(ListNode* node);
+	vector<int> productExceptSelf(vector<int>& nums) ;*/
 	int nthUglyNumber(int n);
-	vector<int> productExceptSelf(vector<int>& nums) ;
 };
