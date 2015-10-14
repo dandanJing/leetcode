@@ -53,4 +53,5 @@ public:
 	int nthUglyNumber(int n);
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
 	bool isPalindrome(ListNode* head) ;
+	int countDigitOne(int n);
 };
