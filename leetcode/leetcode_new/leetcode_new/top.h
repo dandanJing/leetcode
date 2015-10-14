@@ -61,4 +61,5 @@ public:
 	int nthUglyNumber(int n);
 	vector<string> summaryRanges(vector<int>& nums);
 	TreeNode* invertTree(TreeNode* root);
+	int calculate(string s);
 };
