@@ -5,6 +5,7 @@
 #include<vector>
 #include<sstream>
 #include<cmath>
+#include<stack>
 using namespace std;
 
 typedef istringstream ISS;
