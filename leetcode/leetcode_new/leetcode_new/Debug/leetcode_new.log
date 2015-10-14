@@ -1,22 +1,40 @@
-﻿生成启动时间为 2015/10/14 16:42:35。
-     1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt kth_smallest_BST_230.cpp
+﻿生成启动时间为 2015/10/14 21:24:50。
+     1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt implement_queue_232.cpp kth_smallest_BST_230.cpp lowest_common_ancestor_236.cpp main.cpp majority_element_II_229.cpp number_digit_one_233.cpp palindrome_linked_list_234.cpp power_two_231.cpp ugly_num_II_264.cpp
+         ugly_num_II_264.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\ugly_num_ii_264.cpp(21): warning C4018: “<=”: 有符号/无符号不匹配
+         power_two_231.cpp
+         palindrome_linked_list_234.cpp
+         number_digit_one_233.cpp
+         majority_element_II_229.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\majority_element_ii_229.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\majority_element_ii_229.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+         lowest_common_ancestor_236.cpp
          kth_smallest_BST_230.cpp
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\kth_smallest_bst_230.cpp(21): warning C4715: “middleSeq”: 不是所有的控件路径都返回值
+         implement_queue_232.cpp
+         正在生成代码...
+     1>f:\google\leetcode\leetcode_new\leetcode_new\kth_smallest_bst_230.cpp(21): warning C4715: “middleSeq”: 不是所有的控件路径都返回值
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\implement_queue_232.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\implement_queue_232.obj
          Debug\kth_smallest_BST_230.obj
          Debug\lowest_common_ancestor_236.obj
          Debug\main.obj
+         Debug\majority_element_II_229.obj
          Debug\number_digit_one_233.obj
          Debug\palindrome_linked_list_234.obj
          Debug\power_two_231.obj
          Debug\ugly_num_II_264.obj
          Debug\var_define.obj
-         leetcode_new.vcxproj -> F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe
-     1>已完成生成项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作。
+         leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\leetcode_new.unsuccessfulbuild”。
+         正在对“Debug\leetcode_new.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.75
+已用时间 00:00:15.20

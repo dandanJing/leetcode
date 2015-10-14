@@ -50,11 +50,12 @@ public:
 	vector<int> maxSlidingWindow(vector<int>& nums, int k);
 	
 	void deleteNode(ListNode* node);
-	vector<int> productExceptSelf(vector<int>& nums) ;*/
-	int nthUglyNumber(int n);
+	vector<int> productExceptSelf(vector<int>& nums) ;
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
 	bool isPalindrome(ListNode* head) ;
 	int countDigitOne(int n);
 	bool isPowerOfTwo(int n);
 	int kthSmallest(TreeNode* root, int k);
+	vector<int> majorityElement(vector<int>& nums);*/
+	int nthUglyNumber(int n);
 };

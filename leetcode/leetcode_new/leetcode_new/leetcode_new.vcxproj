@@ -83,6 +83,7 @@
     <ClCompile Include="kth_smallest_BST_230.cpp" />
     <ClCompile Include="lowest_common_ancestor_236.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="majority_element_II_229.cpp" />
     <ClCompile Include="number_digit_one_233.cpp" />
     <ClCompile Include="palindrome_linked_list_234.cpp" />
     <ClCompile Include="power_two_231.cpp" />

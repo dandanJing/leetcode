@@ -47,5 +47,8 @@
     <ClCompile Include="kth_smallest_BST_230.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="majority_element_II_229.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
