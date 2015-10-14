@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="lowest_common_ancestor_236.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="palindrome_linked_list_234.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
   </ItemGroup>

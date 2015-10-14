@@ -78,6 +78,7 @@ TreeNode* findLowestAncestor(TreeNode* root, TreeNode* p, TreeNode* q, bool find
 			result=findLowestAncestor(root->right,p,q,findp,findq);
 			if(result) return result;
 
+			//---!!!这部分不能偷懒，需要判断
 			TreeNode*  result1;
 			result=findLowestAncestor(root->left,p,q,true,findq);
 			result1=findLowestAncestor(root->right,p,q,findp,true);

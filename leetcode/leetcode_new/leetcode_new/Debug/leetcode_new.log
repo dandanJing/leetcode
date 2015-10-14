@@ -1,11 +1,12 @@
-﻿生成启动时间为 2015/10/14 11:28:52。
+﻿生成启动时间为 2015/10/14 14:25:43。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt lowest_common_ancestor_236.cpp
-         lowest_common_ancestor_236.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt palindrome_linked_list_234.cpp
+         palindrome_linked_list_234.cpp
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\lowest_common_ancestor_236.obj
          Debug\main.obj
+         Debug\palindrome_linked_list_234.obj
          Debug\ugly_num_II_264.obj
          Debug\var_define.obj
          leetcode_new.vcxproj -> F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe
@@ -13,4 +14,4 @@
 
 生成成功。
 
-已用时间 00:00:00.74
+已用时间 00:00:00.73
