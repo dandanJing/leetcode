@@ -65,4 +65,7 @@ public:
 	int calculate1(string s);
 	int computeArea(int A, int B, int C, int D, int E, int F, int G, int H);
 	int countNodes(TreeNode* root);
+	int maximalSquare(vector<vector<char>>& matrix) ;
+	bool containsNearbyDuplicate(vector<int>& nums, int k) ;
+	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 };

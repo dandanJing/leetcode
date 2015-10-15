@@ -50,5 +50,14 @@
     <ClCompile Include="count_tree_node_222.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="maximal_square_221.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contains_duplicate_II_219.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contains_duplicate_III_220.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
