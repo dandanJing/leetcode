@@ -64,4 +64,5 @@ public:
 	int calculate(string s);
 	int calculate1(string s);
 	int computeArea(int A, int B, int C, int D, int E, int F, int G, int H);
+	int countNodes(TreeNode* root);
 };
