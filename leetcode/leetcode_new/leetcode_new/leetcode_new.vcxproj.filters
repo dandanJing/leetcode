@@ -62,5 +62,8 @@
     <ClCompile Include="contain_duplicate_217.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="combination_sum_39.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -69,4 +69,5 @@ public:
 	bool containsNearbyDuplicate(vector<int>& nums, int k) ;
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 	bool containsDuplicate(vector<int>& nums) ;
+	vector<vector<int>> combinationSum(vector<int>& candidates, int target);
 };

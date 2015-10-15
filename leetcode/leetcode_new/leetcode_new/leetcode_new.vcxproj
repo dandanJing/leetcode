@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="basic_calculator_224.cpp" />
     <ClCompile Include="basic_calculator_II_227.cpp" />
+    <ClCompile Include="combination_sum_39.cpp" />
     <ClCompile Include="contains_duplicate_III_220.cpp" />
     <ClCompile Include="contains_duplicate_II_219.cpp" />
     <ClCompile Include="contain_duplicate_217.cpp" />

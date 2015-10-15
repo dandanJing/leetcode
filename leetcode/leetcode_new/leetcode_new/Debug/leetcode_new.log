@@ -1,12 +1,18 @@
-﻿生成启动时间为 2015/10/15 21:11:00。
+﻿生成启动时间为 2015/10/15 21:52:36。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt contain_duplicate_217.cpp
-         contain_duplicate_217.cpp
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contain_duplicate_217.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt combination_sum_39.cpp
+         combination_sum_39.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(5): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\combination_sum_39.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\basic_calculator_224.obj
          Debug\basic_calculator_II_227.obj
+         Debug\combination_sum_39.obj
          Debug\contains_duplicate_III_220.obj
          Debug\contains_duplicate_II_219.obj
          Debug\contain_duplicate_217.obj
@@ -24,4 +30,4 @@
 
 生成成功。
 
-已用时间 00:00:01.01
+已用时间 00:00:00.88
