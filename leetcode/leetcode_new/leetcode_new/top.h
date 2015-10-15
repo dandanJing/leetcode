@@ -68,4 +68,5 @@ public:
 	int maximalSquare(vector<vector<char>>& matrix) ;
 	bool containsNearbyDuplicate(vector<int>& nums, int k) ;
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
+	bool containsDuplicate(vector<int>& nums) ;
 };
