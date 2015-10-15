@@ -1,10 +1,12 @@
-﻿生成启动时间为 2015/10/15 20:39:43。
+﻿生成启动时间为 2015/10/15 21:05:08。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt contains_duplicate_III_220.cpp
          contains_duplicate_III_220.cpp
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(19): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\contains_duplicate_iii_220.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\basic_calculator_224.obj
          Debug\basic_calculator_II_227.obj
@@ -24,4 +26,4 @@
 
 生成成功。
 
-已用时间 00:00:00.86
+已用时间 00:00:00.92
