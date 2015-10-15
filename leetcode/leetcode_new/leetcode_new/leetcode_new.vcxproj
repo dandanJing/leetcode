@@ -84,6 +84,7 @@
     <ClCompile Include="implement_stack_queue_225.cpp" />
     <ClCompile Include="invert_binary_tree_226.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="rectangle_area_223.cpp" />
     <ClCompile Include="summary_ranges_228.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
