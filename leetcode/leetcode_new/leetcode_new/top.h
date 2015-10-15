@@ -62,4 +62,5 @@ public:
 	vector<string> summaryRanges(vector<int>& nums);
 	TreeNode* invertTree(TreeNode* root);
 	int calculate(string s);
+	int calculate1(string s);
 };

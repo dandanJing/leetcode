@@ -33,7 +33,8 @@ using namespace std;
 //void let_225();
 //void let_228();
 //void let_226();
-void let_227();
+//void let_227();
+void let_224();
 
 int main(){
 	//let_290();
@@ -68,7 +69,8 @@ int main(){
 	//let_225();
 	//let_228();
 	//let_226();
-	let_227();
+	//let_227();
+	let_224();
 
 	printf("press any key to continue....");
 	getchar();
