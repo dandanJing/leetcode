@@ -49,7 +49,6 @@ public:
 	vector<int> diffWaysToCompute(string input) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 	vector<int> maxSlidingWindow(vector<int>& nums, int k);
-	
 	void deleteNode(ListNode* node);
 	vector<int> productExceptSelf(vector<int>& nums) ;
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
@@ -57,8 +56,7 @@ public:
 	int countDigitOne(int n);
 	bool isPowerOfTwo(int n);
 	int kthSmallest(TreeNode* root, int k);
-	vector<int> majorityElement(vector<int>& nums);*/
-	int nthUglyNumber(int n);
+	vector<int> majorityElement(vector<int>& nums);
 	vector<string> summaryRanges(vector<int>& nums);
 	TreeNode* invertTree(TreeNode* root);
 	int calculate(string s);
@@ -70,4 +68,7 @@ public:
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 	bool containsDuplicate(vector<int>& nums) ;
 	vector<vector<int>> combinationSum(vector<int>& candidates, int target);
+	vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
+	vector<vector<int>> combinationSum3(int k, int n);*/
+	int nthUglyNumber(int n);
 };

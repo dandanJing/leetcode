@@ -22,7 +22,6 @@ using namespace std;
 //void let_239();
 //void let_238();
 //void let_237();
-//void let_264();
 //void let_236();
 //void let_234();
 //void let_233();
@@ -41,7 +40,11 @@ using namespace std;
 //void let_219();
 //void let_220();
 //void let_217();
-void let_39();
+//void let_39();
+//void let_40();
+//void let_216();
+
+void let_264();
 
 int main(){
 	//let_290();
@@ -65,7 +68,6 @@ int main(){
 	//let_239();
 	//let_237();
 	//let_238();
-	//let_264();
 	//let_236();
 	//let_234();
 	//let_233();
@@ -84,7 +86,11 @@ int main(){
 	//let_219();
 	//let_220();
 	//let_217();
-	let_39();
+	//let_39();
+	//let_40();
+	//let_216();
+
+	let_264();
 
 	printf("press any key to continue....");
 	getchar();

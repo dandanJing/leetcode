@@ -79,19 +79,7 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic_calculator_224.cpp" />
-    <ClCompile Include="basic_calculator_II_227.cpp" />
-    <ClCompile Include="combination_sum_39.cpp" />
-    <ClCompile Include="contains_duplicate_III_220.cpp" />
-    <ClCompile Include="contains_duplicate_II_219.cpp" />
-    <ClCompile Include="contain_duplicate_217.cpp" />
-    <ClCompile Include="count_tree_node_222.cpp" />
-    <ClCompile Include="implement_stack_queue_225.cpp" />
-    <ClCompile Include="invert_binary_tree_226.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="maximal_square_221.cpp" />
-    <ClCompile Include="rectangle_area_223.cpp" />
-    <ClCompile Include="summary_ranges_228.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
   </ItemGroup>
