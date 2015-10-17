@@ -79,6 +79,7 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="house_robber_198.cpp" />
     <ClCompile Include="kth_largest_element_215.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="the_skyline_problem_218.cpp" />

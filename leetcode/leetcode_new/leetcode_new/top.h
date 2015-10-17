@@ -73,4 +73,5 @@ public:
 	int nthUglyNumber(int n);
 	vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
 	int findKthLargest(vector<int>& nums, int k);
+	int rob(vector<int>& nums);
 };
