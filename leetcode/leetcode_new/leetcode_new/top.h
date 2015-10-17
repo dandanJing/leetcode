@@ -72,4 +72,5 @@ public:
 	vector<vector<int>> combinationSum3(int k, int n);*/
 	int nthUglyNumber(int n);
 	vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
+	int findKthLargest(vector<int>& nums, int k);
 };

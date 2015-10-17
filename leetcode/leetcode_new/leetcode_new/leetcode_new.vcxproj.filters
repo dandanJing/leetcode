@@ -32,5 +32,8 @@
     <ClCompile Include="the_skyline_problem_218.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="kth_largest_element_215.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

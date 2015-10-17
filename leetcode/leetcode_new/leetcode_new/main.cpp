@@ -43,10 +43,10 @@ using namespace std;
 //void let_39();
 //void let_40();
 //void let_216();
+//void let_218();
+void let_215();
 
 void let_264();
-void let_218();
-
 int main(){
 	//let_290();
 	//let_287();
@@ -90,10 +90,11 @@ int main(){
 	//let_39();
 	//let_40();
 	//let_216();
+	//let_218();
+	let_215();
 
 	//let_264();
-	let_218();
-
+	
 	printf("press any key to continue....");
 	getchar();
 	return 0;
