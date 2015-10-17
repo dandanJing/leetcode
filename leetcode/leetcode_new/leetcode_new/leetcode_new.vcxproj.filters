@@ -29,5 +29,8 @@
     <ClCompile Include="ugly_num_II_264.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="the_skyline_problem_218.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
