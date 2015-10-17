@@ -1,11 +1,11 @@
-﻿生成启动时间为 2015/10/17 18:55:36。
+﻿生成启动时间为 2015/10/17 19:07:08。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt house_robber_198.cpp ugly_num_II_264.cpp
          house_robber_198.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\house_robber_198.cpp(5): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\house_robber_198.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
          ugly_num_II_264.cpp
@@ -24,4 +24,4 @@
 
 生成成功。
 
-已用时间 00:00:03.63
+已用时间 00:00:03.94

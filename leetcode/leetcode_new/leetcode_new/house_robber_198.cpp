@@ -1,20 +1,17 @@
 #include"top.h"
 
-int robHouse(vector<int> nums, int start_pos){
-	if(start_pos==nums.size()-1) return nums[start_pos];
-	else if(start_pos>=nums.size()) return 0;
-
-	int result=0;
-	int val1=robHouse(nums,start_pos+1);
-	int val2=nums[start_pos]+robHouse(nums,start_pos+2);
-	if(val1>val2) result=val1;
-	else result=val2;
-
-	return result;
-}
-
 int Solution::rob(vector<int>& nums){
-	return robHouse(nums,0);
+	if(nums.size()==0) return 0;
+	else if(nums.size()==1) return nums[0];
+
+	for(int i=1;i<nums.size();i++){
+		if(i==1 && nums[0]>nums[1]){nums[1]=nums[0];continue;}
+		else if(i==1) continue;
+
+		if(nums[i]+nums[i-2]>nums[i-1])nums[i]+=nums[i-2];
+		else nums[i]=nums[i-1];
+	}
+	return nums[nums.size()-1];
 }
 
 void let_198(){
