@@ -41,5 +41,8 @@
     <ClCompile Include="house_robber_II_213.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="add_and_search_word_211.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
