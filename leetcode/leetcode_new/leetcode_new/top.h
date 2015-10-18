@@ -75,4 +75,5 @@ public:
 	int findKthLargest(vector<int>& nums, int k);
 	int rob(vector<int>& nums);
 	int robII(vector<int>& nums);
+	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 };
