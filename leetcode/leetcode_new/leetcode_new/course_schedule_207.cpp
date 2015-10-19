@@ -1,26 +1,24 @@
 #include"top.h"
 extern char c[1000];
-
+//----!!!错误1，还是没有考虑同级的影响
 bool canFindCicle(vector<bool>& exist_vec,vector<vector<int>> list,int start_pos, map<int,int> contain){
 	if(start_pos>=list.size()) return false;
-	if(exist_vec[start_pos]) {map<int,int> no_vec;return canFindCicle(exist_vec,list,start_pos++,no_vec);}
 
-	map<int,int>::iterator it;
-	it=contain.find(start_pos);
-	if(it!=contain.end()) return true;
-	
 	vector<int> temp=list[start_pos];
+	if(temp.size()==0) return false;
+
+	contain.insert(pair<int,int>(start_pos,1));
+	exist_vec[start_pos]=true;
+	map<int,int>::iterator it;
 	FOR(i,temp.size()){
 		int cur_pos=temp[i];
-		if(exist_vec[cur_pos])continue;
+		it=contain.find(cur_pos);
+		if(it!=contain.end()) return true;
 		else{
-			map<int,int> no_vec(contain);
-			no_vec.insert(pair<int,int>(start_pos,1));
-			if(canFindCicle(exist_vec,list,cur_pos,no_vec)) return true;
+			if(canFindCicle(exist_vec,list,cur_pos,contain)) return true;
 		}
 	}
 
-	exist_vec[start_pos]=true;
 	return false;
 }
 
@@ -40,58 +38,13 @@ bool Solution::canFinish(int numCourses, vector<pair<int, int>>& prerequisites){
 		list[cur.first].push_back(cur.second);
 		if(cur.first<min_val) min_val=cur.first;
 	}
-	queue<int> exist_queue;
+
 	map<int,int> contain;
-	map<int,int>::iterator it;
 	for(int i=min_val;i<numCourses;i++){
-		if(i==605){
-			int mm=1;
-		}
 		if(exist_vec[i]) continue;
-		vector<int> temp=list[i];
 
-		if(temp.size()==0) continue;
-
-		FOR(j,temp.size())exist_queue.push(temp[j]);
-		exist_vec[i]=true;
-		sprintf(c,"%i",i);
-		string output="";
-		output += c;
-		
-		contain.insert(pair<int,int>(i,1));
-
-		while(1){
-			vector<int> next_queue;
-			vector<int> next_contain;
-			while(exist_queue.size()){
-				vector<int> temp=list[exist_queue.front()];
-				FOR(j,temp.size()){
-					if(contain.find(temp[j]) != contain.end()) {
-						cout<<output<<endl;
-						return false;
-					}
-					else {next_queue.push_back(temp[j]);}
-				}
-				exist_vec[exist_queue.front()]=true;
-				next_contain.push_back(exist_queue.front());
-				exist_queue.pop();
-			}
-			if(next_queue.size()==0) break;
-
-			output += "->";
-			FOR(j,next_contain.size()){
-				sprintf(c,"%i ",next_contain[j]);
-				output += c;
-				contain.insert(pair<int,int>(next_contain[j],1));
-			}
-
-			FOR(j,next_queue.size()){
-				exist_queue.push(next_queue[j]);
-			}		
-		}
-		contain.clear();
+		if(canFindCicle(exist_vec,list,min_val,contain)) return false;
 	}
-	
 	return true;
 }
 

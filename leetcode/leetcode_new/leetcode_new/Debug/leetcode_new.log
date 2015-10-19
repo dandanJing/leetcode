@@ -1,19 +1,11 @@
-﻿生成启动时间为 2015/10/19 10:41:17。
+﻿生成启动时间为 2015/10/19 11:15:35。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt course_schedule_207.cpp
          course_schedule_207.cpp
      1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(5): warning C4018: “>=”: 有符号/无符号不匹配
      1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(82): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\add_and_search_word_211.obj
          Debug\course_schedule_207.obj
@@ -29,4 +21,4 @@
 
 生成成功。
 
-已用时间 00:00:01.15
+已用时间 00:00:01.49
