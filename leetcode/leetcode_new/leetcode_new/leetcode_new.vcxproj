@@ -85,6 +85,7 @@
     <ClCompile Include="house_robber_II_213.cpp" />
     <ClCompile Include="kth_largest_element_215.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="minimum_size_subarray_sum_209.cpp" />
     <ClCompile Include="the_skyline_problem_218.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />

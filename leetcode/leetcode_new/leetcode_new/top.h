@@ -76,4 +76,5 @@ public:
 	int rob(vector<int>& nums);
 	int robII(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	int minSubArrayLen(int s, vector<int>& nums);
 };

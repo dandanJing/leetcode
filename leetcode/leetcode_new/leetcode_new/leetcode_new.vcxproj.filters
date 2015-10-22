@@ -47,5 +47,8 @@
     <ClCompile Include="course_schedule_207.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="minimum_size_subarray_sum_209.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
