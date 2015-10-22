@@ -38,5 +38,11 @@
     <ClCompile Include="word_search_II_212.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="reverse_linked_list_206.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isomorphic_strings_205.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

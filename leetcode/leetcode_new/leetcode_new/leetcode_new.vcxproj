@@ -81,7 +81,9 @@
   <ItemGroup>
     <ClCompile Include="add_and_search_word_211.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
+    <ClCompile Include="isomorphic_strings_205.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="reverse_linked_list_206.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_search_79.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />

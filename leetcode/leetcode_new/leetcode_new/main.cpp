@@ -51,8 +51,11 @@ using namespace std;
 //void let_209();
 //void let_208();
 //void let_79();
-void let_212();
+//void let_206();
+//void let_205();
+void let_204();
 
+void let_212();
 void let_207();
 void let_264();
 int main(){
@@ -106,8 +109,13 @@ int main(){
 	//let_209();
 	//let_208();
 	//let_79();
-	let_212();
+	
+	//let_206();
+	//let_205();
+	let_204();
 
+
+	//let_212();
 	//let_207();
 	//let_264();
 	

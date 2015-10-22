@@ -80,4 +80,8 @@ public:
 	int robII(vector<int>& nums);
 	bool exist(vector<vector<char>>& board, string word);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+
+	ListNode* reverseList(ListNode* head);
+	bool isIsomorphic(string s, string t);
+	int countPrimes(int n);
 };
