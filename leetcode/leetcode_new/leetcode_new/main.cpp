@@ -53,7 +53,8 @@ using namespace std;
 //void let_79();
 //void let_206();
 //void let_205();
-void let_204();
+//void let_204();
+void let_203();
 
 void let_212();
 void let_207();
@@ -112,8 +113,8 @@ int main(){
 	
 	//let_206();
 	//let_205();
-	let_204();
-
+	//let_204();
+	let_203();
 
 	//let_212();
 	//let_207();

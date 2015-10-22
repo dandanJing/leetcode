@@ -84,4 +84,5 @@ public:
 	ListNode* reverseList(ListNode* head);
 	bool isIsomorphic(string s, string t);
 	int countPrimes(int n);
+	ListNode* removeElements(ListNode* head, int val) ;
 };

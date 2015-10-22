@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="add_and_search_word_211.cpp" />
+    <ClCompile Include="count_primes_204.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="isomorphic_strings_205.cpp" />
     <ClCompile Include="main.cpp" />
