@@ -83,6 +83,7 @@
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="house_robber_198.cpp" />
     <ClCompile Include="house_robber_II_213.cpp" />
+    <ClCompile Include="implement_trie_208.cpp" />
     <ClCompile Include="kth_largest_element_215.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="minimum_size_subarray_sum_209.cpp" />

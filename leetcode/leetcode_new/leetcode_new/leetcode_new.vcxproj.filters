@@ -50,5 +50,8 @@
     <ClCompile Include="minimum_size_subarray_sum_209.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="implement_trie_208.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
