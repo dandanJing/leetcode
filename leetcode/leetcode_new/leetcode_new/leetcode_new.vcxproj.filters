@@ -47,5 +47,8 @@
     <ClCompile Include="count_primes_204.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_linked_list_elements_203.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
