@@ -85,4 +85,6 @@ public:
 	bool isIsomorphic(string s, string t);
 	int countPrimes(int n);
 	ListNode* removeElements(ListNode* head, int val) ;
+	bool isHappy(int n);
+	int rangeBitwiseAnd(int m, int n);
 };

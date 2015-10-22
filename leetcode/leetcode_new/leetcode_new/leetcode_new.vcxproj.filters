@@ -50,5 +50,11 @@
     <ClCompile Include="remove_linked_list_elements_203.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="happy_number_202.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise_number_range_201.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
