@@ -26,31 +26,10 @@
     <ClCompile Include="var_define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ugly_num_II_264.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="the_skyline_problem_218.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="kth_largest_element_215.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="house_robber_198.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="house_robber_II_213.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="add_and_search_word_211.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="course_schedule_207.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="minimum_size_subarray_sum_209.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="implement_trie_208.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="word_search_79.cpp">
