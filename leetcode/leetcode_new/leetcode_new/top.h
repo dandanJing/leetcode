@@ -78,4 +78,5 @@ public:
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	int minSubArrayLen(int s, vector<int>& nums);
 	bool exist(vector<vector<char>>& board, string word);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 };

@@ -56,5 +56,8 @@
     <ClCompile Include="word_search_79.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="word_search_II_212.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
