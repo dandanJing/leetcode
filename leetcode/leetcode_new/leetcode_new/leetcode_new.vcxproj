@@ -86,6 +86,7 @@
     <ClCompile Include="happy_number_202.cpp" />
     <ClCompile Include="isomorphic_strings_205.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="number_islands_200.cpp" />
     <ClCompile Include="remove_linked_list_elements_203.cpp" />
     <ClCompile Include="reverse_linked_list_206.cpp" />
     <ClCompile Include="var_define.cpp" />

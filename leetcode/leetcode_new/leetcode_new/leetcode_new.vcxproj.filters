@@ -56,5 +56,8 @@
     <ClCompile Include="bitwise_number_range_201.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="number_islands_200.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
