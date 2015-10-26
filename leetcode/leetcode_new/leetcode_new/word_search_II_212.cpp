@@ -2,10 +2,10 @@
 
 vector<string> Solution::findWords(vector<vector<char>>& board, vector<string>& words){
 	vector<string> result;
-	Solution sol;
+	/*Solution sol;
 	FOR(i,words.size()){
 		if(sol.exist(board,words[i])) result.push_back(words[i]);
-	}
+	}*/
 	return result;
 }
 

@@ -26,37 +26,13 @@
     <ClCompile Include="var_define.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="add_and_search_word_211.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="course_schedule_207.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="word_search_79.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="word_search_II_212.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="reverse_linked_list_206.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="isomorphic_strings_205.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="count_primes_204.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="remove_linked_list_elements_203.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="happy_number_202.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bitwise_number_range_201.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="number_islands_200.cpp">
+    <ClCompile Include="ugly_num_II_264.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

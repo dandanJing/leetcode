@@ -79,18 +79,10 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="add_and_search_word_211.cpp" />
-    <ClCompile Include="bitwise_number_range_201.cpp" />
-    <ClCompile Include="count_primes_204.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
-    <ClCompile Include="happy_number_202.cpp" />
-    <ClCompile Include="isomorphic_strings_205.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="number_islands_200.cpp" />
-    <ClCompile Include="remove_linked_list_elements_203.cpp" />
-    <ClCompile Include="reverse_linked_list_206.cpp" />
+    <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
-    <ClCompile Include="word_search_79.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -72,20 +72,20 @@ public:
 	vector<vector<int>> combinationSum3(int k, int n);
 	vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
 	int findKthLargest(vector<int>& nums, int k);
-	int minSubArrayLen(int s, vector<int>& nums);*/
-
-	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
-	int nthUglyNumber(int n);
+	int minSubArrayLen(int s, vector<int>& nums);
 	int rob(vector<int>& nums);
 	int robII(vector<int>& nums);
 	bool exist(vector<vector<char>>& board, string word);
-	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
-
+	
 	ListNode* reverseList(ListNode* head);
 	bool isIsomorphic(string s, string t);
 	int countPrimes(int n);
 	ListNode* removeElements(ListNode* head, int val) ;
 	bool isHappy(int n);
 	int rangeBitwiseAnd(int m, int n);
-	int numIslands(vector<vector<char>>& grid);
+	int numIslands(vector<vector<char>>& grid);*/
+
+	int nthUglyNumber(int n);
+	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 };
