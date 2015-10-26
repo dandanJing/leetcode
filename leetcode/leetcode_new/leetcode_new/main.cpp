@@ -48,8 +48,19 @@ using namespace std;
 //void let_198();
 //void let_213();
 //void let_211();
-void let_207();
+//void let_209();
+//void let_208();
+//void let_79();
+//void let_206();
+//void let_205();
+//void let_204();
+//void let_203();
+//void let_202();
+//void let_201();
+void let_200();
 
+void let_212();
+void let_207();
 void let_264();
 int main(){
 	//let_290();
@@ -99,8 +110,20 @@ int main(){
 	//let_198();
 	//let_213();
 	//let_211();
-	let_207();
+	//let_209();
+	//let_208();
+	//let_79();
+	
+	//let_206();
+	//let_205();
+	//let_204();
+	//let_203();
+	//let_202();
+	//let_201();
+	let_200();
 
+	//let_212();
+	//let_207();
 	//let_264();
 	
 	printf("press any key to continue....");

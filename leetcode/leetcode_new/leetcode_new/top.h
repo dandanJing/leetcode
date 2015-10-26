@@ -69,11 +69,23 @@ public:
 	bool containsDuplicate(vector<int>& nums) ;
 	vector<vector<int>> combinationSum(vector<int>& candidates, int target);
 	vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
-	vector<vector<int>> combinationSum3(int k, int n);*/
-	int nthUglyNumber(int n);
+	vector<vector<int>> combinationSum3(int k, int n);
 	vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
 	int findKthLargest(vector<int>& nums, int k);
+	int minSubArrayLen(int s, vector<int>& nums);*/
+
+	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	int nthUglyNumber(int n);
 	int rob(vector<int>& nums);
 	int robII(vector<int>& nums);
-	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	bool exist(vector<vector<char>>& board, string word);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+
+	ListNode* reverseList(ListNode* head);
+	bool isIsomorphic(string s, string t);
+	int countPrimes(int n);
+	ListNode* removeElements(ListNode* head, int val) ;
+	bool isHappy(int n);
+	int rangeBitwiseAnd(int m, int n);
+	int numIslands(vector<vector<char>>& grid);
 };
