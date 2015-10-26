@@ -4,92 +4,79 @@
 int Solution::numIslands(vector<vector<char>>& grid){
 	int result=0;
 
+	vector<vector<int>>grid_num;
+	FOR(i,grid.size()){
+		vector<int> temp_vec;
+		FOR(j,grid[i].size()){
+			temp_vec.push_back(0);
+		}
+		grid_num.push_back(temp_vec);
+	}
+
 	int cur_val;
 	int temp;
-	std::map<int,vector<int>> same_map;
-	std::map<int,vector<int>>::iterator it;
+	std::map<int,int> same_map;
+	std::map<int,int>::iterator it;
 	FOR(i,grid.size()){
 		FOR(j,grid[i].size()){
 			if(grid[i][j]=='0' ) continue;
 
-			cur_val=grid[i][j];
-			if(cur_val-'1' == 0) {++result;cur_val='1'+result;grid[i][j]=cur_val;}
+			cur_val=grid_num[i][j];
+			if(cur_val == 0) {++result;cur_val=result;grid_num[i][j]=cur_val;}
 			
 			if(j<grid[i].size()-1 && grid[i][j+1]!='0'){
-				temp = grid[i][j+1];
-				if(temp != '1' && temp<cur_val) {
+				temp = grid_num[i][j+1];
+				if(temp && temp<cur_val) {
 					it = same_map.find(cur_val);
-					bool needInsert=true;
-					if(it != same_map.end()){
-						FOR(kk,it->second.size()){
-							if(it->second[kk]==temp) {needInsert=false;break;}
-							int max_val=max(it->second[kk],temp);
-							int min_val=min(it->second[kk],temp);
-							std::map<int,vector<int>>::iterator next= same_map.find(max_val);
-							if(next != same_map.end()){
-								FOR(jj,next->second.size()){
-									if(next->second[jj]==min_val){needInsert=false;break;}
-								}
-							}
+					if(it != same_map.end() && it->second!= temp){
+						int min_val = min(it->second,temp);
+						int max_val = max(it->second,temp);
+						it = same_map.find(max_val);
+						while(it != same_map.end() && it->second!= min_val){
+							max_val = max(it->second,min_val);
+							min_val = min(it->second,min_val);
+							it = same_map.find(max_val);
 						}
-						if(needInsert){it->second.push_back(temp);}
-					}else{
-						vector<int> to_insert;
-						to_insert.push_back(temp);
-						same_map.insert(pair<int,vector<int>>(cur_val,to_insert));
+						same_map.insert(pair<int,int>(max_val,min_val));
+					}else if(it == same_map.end()){
+						same_map.insert(pair<int,int>(cur_val,temp));
 					}
 					cur_val=temp;
-					grid[i][j]=cur_val;
+					grid_num[i][j]=cur_val;
 				}
 				else if(temp>cur_val){
 					it = same_map.find(temp);
-					bool needInsert=true;
-					if(it != same_map.end()){
-						FOR(kk,it->second.size()){
-							if(it->second[kk]==cur_val) {needInsert=false;break;}
-							int max_val=max(it->second[kk],cur_val);
-							int min_val=min(it->second[kk],cur_val);
-							std::map<int,vector<int>>::iterator next= same_map.find(max_val);
-							if(next != same_map.end()){
-								FOR(jj,next->second.size()){
-									if(next->second[jj]==min_val){needInsert=false;break;}
-								}
-							}
+					if(it != same_map.end() && it->second!= cur_val){
+						int min_val = min(it->second,cur_val);
+						int max_val = max(it->second,cur_val);
+						it = same_map.find(max_val);
+						while(it != same_map.end() && it->second!= min_val){
+							max_val = max(it->second,min_val);
+							min_val = min(it->second,min_val);
+							it = same_map.find(max_val);
 						}
-						if(needInsert){it->second.push_back(cur_val);}
+						same_map.insert(pair<int,int>(max_val,min_val));
 					}else{
-						vector<int> to_insert;
-						to_insert.push_back(cur_val);
-						same_map.insert(pair<int,vector<int>>(temp,to_insert));
+						same_map.insert(pair<int,int>(temp,cur_val));
 					}
 					
-					grid[i][j+1]=cur_val;
+					grid_num[i][j+1]=cur_val;
 				}
-				else{grid[i][j+1]=cur_val;}
+				else{grid_num[i][j+1]=cur_val;}
 			}
 			if(i<grid.size()-1 && grid[i+1][j]!='0'){
-				grid[i+1][j]=cur_val;
+				grid_num[i+1][j]=cur_val;
 			}
 		}
 	}
-	int same_count=0;
-	for(it=same_map.begin();it!=same_map.end();it++){
-		same_count += it->second.size();
-		cout<<it->first-'1'<<"->";
-		FOR(j,it->second.size()){
-			cout<<it->second[j]-'1'<<",";
-		}
-		cout<<endl;
-	}
 	
-	FOR(i,grid.size()){
+	/*FOR(i,grid.size()){
 		FOR(j,grid[i].size()){
-			if(grid[i][j]=='0')printf("%2i,",grid[i][j]-'0');
-			else printf("%2i,",grid[i][j]-'1');
+			printf("%2i,",grid_num[i][j]);
 		}
 		cout<<endl;
-	}
-	return result-same_count;
+	}*/
+	return result-same_map.size();
 }
 
 void let_200(){
@@ -97,7 +84,8 @@ void let_200(){
 	ifstream fin;
 	//let_200.txt 期望输出23
 	//let_200_1.txt 期望输出3
-	fin.open("let_200_1.txt");
+	//let_200_2.txt 期望输出125
+	fin.open("let_200_2.txt");
 	string s;
 	while(!fin.eof()){
 		getline(fin,s);
