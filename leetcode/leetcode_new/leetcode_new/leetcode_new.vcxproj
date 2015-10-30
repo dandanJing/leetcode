@@ -79,6 +79,8 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="best_time_to_buy_sell_stock_121.cpp" />
+    <ClCompile Include="best_time_to_buy_sell_stock_188.cpp" />
     <ClCompile Include="binary_tree_right_side_view_199.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="main.cpp" />

@@ -47,5 +47,11 @@
     <ClCompile Include="repeated_DNA_sequences_187.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="best_time_to_buy_sell_stock_188.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="best_time_to_buy_sell_stock_121.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
