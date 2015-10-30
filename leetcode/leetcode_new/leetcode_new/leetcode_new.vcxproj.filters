@@ -41,5 +41,8 @@
     <ClCompile Include="reverse_bits_190.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary_tree_right_side_view_199.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
