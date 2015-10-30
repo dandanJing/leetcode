@@ -85,6 +85,9 @@ public:
 	int rangeBitwiseAnd(int m, int n);
 	int numIslands(vector<vector<char>>& grid);*/
 
+	void rotate(vector<int>& nums, int k);
+
+
 	int nthUglyNumber(int n);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
