@@ -5,24 +5,19 @@ vector<int> Solution::rightSideView(TreeNode* root){
 	vector<int> result;
 	if(root==NULL) return result;
 
-	TreeNode* tleft=root->left;
-	TreeNode* tright=root->right;
-	result.push_back(root->val);
-	while(tleft || tright){
-		if(tright) {
-			result.push_back(tright->val);
-			if(tright->left || tright->right){
-				tleft = tright->left;
-				tright =tright->right;
-			}else if(tleft){
-				tright = tleft->right;
-				tleft = tleft->left;
-			}else break;
-		}else{
-			result.push_back(tleft->val);
-			tright = tleft->right;
-			tleft = tleft->left;
+	queue<TreeNode*> tree_queue;
+	TreeNode* temp;
+	tree_queue.push(root);
+	int cur_layer_size=1;
+	while(cur_layer_size){
+		FOR(i,cur_layer_size){
+			temp=tree_queue.front();
+			tree_queue.pop();
+			if(temp->left) tree_queue.push(temp->left);
+			if(temp->right) tree_queue.push(temp->right);
 		}
+		cur_layer_size=tree_queue.size();
+		result.push_back(temp->val);
 	}
 	return result;
 }
