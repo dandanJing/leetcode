@@ -90,6 +90,7 @@ public:
 	vector<int> rightSideView(TreeNode* root);
 	vector<string> findRepeatedDnaSequences(string s) ;
 	int maxProfit(vector<int>& prices);
+	int maxProfitII(vector<int>& prices);
 
 	int nthUglyNumber(int n);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
