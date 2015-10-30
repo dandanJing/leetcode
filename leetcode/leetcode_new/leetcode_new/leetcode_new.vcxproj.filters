@@ -38,5 +38,8 @@
     <ClCompile Include="rotate_array_189.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="reverse_bits_190.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="reverse_bits_190.cpp" />
     <ClCompile Include="rotate_array_189.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
