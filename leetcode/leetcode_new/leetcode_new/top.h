@@ -88,6 +88,7 @@ public:
 	void rotate(vector<int>& nums, int k);
 	int reverseBits(int n) ;
 	vector<int> rightSideView(TreeNode* root);
+	vector<string> findRepeatedDnaSequences(string s) ;
 
 	int nthUglyNumber(int n);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
