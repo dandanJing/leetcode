@@ -96,4 +96,6 @@ public:
 	int trailingZeroes(int n);
 	int titleToNumber(string s);
 	int majorityElement(vector<int>& nums);
+	string convertToTitle(int n);
+	string fractionToDecimal(int numerator, int denominator);
 };

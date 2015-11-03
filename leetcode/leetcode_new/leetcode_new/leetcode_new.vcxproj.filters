@@ -53,5 +53,8 @@
     <ClCompile Include="majority_element_169.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="excel_sheet_column_number_168.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
