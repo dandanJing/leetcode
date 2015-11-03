@@ -56,5 +56,8 @@
     <ClCompile Include="excel_sheet_column_number_168.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fraction_to_recurring_decimal_166.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

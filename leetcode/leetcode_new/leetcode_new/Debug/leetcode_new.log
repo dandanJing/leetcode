@@ -1,8 +1,12 @@
-﻿生成启动时间为 2015/11/3 11:14:16。
+﻿生成启动时间为 2015/11/3 15:24:57。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt course_schedule_207.cpp excel_sheet_column_number_168.cpp reverse_bits_190.cpp rotate_array_189.cpp ugly_num_II_264.cpp word_search_II_212.cpp
-         excel_sheet_column_number_168.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt course_schedule_207.cpp fraction_to_recurring_decimal_166.cpp reverse_bits_190.cpp rotate_array_189.cpp ugly_num_II_264.cpp word_search_II_212.cpp
+         fraction_to_recurring_decimal_166.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\fraction_to_recurring_decimal_166.cpp(8): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\fraction_to_recurring_decimal_166.cpp(11): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\fraction_to_recurring_decimal_166.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\fraction_to_recurring_decimal_166.cpp(73): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
          正在生成代码...
          正在跳过...(未检测到相关更改)
          word_search_II_212.cpp
@@ -16,6 +20,7 @@
          Debug\excel_sheet_column_number_168.obj
          Debug\excel_sheet_column_number_171.obj
          Debug\factorial_trailing_zeors_172.obj
+         Debug\fraction_to_recurring_decimal_166.obj
          Debug\main.obj
          Debug\majority_element_169.obj
          Debug\reverse_bits_190.obj
@@ -28,4 +33,4 @@
 
 生成成功。
 
-已用时间 00:00:00.94
+已用时间 00:00:01.00
