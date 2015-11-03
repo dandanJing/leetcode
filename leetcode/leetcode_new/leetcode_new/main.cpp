@@ -62,6 +62,8 @@ using namespace std;
 //void let_190();
 //void let_199();
 void let_187();
+//void let_172();
+void let_171();
 
 void let_212();
 void let_207();
@@ -125,15 +127,17 @@ int main(){
 	//let_202();
 	//let_201();
 	//let_200();
+	//let_189();
+	//let_190();
+	//let_199();
 
 	//let_212();
 	//let_207();
 	//let_264();
 	
-	//let_189();
-	//let_190();
-	//let_199();
-	let_187();
+	//let_187();
+	//let_172();
+	let_171();
 
 	printf("press any key to continue....");
 	getchar();

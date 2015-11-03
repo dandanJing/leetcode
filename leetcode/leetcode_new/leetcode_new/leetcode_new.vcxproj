@@ -81,8 +81,8 @@
   <ItemGroup>
     <ClCompile Include="binary_tree_right_side_view_199.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
+    <ClCompile Include="factorial_trailing_zeors_172.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="repeated_DNA_sequences_187.cpp" />
     <ClCompile Include="reverse_bits_190.cpp" />
     <ClCompile Include="rotate_array_189.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />

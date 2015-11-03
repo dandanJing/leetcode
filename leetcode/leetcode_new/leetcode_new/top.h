@@ -93,4 +93,6 @@ public:
 	int nthUglyNumber(int n);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+	int trailingZeroes(int n);
+	int titleToNumber(string s);
 };

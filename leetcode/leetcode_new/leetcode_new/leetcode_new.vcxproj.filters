@@ -44,7 +44,7 @@
     <ClCompile Include="binary_tree_right_side_view_199.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="repeated_DNA_sequences_187.cpp">
+    <ClCompile Include="factorial_trailing_zeors_172.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
