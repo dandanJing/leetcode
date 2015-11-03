@@ -95,4 +95,5 @@ public:
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 	int trailingZeroes(int n);
 	int titleToNumber(string s);
+	int majorityElement(vector<int>& nums);
 };
