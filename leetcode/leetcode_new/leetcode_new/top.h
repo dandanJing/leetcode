@@ -101,4 +101,5 @@ public:
 	string fractionToDecimal(int numerator, int denominator);
 	int compareVersion(string version1, string version2);
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+	int findPeakElement(vector<int>& nums);
 };
