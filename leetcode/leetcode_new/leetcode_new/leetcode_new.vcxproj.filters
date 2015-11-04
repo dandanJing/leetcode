@@ -68,5 +68,8 @@
     <ClCompile Include="find_peak_element_162.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="largest_number_179.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

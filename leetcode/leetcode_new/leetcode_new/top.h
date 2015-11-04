@@ -102,4 +102,5 @@ public:
 	int compareVersion(string version1, string version2);
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 	int findPeakElement(vector<int>& nums);
+	string largestNumber(vector<int>& nums);
 };

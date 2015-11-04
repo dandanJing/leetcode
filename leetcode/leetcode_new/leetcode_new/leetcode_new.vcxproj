@@ -88,6 +88,7 @@
     <ClCompile Include="find_peak_element_162.cpp" />
     <ClCompile Include="fraction_to_recurring_decimal_166.cpp" />
     <ClCompile Include="intersection_linked_lists_160.cpp" />
+    <ClCompile Include="largest_number_179.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="majority_element_169.cpp" />
     <ClCompile Include="reverse_bits_190.cpp" />
