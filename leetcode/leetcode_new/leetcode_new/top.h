@@ -103,4 +103,5 @@ public:
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 	int findPeakElement(vector<int>& nums);
 	string largestNumber(vector<int>& nums);
+	int maximumGap(vector<int>& nums);
 };

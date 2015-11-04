@@ -71,5 +71,8 @@
     <ClCompile Include="largest_number_179.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="maximum_gap_164.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

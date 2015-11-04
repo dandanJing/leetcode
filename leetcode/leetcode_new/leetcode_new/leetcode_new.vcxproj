@@ -91,6 +91,7 @@
     <ClCompile Include="largest_number_179.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="majority_element_169.cpp" />
+    <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="reverse_bits_190.cpp" />
     <ClCompile Include="rotate_array_189.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
