@@ -93,9 +93,12 @@ public:
 	int nthUglyNumber(int n);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+
 	int trailingZeroes(int n);
 	int titleToNumber(string s);
 	int majorityElement(vector<int>& nums);
 	string convertToTitle(int n);
 	string fractionToDecimal(int numerator, int denominator);
+	int compareVersion(string version1, string version2);
+	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 };

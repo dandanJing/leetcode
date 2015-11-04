@@ -59,5 +59,11 @@
     <ClCompile Include="fraction_to_recurring_decimal_166.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="compare_version_numbers_165.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection_linked_lists_160.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
