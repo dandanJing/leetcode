@@ -1,36 +1,100 @@
 #include"top.h"
 
-void findBarrelSort(vector<int> nums,vector<int> result[], vector<int> base_set[]){
+struct ListNode1 {
+     int val;
+	 int base;
+     ListNode1 *next;
+     ListNode1(int x,int y) : val(x),base(y), next(NULL) {}
+};
+
+int compareVal(int val1,int val2,int base1,int base2){
+	if(val1==val2) return 0;
+
+	int basediff=max(base1,base2)/min(base1,base2);
+	int cmp1=val1,cmp2=val2;
+	if(base1>base2){
+		cmp1=val1/basediff;
+	}else if(base1<base2){
+		cmp2=val2/basediff;
+	}
+	if(cmp1>cmp2)return 1;
+	else if(cmp1<cmp2) return -1;
+	else if(base1>base2){
+		int val_l= (val1%basediff);
+		return compareVal(val_l,val2,basediff/10,base2);
+	}else{
+		int val_l= (val2%basediff);
+		return compareVal(val1,val_l,base1,basediff/10);
+	}
+}
+
+void insertNode(ListNode1* root, ListNode1* to_insert){
+	if(root->base==-1) {
+		root->base=to_insert->base;
+		root->val=to_insert->val;
+		delete to_insert;
+		return;
+	}
+	ListNode1* temp=root,* p_pre=root;
+	if(compareVal(temp->val,to_insert->val,temp->base,to_insert->base)<=0){
+		int base=to_insert->base;
+		int val=to_insert->val;
+		to_insert->next=temp->next;
+		temp->next=to_insert;
+		to_insert->base=temp->base;
+		to_insert->val=temp->val;
+		temp->base=base;
+		temp->val=val;
+		return;
+	}
+	temp=root->next;
+	while(temp){
+		if(compareVal(temp->val,to_insert->val,temp->base,to_insert->base)<=0) break;
+		p_pre=temp;
+		temp=temp->next;
+	}
+	to_insert->next=p_pre->next;
+	p_pre->next=to_insert;
+}
+
+void findBarrelSort(vector<int> nums,ListNode1* result[]){
 	int base,temp;
 	FOR(i,nums.size()){
 		base=1;
-		while(nums[i]/base>10) base*=10;
+		while(nums[i]/base>=10) base*=10;
 		temp=nums[i]/base;
-		result[temp].push_back(nums[i]);
-		base_set[temp].push_back(base);
+		ListNode1* cur=(ListNode1*) new ListNode1(nums[i],base);
+		insertNode(result[temp],cur);
 	}
 }
- void getStringResult(vector<int>*sets,string& result,string pre_fix){
-	 for(int i=9;i>=0;i--){
-		 if(sets[i].size()==0)continue;
-		 char temp=' ';
-		 if(i)temp=i+'0';
-		 if(sets[i].size()==1){
-			 result+=(pre_fix+temp);
-		 }else{
-			 /*vector<int>* bar_sort=findBarrelSort(sets[i]);
-			 getStringResult(bar_sort,result,pre_fix+temp);*/
-		 }
-	 }
- }
 
-
+//---!!!!错误1：输入[0,0]，输出"0"，实际输出为“00”
 string Solution::largestNumber(vector<int>& nums){
-	vector<int>bar_sort[10];
-	vector<int>base_set[10];
-	findBarrelSort(nums,bar_sort,base_set);
+	ListNode1* bar_sort[10];
+	FOR(i,10) bar_sort[i]=(ListNode1*) new ListNode1(-1,-1);
+
+	findBarrelSort(nums,bar_sort);
 	string result="";
-	getStringResult(bar_sort,result,base_set,"");
+	char cur_char;
+	int zero_count=0;
+	for(int i=9;i>=0;i--){
+		ListNode1* temp=bar_sort[i];
+		if(temp->base==-1) continue;
+		while(temp){
+			int cur_val=temp->val;
+			int cur_base=temp->base;
+			if(cur_val==0 && zero_count && result.size()==1) {temp=temp->next;continue;}
+			else if(cur_val==0)zero_count++;
+
+			while(cur_base){
+				cur_char=cur_val/cur_base+'0';
+				result+=cur_char;
+				cur_val%=cur_base;
+				cur_base/=10;
+			}
+			temp=temp->next;
+		}
+	}
 	return result;
 }
 
