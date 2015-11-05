@@ -41,5 +41,8 @@
     <ClCompile Include="maximum_product_subarray_152.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="min_stack_155.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
