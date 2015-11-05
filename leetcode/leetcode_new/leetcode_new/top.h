@@ -99,7 +99,8 @@ public:
 	string largestNumber(vector<int>& nums);*/
 	
 	int maxProduct(vector<int>& nums);
-
+	int findMin(vector<int>& nums);
+	int findMinII(vector<int>& nums);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);

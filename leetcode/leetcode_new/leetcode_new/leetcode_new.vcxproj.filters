@@ -44,5 +44,11 @@
     <ClCompile Include="min_stack_155.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

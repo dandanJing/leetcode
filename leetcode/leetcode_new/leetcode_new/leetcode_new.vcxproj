@@ -80,6 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="course_schedule_207.cpp" />
+    <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp" />
+    <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="maximum_product_subarray_152.cpp" />
