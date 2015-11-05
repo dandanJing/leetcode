@@ -1,0 +1,107 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+#include<map>
+#include<vector>
+#include<sstream>
+#include<cmath>
+#include<stack>
+#include<queue>
+using namespace std;
+
+typedef istringstream ISS;
+
+#define FOR(i,n) for(int i=0;i<n;i++)
+
+struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+
+
+struct ListNode {
+     int val;
+     ListNode *next;
+     ListNode(int x) : val(x), next(NULL) {}
+};
+ 
+
+class Solution{
+public:
+	/*bool wordPattern(string pattern,string str);
+	int findDuplicate(vector<int>& nums);
+	void gameOfLife(vector<vector<int>>& board);
+	void moveZeroes(vector<int>& nums);
+	vector<string> addOperators(string num, int target);
+	int numSquares(int n) ;
+	int firstBadVersion(int n) ;
+	int hIndex(vector<int>& citations) ;
+	string numberToWords(int num) ;
+	int missingNumber(vector<int>& nums);
+	bool isUgly(int num);
+	vector<int> singleNumber(vector<int>& nums);
+	int addDigits(int num);
+	vector<string> binaryTreePaths(TreeNode* root);
+	bool isAnagram(string s, string t);
+	vector<int> diffWaysToCompute(string input) ;
+	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
+	vector<int> maxSlidingWindow(vector<int>& nums, int k);
+	void deleteNode(ListNode* node);
+	vector<int> productExceptSelf(vector<int>& nums) ;
+	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
+	bool isPalindrome(ListNode* head) ;
+	int countDigitOne(int n);
+	bool isPowerOfTwo(int n);
+	int kthSmallest(TreeNode* root, int k);
+	vector<int> majorityElement(vector<int>& nums);
+	vector<string> summaryRanges(vector<int>& nums);
+	TreeNode* invertTree(TreeNode* root);
+	int calculate(string s);
+	int calculate1(string s);
+	int computeArea(int A, int B, int C, int D, int E, int F, int G, int H);
+	int countNodes(TreeNode* root);
+	int maximalSquare(vector<vector<char>>& matrix) ;
+	bool containsNearbyDuplicate(vector<int>& nums, int k) ;
+	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
+	bool containsDuplicate(vector<int>& nums) ;
+	vector<vector<int>> combinationSum(vector<int>& candidates, int target);
+	vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
+	vector<vector<int>> combinationSum3(int k, int n);
+	vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings);
+	int findKthLargest(vector<int>& nums, int k);
+	int minSubArrayLen(int s, vector<int>& nums);
+	int rob(vector<int>& nums);
+	int robII(vector<int>& nums);
+	bool exist(vector<vector<char>>& board, string word);
+	
+	ListNode* reverseList(ListNode* head);
+	bool isIsomorphic(string s, string t);
+	int countPrimes(int n);
+	ListNode* removeElements(ListNode* head, int val) ;
+	bool isHappy(int n);
+	int rangeBitwiseAnd(int m, int n);
+	int numIslands(vector<vector<char>>& grid);*/
+
+	void rotate(vector<int>& nums, int k);
+	int reverseBits(int n) ;
+	vector<int> rightSideView(TreeNode* root);
+	vector<string> findRepeatedDnaSequences(string s) ;
+
+	int nthUglyNumber(int n);
+	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+
+	int trailingZeroes(int n);
+	int titleToNumber(string s);
+	int majorityElement(vector<int>& nums);
+	string convertToTitle(int n);
+	string fractionToDecimal(int numerator, int denominator);
+	int compareVersion(string version1, string version2);
+	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+	int findPeakElement(vector<int>& nums);
+	string largestNumber(vector<int>& nums);
+	int maximumGap(vector<int>& nums);
+};

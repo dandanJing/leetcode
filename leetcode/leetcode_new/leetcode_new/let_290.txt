@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+5
+abba
+dog cat cat dog
+abbc
+dog cat cat fish
+aaba
+dog cat cat dog
+abba
+dog dog dog dog 
+aaa
+=======
+5
+abba
+dog cat cat dog
+abbc
+dog cat cat fish
+aaba
+dog cat cat dog
+abba
+dog dog dog dog 
+aaa
+>>>>>>> 194f7f9854ba2b4239e312aded309268c3e9d1d4
+aa aa aa aa
