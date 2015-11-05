@@ -83,17 +83,11 @@ public:
 	ListNode* removeElements(ListNode* head, int val) ;
 	bool isHappy(int n);
 	int rangeBitwiseAnd(int m, int n);
-	int numIslands(vector<vector<char>>& grid);*/
-
+	int numIslands(vector<vector<char>>& grid);
 	void rotate(vector<int>& nums, int k);
 	int reverseBits(int n) ;
 	vector<int> rightSideView(TreeNode* root);
 	vector<string> findRepeatedDnaSequences(string s) ;
-
-	int nthUglyNumber(int n);
-	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
-	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
-
 	int trailingZeroes(int n);
 	int titleToNumber(string s);
 	int majorityElement(vector<int>& nums);
@@ -102,6 +96,11 @@ public:
 	int compareVersion(string version1, string version2);
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 	int findPeakElement(vector<int>& nums);
-	string largestNumber(vector<int>& nums);
+	string largestNumber(vector<int>& nums);*/
+	
+
+	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
+	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
 };

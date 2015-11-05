@@ -1,42 +1,23 @@
-﻿生成启动时间为 2015/11/4 15:49:59。
+﻿生成启动时间为 2015/11/5 14:25:18。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt binary_tree_right_side_view_199.cpp compare_version_numbers_165.cpp course_schedule_207.cpp excel_sheet_column_number_168.cpp excel_sheet_column_number_171.cpp factorial_trailing_zeors_172.cpp find_peak_element_162.cpp fraction_to_recurring_decimal_166.cpp intersection_linked_lists_160.cpp largest_number_179.cpp main.cpp majority_element_169.cpp maximum_gap_164.cpp reverse_bits_190.cpp rotate_array_189.cpp ugly_num_II_264.cpp word_search_II_212.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt course_schedule_207.cpp main.cpp maximum_gap_164.cpp ugly_num_II_264.cpp var_define.cpp word_search_II_212.cpp
+         word_search_II_212.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\word_search_ii_212.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
+         var_define.cpp
+         ugly_num_II_264.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\ugly_num_ii_264.cpp(21): warning C4018: “<=”: 有符号/无符号不匹配
          maximum_gap_164.cpp
          main.cpp
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         word_search_II_212.cpp
-         ugly_num_II_264.cpp
-         rotate_array_189.cpp
-         reverse_bits_190.cpp
-         majority_element_169.cpp
-         largest_number_179.cpp
-         intersection_linked_lists_160.cpp
-         fraction_to_recurring_decimal_166.cpp
-         find_peak_element_162.cpp
-         factorial_trailing_zeors_172.cpp
-         excel_sheet_column_number_171.cpp
-         excel_sheet_column_number_168.cpp
          course_schedule_207.cpp
-         compare_version_numbers_165.cpp
-         binary_tree_right_side_view_199.cpp
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(5): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\binary_tree_right_side_view_199.obj
-         Debug\compare_version_numbers_165.obj
-         Debug\course_schedule_207.obj
-         Debug\excel_sheet_column_number_168.obj
-         Debug\excel_sheet_column_number_171.obj
-         Debug\factorial_trailing_zeors_172.obj
-         Debug\find_peak_element_162.obj
-         Debug\fraction_to_recurring_decimal_166.obj
-         Debug\intersection_linked_lists_160.obj
-         Debug\largest_number_179.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\course_schedule_207.obj
          Debug\main.obj
-         Debug\majority_element_169.obj
          Debug\maximum_gap_164.obj
-         Debug\reverse_bits_190.obj
-         Debug\rotate_array_189.obj
          Debug\ugly_num_II_264.obj
          Debug\var_define.obj
          Debug\word_search_II_212.obj
@@ -45,4 +26,4 @@
 
 生成成功。
 
-已用时间 00:00:01.95
+已用时间 00:00:03.08

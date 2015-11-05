@@ -79,21 +79,9 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree_right_side_view_199.cpp" />
-    <ClCompile Include="compare_version_numbers_165.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
-    <ClCompile Include="excel_sheet_column_number_168.cpp" />
-    <ClCompile Include="excel_sheet_column_number_171.cpp" />
-    <ClCompile Include="factorial_trailing_zeors_172.cpp" />
-    <ClCompile Include="find_peak_element_162.cpp" />
-    <ClCompile Include="fraction_to_recurring_decimal_166.cpp" />
-    <ClCompile Include="intersection_linked_lists_160.cpp" />
-    <ClCompile Include="largest_number_179.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="majority_element_169.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
-    <ClCompile Include="reverse_bits_190.cpp" />
-    <ClCompile Include="rotate_array_189.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
