@@ -38,5 +38,8 @@
     <ClCompile Include="maximum_gap_164.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="maximum_product_subarray_152.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
