@@ -106,4 +106,5 @@ public:
 	int maximumGap(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+	int calculateMinimumHP(vector<vector<int>>& dungeon);
 };

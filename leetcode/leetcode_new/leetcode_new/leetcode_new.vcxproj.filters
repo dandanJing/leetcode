@@ -50,5 +50,8 @@
     <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dungeon_game_174.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="course_schedule_207.cpp" />
+    <ClCompile Include="dungeon_game_174.cpp" />
     <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp" />
     <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp" />
     <ClCompile Include="main.cpp" />
