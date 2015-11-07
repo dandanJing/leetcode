@@ -53,5 +53,11 @@
     <ClCompile Include="dungeon_game_174.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="evaluate_RPN_150.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_list_148.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

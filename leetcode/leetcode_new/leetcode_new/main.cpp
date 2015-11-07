@@ -75,8 +75,12 @@ void let_187();
 //void let_155();
 //void let_153();
 //void let_154();
-void let_174();
+//void let_150();
+void let_148();
 
+
+
+void let_174();
 void let_164();
 void let_212();
 void let_207();
@@ -161,9 +165,11 @@ int main(){
 	//let_155();
 	//let_153();
 	//let_154();
+	//let_150();
+	let_148();
 
-	let_174();
 
+	//let_174();
 	//let_164();
 
 	printf("press any key to continue....");

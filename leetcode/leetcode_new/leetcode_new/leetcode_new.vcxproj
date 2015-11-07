@@ -81,12 +81,14 @@
   <ItemGroup>
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
+    <ClCompile Include="evaluate_RPN_150.cpp" />
     <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp" />
     <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="maximum_product_subarray_152.cpp" />
     <ClCompile Include="min_stack_155.cpp" />
+    <ClCompile Include="sort_list_148.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
