@@ -79,6 +79,8 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="binary_tree_postorder_travesal_145.cpp" />
+    <ClCompile Include="binary_tree_precoder_travesal_144.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
     <ClCompile Include="evaluate_RPN_150.cpp" />

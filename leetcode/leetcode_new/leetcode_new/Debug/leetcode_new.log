@@ -1,36 +1,15 @@
-﻿生成启动时间为 2015/11/7 17:01:12。
+﻿生成启动时间为 2015/11/7 18:04:24。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt course_schedule_207.cpp dungeon_game_174.cpp evaluate_RPN_150.cpp find_minimum_in_rotated_sorted_array_153.cpp find_minimum_in_rotated_sorted_array_154.cpp insertion_sort_list_147.cpp linked_list_cycleII_142.cpp linked_list_cycle_141.cpp LRU_cache_146.cpp main.cpp maximum_gap_164.cpp maximum_product_subarray_152.cpp max_points_on_a_line_149.cpp min_stack_155.cpp record_list_143.cpp single_number_136.cpp sort_list_148.cpp ugly_num_II_264.cpp word_search_II_212.cpp
-         main.cpp
-         LRU_cache_146.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\lru_cache_146.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\lru_cache_146.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\lru_cache_146.cpp(36): warning C4018: “>”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\lru_cache_146.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         word_search_II_212.cpp
-         ugly_num_II_264.cpp
-         sort_list_148.cpp
-         single_number_136.cpp
-         record_list_143.cpp
-         min_stack_155.cpp
-         max_points_on_a_line_149.cpp
-         maximum_product_subarray_152.cpp
-         maximum_gap_164.cpp
-         linked_list_cycle_141.cpp
-         linked_list_cycleII_142.cpp
-         insertion_sort_list_147.cpp
-         find_minimum_in_rotated_sorted_array_154.cpp
-         find_minimum_in_rotated_sorted_array_153.cpp
-         evaluate_RPN_150.cpp
-         dungeon_game_174.cpp
-         course_schedule_207.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt binary_tree_postorder_travesal_145.cpp
+         binary_tree_postorder_travesal_145.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\binary_tree_postorder_travesal_145.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\course_schedule_207.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\binary_tree_postorder_travesal_145.obj
+         Debug\binary_tree_precoder_travesal_144.obj
+         Debug\course_schedule_207.obj
          Debug\dungeon_game_174.obj
          Debug\evaluate_RPN_150.obj
          Debug\find_minimum_in_rotated_sorted_array_153.obj
@@ -58,4 +37,4 @@
 
 生成成功。
 
-已用时间 00:00:07.91
+已用时间 00:00:05.76

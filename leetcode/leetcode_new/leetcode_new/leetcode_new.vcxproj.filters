@@ -80,5 +80,11 @@
     <ClCompile Include="LRU_cache_146.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary_tree_precoder_travesal_144.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_postorder_travesal_145.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

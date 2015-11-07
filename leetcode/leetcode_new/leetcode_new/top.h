@@ -116,6 +116,8 @@ public:
 	ListNode *detectCycle(ListNode *head);
 	int singleNumber(vector<int>& nums);
 	int maxPoints(vector<Point>& points);
+	vector<int> preorderTraversal(TreeNode* root);
+	vector<int> postorderTraversal(TreeNode* root);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
