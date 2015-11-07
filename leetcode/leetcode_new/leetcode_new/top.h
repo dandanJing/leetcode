@@ -103,6 +103,7 @@ public:
 	int findMinII(vector<int>& nums);
 	int evalRPN(vector<string>& tokens);
 	ListNode* sortList(ListNode* head);
+	ListNode* insertionSortList(ListNode* head);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);

@@ -59,5 +59,8 @@
     <ClCompile Include="sort_list_148.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="insertion_sort_list_147.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
