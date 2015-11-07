@@ -80,8 +80,8 @@ void let_187();
 //void let_147();
 //void let_143();
 //void let_141();
-void let_142();
-
+//void let_142();
+void let_136();
 
 
 void let_174();
@@ -174,7 +174,8 @@ int main(){
 	//let_147();
 	//let_143();
 	//let_141();
-	let_142();
+	//let_142();
+	let_136();
 
 	//let_174();
 	//let_164();

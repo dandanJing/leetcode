@@ -92,6 +92,7 @@
     <ClCompile Include="maximum_product_subarray_152.cpp" />
     <ClCompile Include="min_stack_155.cpp" />
     <ClCompile Include="record_list_143.cpp" />
+    <ClCompile Include="single_number_136.cpp" />
     <ClCompile Include="sort_list_148.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />

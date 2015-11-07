@@ -71,5 +71,8 @@
     <ClCompile Include="linked_list_cycleII_142.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="single_number_136.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

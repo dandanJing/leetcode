@@ -107,6 +107,7 @@ public:
 	void reorderList(ListNode* head);
 	bool hasCycle(ListNode *head);
 	ListNode *detectCycle(ListNode *head);
+	int singleNumber(vector<int>& nums);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
