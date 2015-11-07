@@ -104,6 +104,9 @@ public:
 	int evalRPN(vector<string>& tokens);
 	ListNode* sortList(ListNode* head);
 	ListNode* insertionSortList(ListNode* head);
+	void reorderList(ListNode* head);
+	bool hasCycle(ListNode *head);
+	ListNode *detectCycle(ListNode *head);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);

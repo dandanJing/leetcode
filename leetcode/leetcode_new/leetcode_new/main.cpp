@@ -77,7 +77,10 @@ void let_187();
 //void let_154();
 //void let_150();
 //void let_148();
-void let_147();
+//void let_147();
+//void let_143();
+//void let_141();
+void let_142();
 
 
 
@@ -168,7 +171,10 @@ int main(){
 	//let_154();
 	//let_150();
 	//let_148();
-	let_147();
+	//let_147();
+	//let_143();
+	//let_141();
+	let_142();
 
 	//let_174();
 	//let_164();

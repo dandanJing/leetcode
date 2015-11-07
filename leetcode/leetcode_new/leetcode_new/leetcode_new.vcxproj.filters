@@ -62,5 +62,14 @@
     <ClCompile Include="insertion_sort_list_147.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="record_list_143.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_cycle_141.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_cycleII_142.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
