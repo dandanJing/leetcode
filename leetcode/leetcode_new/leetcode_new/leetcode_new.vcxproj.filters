@@ -74,5 +74,8 @@
     <ClCompile Include="single_number_136.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="max_points_on_a_line_149.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

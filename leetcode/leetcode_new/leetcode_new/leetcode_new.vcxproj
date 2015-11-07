@@ -90,6 +90,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="maximum_product_subarray_152.cpp" />
+    <ClCompile Include="max_points_on_a_line_149.cpp" />
     <ClCompile Include="min_stack_155.cpp" />
     <ClCompile Include="record_list_143.cpp" />
     <ClCompile Include="single_number_136.cpp" />

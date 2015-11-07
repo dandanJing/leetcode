@@ -13,6 +13,13 @@ typedef istringstream ISS;
 
 #define FOR(i,n) for(int i=0;i<n;i++)
 
+struct Point {
+     int x;
+     int y;
+     Point() : x(0), y(0) {}
+     Point(int a, int b) : x(a), y(b) {}
+ };
+
 struct TreeNode {
       int val;
       TreeNode *left;
@@ -108,6 +115,7 @@ public:
 	bool hasCycle(ListNode *head);
 	ListNode *detectCycle(ListNode *head);
 	int singleNumber(vector<int>& nums);
+	int maxPoints(vector<Point>& points);
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
