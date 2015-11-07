@@ -1,93 +1,93 @@
 #include"top.h"
 
+int result=0;
+int size1,size2;
+int calcuResult(vector<vector<int>>& dungeon,int posi,int posj,int temp){
+	if(temp<=result) return 0x80000000;
+
+	int cur1=temp,cur2=temp;
+	if(posi<size1-1){
+		if(dungeon[posi+1][posj]<0) cur1+=dungeon[posi+1][posj];
+		if(cur1>result){
+			int out1=calcuResult(dungeon,posi+1,posj,temp+dungeon[posi+1][posj]);
+			if(out1==0x80000000)cur1=0x80000000;
+			else if(cur1>out1) cur1=out1;
+		}else{
+			cur1=0x80000000;
+		}
+	}
+	if(posj<size2-1){
+		if(dungeon[posi][posj+1]<0) cur2+=dungeon[posi][posj+1];
+		if(cur2>result){
+			int out2=calcuResult(dungeon,posi,posj+1,temp+dungeon[posi][posj+1]);
+			if(out2==0x80000000)cur2=0x80000000;
+			else if(cur2>out2) cur2=out2;
+		}else{
+			cur2=0x80000000;
+		}
+	}
+	return max(cur1,cur2);
+}
+
+//int Solution::calculateMinimumHP(vector<vector<int>>& dungeon){
+//	if(dungeon.size()<=0)return 0;
+//	size1=dungeon.size();
+//	size2=dungeon[0].size();
+//
+//	int temp=0;
+//	int i=0;int j=0;
+//	while(i<size1 && j<size2){
+//		temp+=dungeon[i][j];
+//		if(temp<result)result=temp;
+//		if(i==size1-1){
+//			j++;
+//		}else if(j==size2-1){
+//			i++;
+//		}else if(dungeon[i+1][j]>dungeon[i][j+1]){
+//			i++;
+//		}else{
+//			j++;
+//		}
+//	}
+//	int cur=calcuResult(dungeon,0,0,dungeon[0][0]);
+//	result=max(cur,result);
+//	if(result>0) return 0;
+//	else return 1-result;
+//}
+
 int Solution::calculateMinimumHP(vector<vector<int>>& dungeon){
-	if(dungeon.size()<=0)return 0;
-	int size1,size2;
+	/*if(dungeon.size()<=0)return 0;
 	size1=dungeon.size();
 	size2=dungeon[0].size();
 
-	int result=0;
-	int temp=0;
-	int i=0;int j=0;
-	while(i<size1 && j<size2){
-		temp+=dungeon[i][j];
-		if(temp<result)result=temp;
-		if(i==size1-1){
-			j++;
-		}else if(j==size2-1){
-			i++;
-		}else if(dungeon[i+1][j]>dungeon[i][j+1]){
-			i++;
-		}else{
-			j++;
+	vector<vector<int>> res;
+	FOR(i,size1){
+		vector<int>temp;
+		FOR(j,size2){
+			temp.push_back(0x80000000);
 		}
+		res.push_back(temp);
 	}
-
-	vector<pair<int,int>> pair_vec;
-	temp=0;
-	int cur_result=1;
-	for(int i=0;i<size2;i++){
-		if(temp+dungeon[0][i]<result)break;
-
-		temp+=dungeon[0][i];
-		if(temp<cur_result)cur_result=temp;
-		pair_vec.push_back(pair<int,int>(0,i));
-	}
-	if(pair_vec.size()==size2){
-		bool isTrue=false;
-		for(int i=1;i<size1;i++){
-			if(temp+dungeon[i][size2-1]<result){isTrue=true;break;}
-
-			temp+=dungeon[i][size2-1];
-			if(temp<cur_result)cur_result=temp;
-			pair_vec.push_back(pair<int,int>(i,size2-1));
+	vector<vector<int>> mid;
+	FOR(i,size1){
+		vector<int>temp;
+		FOR(j,size2){
+			temp.push_back(0x80000000);
 		}
-		if(!isTrue && cur_result>result)result=cur_result;
+		mid.push_back(temp);
 	}
-	pair<int,int> cur_pair;
-	pair<int,int> pre_pair;
-	while(pair_vec.size()){
-		if(pair_vec.size()==1){
-			cur_pair=pair_vec.back();
-			pair_vec.pop_back();
-		}else{
-			cur_pair=pair_vec.back();
-			pre_pair=pair_vec[pair_vec.size()-2];
-			temp-=dungeon[cur_pair.first][cur_pair.second];
-			pair_vec.pop_back();
-			if(pre_pair.first+1!=cur_pair.first && pre_pair.first+1<size1){
-				if(temp+dungeon[pre_pair.first+1][pre_pair.second]<result)continue;
 
-				temp+=dungeon[pre_pair.first+1][pre_pair.second];
-				pair_vec.push_back(pair<int,int>(pre_pair.first+1,pre_pair.second));
-				cur_result=temp;
+	int curi=size1-1,curj=size2-1;
+	while(1){
+		if()
+		for(int i=size1-2;i>curi,i--){
 
-				bool isBreak=false;
-				for(int i=pre_pair.second+1;i<size2;i++){
-					if(temp+dungeon[pre_pair.first+1][i]<result){isBreak=true;break;}
-
-					temp+=dungeon[pre_pair.first+1][i];
-					pair_vec.push_back(pair<int,int>(pre_pair.first+1,i));
-					if(temp<cur_result)cur_result=temp;
-				}
-				if(!isBreak){
-					for(int i=pre_pair.first+2;i<size1;i++){
-						if(temp+dungeon[i][size2-1]<result){isBreak=true;break;}
-
-						temp+=dungeon[i][size2-1];
-						pair_vec.push_back(pair<int,int>(i,size2-1));
-						if(temp<cur_result)cur_result=temp;
-					}
-					if(!isBreak && cur_result>result)result=cur_result;
-				}
-			}
 		}
+		if(curi==0 && curj==0)break;
 	}
-
-	if(result>0) return 0;
-	return 1-result;
+	return res[0][0];*/
+	return 5;
 }
-
 void let_174(){
 	ifstream fin;
 	fin.open("let_174.txt");
