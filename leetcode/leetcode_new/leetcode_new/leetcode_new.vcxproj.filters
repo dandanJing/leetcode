@@ -47,5 +47,11 @@
     <ClCompile Include="word_break_139.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="copy_list_with_random_pointer_138.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_palindrome_125.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

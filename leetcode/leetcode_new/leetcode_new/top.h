@@ -119,9 +119,9 @@ public:
 	vector<int> preorderTraversal(TreeNode* root);
 	vector<int> postorderTraversal(TreeNode* root);*/
 
+	bool isPalindrome(string s) ;
+	
 	bool wordBreak(string s, vector<string>& wordDict);
-
-
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
