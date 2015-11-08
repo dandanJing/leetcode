@@ -7,6 +7,7 @@
 #include<cmath>
 #include<stack>
 #include<queue>
+
 using namespace std;
 
 typedef istringstream ISS;
@@ -103,8 +104,7 @@ public:
 	int compareVersion(string version1, string version2);
 	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
 	int findPeakElement(vector<int>& nums);
-	string largestNumber(vector<int>& nums);*/
-	
+	string largestNumber(vector<int>& nums);
 	int maxProduct(vector<int>& nums);
 	int findMin(vector<int>& nums);
 	int findMinII(vector<int>& nums);
@@ -117,7 +117,10 @@ public:
 	int singleNumber(vector<int>& nums);
 	int maxPoints(vector<Point>& points);
 	vector<int> preorderTraversal(TreeNode* root);
-	vector<int> postorderTraversal(TreeNode* root);
+	vector<int> postorderTraversal(TreeNode* root);*/
+
+	bool wordBreak(string s, vector<string>& wordDict);
+
 
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);

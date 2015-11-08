@@ -1,33 +1,23 @@
-﻿生成启动时间为 2015/11/7 18:04:24。
+﻿生成启动时间为 2015/11/8 10:50:51。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt binary_tree_postorder_travesal_145.cpp
-         binary_tree_postorder_travesal_145.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\binary_tree_postorder_travesal_145.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt word_break_139.cpp
+         word_break_139.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\word_break_139.cpp(6): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\word_break_139.cpp(11): warning C4018: “>”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\word_break_139.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\word_break_139.cpp(25): warning C4018: “>”: 有符号/无符号不匹配
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\binary_tree_postorder_travesal_145.obj
-         Debug\binary_tree_precoder_travesal_144.obj
-         Debug\course_schedule_207.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\course_schedule_207.obj
          Debug\dungeon_game_174.obj
-         Debug\evaluate_RPN_150.obj
-         Debug\find_minimum_in_rotated_sorted_array_153.obj
-         Debug\find_minimum_in_rotated_sorted_array_154.obj
-         Debug\insertion_sort_list_147.obj
-         Debug\linked_list_cycleII_142.obj
-         Debug\linked_list_cycle_141.obj
          Debug\LRU_cache_146.obj
          Debug\main.obj
          Debug\maximum_gap_164.obj
-         Debug\maximum_product_subarray_152.obj
-         Debug\max_points_on_a_line_149.obj
-         Debug\min_stack_155.obj
-         Debug\record_list_143.obj
-         Debug\single_number_136.obj
-         Debug\sort_list_148.obj
          Debug\ugly_num_II_264.obj
          Debug\var_define.obj
+         Debug\word_break_139.obj
          Debug\word_search_II_212.obj
          leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
        FinalizeBuildStatus:
@@ -37,4 +27,4 @@
 
 生成成功。
 
-已用时间 00:00:05.76
+已用时间 00:00:05.69

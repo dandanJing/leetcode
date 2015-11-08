@@ -38,52 +38,13 @@
     <ClCompile Include="maximum_gap_164.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="maximum_product_subarray_152.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="min_stack_155.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="dungeon_game_174.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="evaluate_RPN_150.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="sort_list_148.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="insertion_sort_list_147.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="record_list_143.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="linked_list_cycle_141.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="linked_list_cycleII_142.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="single_number_136.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="max_points_on_a_line_149.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LRU_cache_146.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="binary_tree_precoder_travesal_144.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_postorder_travesal_145.cpp">
+    <ClCompile Include="word_break_139.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

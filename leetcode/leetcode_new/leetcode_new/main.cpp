@@ -83,11 +83,12 @@ void let_187();
 //void let_142();
 //void let_136();
 //void let_149();
-//void let_146();
 //void let_144();
-void let_145();
+//void let_145();
 
+void let_139();
 
+void let_146();
 void let_174();
 void let_164();
 void let_212();
@@ -181,12 +182,13 @@ int main(){
 	//let_142();
 	//let_136();
 	//let_149();
-	//let_146();
 	//let_144();
-	let_145();
+	//let_145();
+	let_139();
 
 	//let_174();
 	//let_164();
+	//let_146();
 
 	printf("press any key to continue....");
 	getchar();

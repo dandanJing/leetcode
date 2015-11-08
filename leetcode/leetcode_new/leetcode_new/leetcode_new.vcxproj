@@ -79,27 +79,14 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree_postorder_travesal_145.cpp" />
-    <ClCompile Include="binary_tree_precoder_travesal_144.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
-    <ClCompile Include="evaluate_RPN_150.cpp" />
-    <ClCompile Include="find_minimum_in_rotated_sorted_array_153.cpp" />
-    <ClCompile Include="find_minimum_in_rotated_sorted_array_154.cpp" />
-    <ClCompile Include="insertion_sort_list_147.cpp" />
-    <ClCompile Include="linked_list_cycleII_142.cpp" />
-    <ClCompile Include="linked_list_cycle_141.cpp" />
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
-    <ClCompile Include="maximum_product_subarray_152.cpp" />
-    <ClCompile Include="max_points_on_a_line_149.cpp" />
-    <ClCompile Include="min_stack_155.cpp" />
-    <ClCompile Include="record_list_143.cpp" />
-    <ClCompile Include="single_number_136.cpp" />
-    <ClCompile Include="sort_list_148.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
+    <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
