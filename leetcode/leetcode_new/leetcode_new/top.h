@@ -128,6 +128,7 @@ public:
 	bool isPalindrome(string s) ;
 	int canCompleteCircuit(vector<int>& gas, vector<int>& cost);
 	UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node);
+	void solve(vector<vector<char>>& board);
 	
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
