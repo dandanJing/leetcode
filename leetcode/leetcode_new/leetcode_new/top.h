@@ -14,6 +14,12 @@ typedef istringstream ISS;
 
 #define FOR(i,n) for(int i=0;i<n;i++)
 
+struct UndirectedGraphNode {
+     int label;
+     vector<UndirectedGraphNode *> neighbors;
+     UndirectedGraphNode(int x) : label(x) {};
+ };
+
 struct Point {
      int x;
      int y;
@@ -121,6 +127,7 @@ public:
 
 	bool isPalindrome(string s) ;
 	int canCompleteCircuit(vector<int>& gas, vector<int>& cost);
+	UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node);
 	
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
