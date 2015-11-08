@@ -120,6 +120,7 @@ public:
 	vector<int> postorderTraversal(TreeNode* root);*/
 
 	bool isPalindrome(string s) ;
+	int canCompleteCircuit(vector<int>& gas, vector<int>& cost);
 	
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
