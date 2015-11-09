@@ -130,6 +130,7 @@ public:
 	UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node);
 	void solve(vector<vector<char>>& board);
 	int sumNumbers(TreeNode* root);
+	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);

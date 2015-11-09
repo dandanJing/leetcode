@@ -65,5 +65,8 @@
     <ClCompile Include="sum_root_to_leaf_numbers_129.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="word_ladder_127.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

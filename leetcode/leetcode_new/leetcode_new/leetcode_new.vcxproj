@@ -93,6 +93,7 @@
     <ClCompile Include="valid_palindrome_125.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
+    <ClCompile Include="word_ladder_127.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
