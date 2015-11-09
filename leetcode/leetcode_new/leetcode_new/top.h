@@ -135,7 +135,9 @@ public:
 
 	bool hasPathSum(TreeNode* root, int sum);
 	vector<vector<int>> pathSum(TreeNode* root, int sum);
-
+	void flatten(TreeNode* root);
+	int minDepth(TreeNode* root);
+	bool isBalanced(TreeNode* root);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

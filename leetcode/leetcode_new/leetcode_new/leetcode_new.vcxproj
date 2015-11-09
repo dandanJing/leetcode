@@ -82,9 +82,11 @@
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
+    <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp" />
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
+    <ClCompile Include="minimun_depth_of_binary_tree_111.cpp" />
     <ClCompile Include="path_sum_112.cpp" />
     <ClCompile Include="path_sum_II_113.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />

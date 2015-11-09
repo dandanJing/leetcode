@@ -59,5 +59,11 @@
     <ClCompile Include="path_sum_II_113.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minimun_depth_of_binary_tree_111.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
