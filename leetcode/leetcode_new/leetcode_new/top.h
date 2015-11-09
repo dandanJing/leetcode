@@ -134,6 +134,7 @@ public:
 	vector<int> getRow(int rowIndex);*/
 
 	bool hasPathSum(TreeNode* root, int sum);
+	vector<vector<int>> pathSum(TreeNode* root, int sum);
 
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

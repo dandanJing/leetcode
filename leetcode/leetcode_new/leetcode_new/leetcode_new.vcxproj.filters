@@ -56,5 +56,8 @@
     <ClCompile Include="path_sum_112.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="path_sum_II_113.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
