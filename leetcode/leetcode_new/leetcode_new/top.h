@@ -138,6 +138,7 @@ public:
 	void flatten(TreeNode* root);
 	int minDepth(TreeNode* root);
 	bool isBalanced(TreeNode* root);
+	TreeNode* sortedListToBST(ListNode* head);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
