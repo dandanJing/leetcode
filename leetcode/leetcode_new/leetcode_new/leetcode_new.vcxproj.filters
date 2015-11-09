@@ -68,5 +68,14 @@
     <ClCompile Include="word_ladder_127.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="triangle_120.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pascal_triangle_118.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pascal_triangle_II_119.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -87,8 +87,11 @@
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
+    <ClCompile Include="pascal_triangle_118.cpp" />
+    <ClCompile Include="pascal_triangle_II_119.cpp" />
     <ClCompile Include="sum_root_to_leaf_numbers_129.cpp" />
     <ClCompile Include="surrounded_regions_130.cpp" />
+    <ClCompile Include="triangle_120.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="valid_palindrome_125.cpp" />
     <ClCompile Include="var_define.cpp" />
