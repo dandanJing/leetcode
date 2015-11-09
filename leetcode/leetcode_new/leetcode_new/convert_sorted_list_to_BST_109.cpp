@@ -1,36 +1,41 @@
 #include"top.h"
 
-TreeNode* buildBST(vector<ListNode*>node_vec,int start_pos,int end_pos){
-	TreeNode*result=NULL;
-	if(start_pos>end_pos)return result;
-	int middle=(start_pos+end_pos)/2;
-	ListNode*temp;
-	temp=node_vec[middle];
-	result=(TreeNode*)new TreeNode(temp->val);
-	TreeNode* left=buildBST(node_vec,start_pos,middle-1);
-	TreeNode* right=buildBST(node_vec,middle+1,end_pos);
-	result->left=left;
-	result->right=right;
-	return result;
+void buildBST(vector<TreeNode*>node_vec){
+	if(node_vec.size()<=1)return;
+	queue<pair<int,int>>node_queue;
+	node_queue.push(pair<int,int>(0,node_vec.size()-1));
+	pair<int,int> cur_pair;
+	while(node_queue.size()){
+		cur_pair=node_queue.front();
+		node_queue.pop();
+		if(cur_pair.first>=cur_pair.second)continue;
+		if(cur_pair.first==cur_pair.second-1){
+			node_vec[cur_pair.first]->right=node_vec[cur_pair.second];
+			continue;
+		}
+		
+		int middle=(cur_pair.first+cur_pair.second)/2;
+		node_vec[middle]->left=node_vec[(middle-1+cur_pair.first)/2];
+		node_vec[middle]->right=node_vec[(middle+1+cur_pair.second)/2];
+		node_queue.push(pair<int,int>(cur_pair.first,middle-1));
+		node_queue.push(pair<int,int>(middle+1,cur_pair.second));
+	}
 }
 
 TreeNode* Solution::sortedListToBST(ListNode* head){
 	TreeNode*result=NULL;
 	if(!head)return result;
 
-	vector<ListNode*>node_vec;
+	vector<TreeNode*>node_vec;
 	ListNode*temp=head;
 	while(temp){
-		node_vec.push_back(temp);
+		TreeNode*cur=(TreeNode*)new TreeNode(temp->val);
+		node_vec.push_back(cur);
 		temp=temp->next;
 	}
-	temp=node_vec[node_vec.size()/2];
-	result=(TreeNode*)new TreeNode(temp->val);
-	TreeNode* left=buildBST(node_vec,0,node_vec.size()/2-1);
-	TreeNode* right=buildBST(node_vec,node_vec.size()/2+1,node_vec.size()-1);
-	result->left=left;
-	result->right=right;
-	return result;
+	buildBST(node_vec);
+	
+	return node_vec[(node_vec.size()-1)/2];
 }
 
 void let_109(){
