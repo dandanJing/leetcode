@@ -79,6 +79,7 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="balanced_binary_tree_110.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />

@@ -65,5 +65,8 @@
     <ClCompile Include="minimun_depth_of_binary_tree_111.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="balanced_binary_tree_110.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
