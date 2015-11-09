@@ -1,25 +1,27 @@
-﻿生成启动时间为 2015/11/9 14:05:40。
+﻿生成启动时间为 2015/11/9 14:09:43。
      1>项目“F:\leetcode\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pascal_triangle_II_119.cpp
-         pascal_triangle_II_119.cpp
-     1>f:\leetcode\leetcode\leetcode_new\leetcode_new\pascal_triangle_ii_119.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LRU_cache_146.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp main.cpp maximum_gap_164.cpp ugly_num_II_264.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
+         main.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         word_search_II_212.cpp
+         word_ladder_127.cpp
+         word_break_139.cpp
+         ugly_num_II_264.cpp
+         maximum_gap_164.cpp
+         dungeon_game_174.cpp
+         course_schedule_207.cpp
+         copy_list_with_random_pointer_138.cpp
+         LRU_cache_146.cpp
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\clone_graph_133.obj
-         Debug\copy_list_with_random_pointer_138.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\leetcode\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\copy_list_with_random_pointer_138.obj
          Debug\course_schedule_207.obj
          Debug\dungeon_game_174.obj
-         Debug\gas_station_134.obj
          Debug\LRU_cache_146.obj
          Debug\main.obj
          Debug\maximum_gap_164.obj
-         Debug\pascal_triangle_118.obj
-         Debug\pascal_triangle_II_119.obj
-         Debug\sum_root_to_leaf_numbers_129.obj
-         Debug\surrounded_regions_130.obj
-         Debug\triangle_120.obj
          Debug\ugly_num_II_264.obj
-         Debug\valid_palindrome_125.obj
          Debug\var_define.obj
          Debug\word_break_139.obj
          Debug\word_ladder_127.obj
@@ -29,4 +31,4 @@
 
 生成成功。
 
-已用时间 00:00:01.13
+已用时间 00:00:01.18

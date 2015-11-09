@@ -123,8 +123,7 @@ public:
 	int singleNumber(vector<int>& nums);
 	int maxPoints(vector<Point>& points);
 	vector<int> preorderTraversal(TreeNode* root);
-	vector<int> postorderTraversal(TreeNode* root);*/
-
+	vector<int> postorderTraversal(TreeNode* root);
 	bool isPalindrome(string s) ;
 	int canCompleteCircuit(vector<int>& gas, vector<int>& cost);
 	UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node);
@@ -132,7 +131,7 @@ public:
 	int sumNumbers(TreeNode* root);
 	int minimumTotal(vector<vector<int>>& triangle);
 	vector<vector<int>> generate(int numRows);
-	vector<int> getRow(int rowIndex);
+	vector<int> getRow(int rowIndex);*/
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
