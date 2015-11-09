@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="balanced_binary_tree_110.cpp" />
+    <ClCompile Include="convert_sorted_array_to_BST_108.cpp" />
     <ClCompile Include="convert_sorted_list_to_BST_109.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
@@ -91,6 +92,7 @@
     <ClCompile Include="minimun_depth_of_binary_tree_111.cpp" />
     <ClCompile Include="path_sum_112.cpp" />
     <ClCompile Include="path_sum_II_113.cpp" />
+    <ClCompile Include="symmetric_tree_101.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />

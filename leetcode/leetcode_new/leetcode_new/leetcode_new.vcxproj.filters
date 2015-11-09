@@ -71,5 +71,11 @@
     <ClCompile Include="convert_sorted_list_to_BST_109.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="convert_sorted_array_to_BST_108.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetric_tree_101.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

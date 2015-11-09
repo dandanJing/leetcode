@@ -140,6 +140,7 @@ public:
 	bool isBalanced(TreeNode* root);
 	TreeNode* sortedListToBST(ListNode* head);
 	TreeNode* sortedArrayToBST(vector<int>& nums);
+	bool isSymmetric(TreeNode* root) ;
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
