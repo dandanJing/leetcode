@@ -133,6 +133,9 @@ public:
 	vector<vector<int>> generate(int numRows);
 	vector<int> getRow(int rowIndex);*/
 
+	bool hasPathSum(TreeNode* root, int sum);
+
+
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);

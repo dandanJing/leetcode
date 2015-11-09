@@ -53,5 +53,8 @@
     <ClCompile Include="word_ladder_127.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="path_sum_112.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
