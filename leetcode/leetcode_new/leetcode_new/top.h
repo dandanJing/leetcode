@@ -141,6 +141,7 @@ public:
 	TreeNode* sortedListToBST(ListNode* head);
 	TreeNode* sortedArrayToBST(vector<int>& nums);
 	bool isSymmetric(TreeNode* root) ;
+	vector<vector<int>> levelOrder(TreeNode* root);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="balanced_binary_tree_110.cpp" />
+    <ClCompile Include="binary_tree_level_order_traversal_102.cpp" />
     <ClCompile Include="convert_sorted_array_to_BST_108.cpp" />
     <ClCompile Include="convert_sorted_list_to_BST_109.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
