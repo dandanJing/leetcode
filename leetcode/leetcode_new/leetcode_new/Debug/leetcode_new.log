@@ -1,38 +1,15 @@
-﻿生成启动时间为 2015/11/9 23:32:33。
+﻿生成启动时间为 2015/11/10 10:43:09。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt balanced_binary_tree_110.cpp binary_tree_level_order_traversal_102.cpp binary_tree_level_order_traversal_II_107.cpp convert_sorted_array_to_BST_108.cpp convert_sorted_list_to_BST_109.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp LRU_cache_146.cpp main.cpp maximum_gap_164.cpp minimun_depth_of_binary_tree_111.cpp path_sum_112.cpp path_sum_II_113.cpp symmetric_tree_101.cpp ugly_num_II_264.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
-         main.cpp
-         binary_tree_level_order_traversal_II_107.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\binary_tree_level_order_traversal_ii_107.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\binary_tree_level_order_traversal_ii_107.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\binary_tree_level_order_traversal_ii_107.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         word_search_II_212.cpp
-         word_ladder_127.cpp
-         word_break_139.cpp
-         ugly_num_II_264.cpp
-         symmetric_tree_101.cpp
-         path_sum_II_113.cpp
-         path_sum_112.cpp
-         minimun_depth_of_binary_tree_111.cpp
-         maximum_gap_164.cpp
-         LRU_cache_146.cpp
-         flatten_binary_tree_to_linked_list_114.cpp
-         dungeon_game_174.cpp
-         course_schedule_207.cpp
-         copy_list_with_random_pointer_138.cpp
-         convert_sorted_list_to_BST_109.cpp
-         convert_sorted_array_to_BST_108.cpp
-         binary_tree_level_order_traversal_102.cpp
-         balanced_binary_tree_110.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt maximum_depth_of_binary_tree_104.cpp
+         maximum_depth_of_binary_tree_104.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\balanced_binary_tree_110.obj
          Debug\binary_tree_level_order_traversal_102.obj
          Debug\binary_tree_level_order_traversal_II_107.obj
+         Debug\binary_tree_zigzag_level_order_travesal_103.obj
          Debug\convert_sorted_array_to_BST_108.obj
          Debug\convert_sorted_list_to_BST_109.obj
          Debug\copy_list_with_random_pointer_138.obj
@@ -41,6 +18,7 @@
          Debug\flatten_binary_tree_to_linked_list_114.obj
          Debug\LRU_cache_146.obj
          Debug\main.obj
+         Debug\maximum_depth_of_binary_tree_104.obj
          Debug\maximum_gap_164.obj
          Debug\minimun_depth_of_binary_tree_111.obj
          Debug\path_sum_112.obj
@@ -59,4 +37,4 @@
 
 生成成功。
 
-已用时间 00:00:08.40
+已用时间 00:00:05.53

@@ -143,6 +143,8 @@ public:
 	bool isSymmetric(TreeNode* root) ;
 	vector<vector<int>> levelOrder(TreeNode* root);
 	vector<vector<int>> levelOrderBottom(TreeNode* root) ;
+	vector<vector<int>> zigzagLevelOrder(TreeNode* root);
+	int maxDepth(TreeNode* root);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
