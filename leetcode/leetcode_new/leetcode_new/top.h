@@ -151,6 +151,7 @@ public:
 	void recoverTree(TreeNode* root);
 	bool isValidBST(TreeNode* root);
 	int numTrees(int n);
+	vector<TreeNode*> generateTrees(int n);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

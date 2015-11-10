@@ -103,6 +103,7 @@
     <ClCompile Include="symmetric_tree_101.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="unique_BST_96.cpp" />
+    <ClCompile Include="unique_BST_II_95.cpp" />
     <ClCompile Include="validate_BST_98.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
