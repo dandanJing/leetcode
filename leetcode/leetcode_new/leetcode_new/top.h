@@ -145,6 +145,8 @@ public:
 	vector<vector<int>> levelOrderBottom(TreeNode* root) ;
 	vector<vector<int>> zigzagLevelOrder(TreeNode* root);
 	int maxDepth(TreeNode* root);
+	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
+	TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

@@ -89,5 +89,11 @@
     <ClCompile Include="maximum_depth_of_binary_tree_104.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="construct_binary_tree_from_preorder_and_inorder_traversal_105.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="construct_binary_tree_from_inorder_and_postorder_traversal_106.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
