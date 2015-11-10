@@ -98,5 +98,14 @@
     <ClCompile Include="same_tree_100.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="recover_binary_search_tree_99.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="validate_BST_98.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unique_BST_96.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -148,6 +148,9 @@ public:
 	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
 	TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder);
 	bool isSameTree(TreeNode* p, TreeNode* q);
+	void recoverTree(TreeNode* root);
+	bool isValidBST(TreeNode* root);
+	int numTrees(int n);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

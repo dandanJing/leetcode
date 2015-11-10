@@ -98,9 +98,12 @@
     <ClCompile Include="minimun_depth_of_binary_tree_111.cpp" />
     <ClCompile Include="path_sum_112.cpp" />
     <ClCompile Include="path_sum_II_113.cpp" />
+    <ClCompile Include="recover_binary_search_tree_99.cpp" />
     <ClCompile Include="same_tree_100.cpp" />
     <ClCompile Include="symmetric_tree_101.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
+    <ClCompile Include="unique_BST_96.cpp" />
+    <ClCompile Include="validate_BST_98.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
