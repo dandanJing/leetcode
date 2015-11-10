@@ -152,6 +152,7 @@ public:
 	bool isValidBST(TreeNode* root);
 	int numTrees(int n);
 	vector<TreeNode*> generateTrees(int n);
+	vector<int> inorderTraversal(TreeNode* root);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

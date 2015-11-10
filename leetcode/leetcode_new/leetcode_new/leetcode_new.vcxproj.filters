@@ -110,5 +110,8 @@
     <ClCompile Include="unique_BST_II_95.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary_tree_inorder_traversal_94.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

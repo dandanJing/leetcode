@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="balanced_binary_tree_110.cpp" />
+    <ClCompile Include="binary_tree_inorder_traversal_94.cpp" />
     <ClCompile Include="binary_tree_level_order_traversal_102.cpp" />
     <ClCompile Include="binary_tree_level_order_traversal_II_107.cpp" />
     <ClCompile Include="binary_tree_zigzag_level_order_travesal_103.cpp" />
