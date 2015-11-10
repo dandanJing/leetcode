@@ -147,6 +147,7 @@ public:
 	int maxDepth(TreeNode* root);
 	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
 	TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder);
+	bool isSameTree(TreeNode* p, TreeNode* q);
 
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

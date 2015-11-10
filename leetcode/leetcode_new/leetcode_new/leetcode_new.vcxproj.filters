@@ -95,5 +95,8 @@
     <ClCompile Include="construct_binary_tree_from_inorder_and_postorder_traversal_106.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="same_tree_100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -103,7 +103,8 @@ using namespace std;
 //void let_103();
 //void let_104();
 //void let_105();
-void let_106();
+//void let_106();
+void let_100();
 
 void let_114();
 void let_187();
@@ -226,7 +227,8 @@ int main(){
 	//let_103();
 	//let_104();
 	//let_105();
-	let_106();
+	//let_106();
+	let_100();
 
 	//let_114();
 	//let_174();

@@ -1,61 +1,47 @@
 #include"top.h"
 
+TreeNode* setTreeII(vector<int>& inorder, vector<int>& postorder,pair<int,int>in_pos,pair<int,int>post_pos){
+	int post_pos1= post_pos.first;
+	int  post_pos2= post_pos.second;
+	int in_pos1=in_pos.first;
+	int in_pos2=in_pos.second;
+	if(post_pos1>post_pos2)return NULL;
+	if(in_pos1>in_pos2)return NULL;
+
+	TreeNode* result=NULL;
+	if(in_pos1==in_pos2){
+		return (TreeNode*)new TreeNode(inorder[in_pos1]);
+	}
+	int posi=in_pos1,posj=post_pos1;
+	while(posi<=in_pos2 || posj<=post_pos2){
+		if(inorder[posi]==postorder[posj]){
+			TreeNode* cur=(TreeNode*)new TreeNode(inorder[posi]);
+			cur->left=result;
+			result=cur;
+			posi++;posj++;
+		}else{
+			int find_pos;
+			for(find_pos=posj+1;find_pos<=post_pos2;find_pos++){
+				if(inorder[posi]==postorder[find_pos])break;
+			}
+			TreeNode* right=setTreeII(inorder,postorder,pair<int,int>(posi+1,posi+find_pos-posj),pair<int,int>(posj,find_pos-1));
+			TreeNode* cur=(TreeNode*)new TreeNode(inorder[posi]);
+			cur->left=result;
+			cur->right=right;
+			result=cur;
+			posi=posi+find_pos-posj+1;
+			posj=find_pos+1;
+		}
+	}
+	return result;
+}
+
 TreeNode* Solution::buildTreeII(vector<int>& inorder, vector<int>& postorder){
 	TreeNode*result=NULL;
 	if(inorder.size()==0)return result;
 	if(postorder.size()!=inorder.size())return result;
-	int posi=0,posj=0;
-	vector<TreeNode*>vec_node;
-	vector<int> vec_set;
-	int last_in;
-	bool isLeft=true;
-	while(posi<inorder.size()||posj<inorder.size()){
-		if(posi<inorder.size() && posj<inorder.size() && inorder[posi]==postorder[posj]){
-			TreeNode*cur=(TreeNode*)new TreeNode(inorder[posi]);
-			cur->left=result;
-			result=cur;
-			posi++;posj++;
-			isLeft=true;
-		}else if(vec_set.size() && last_in==postorder[posj]){
-			isLeft=true;
-			TreeNode*cur=(TreeNode*)new TreeNode(last_in);
-			vec_set.pop_back();
-			if(vec_set.size())last_in=vec_set.back();
 
-			if(vec_node.size()){
-				TreeNode*right=vec_node.back();
-				vec_node.pop_back();
-				cur->right=right;
-				cur->left=result;
-				result=cur;
-			}else{
-				cur->right=result;
-				result=cur;
-			}
-			
-			posj++;
-		}else if(posi+1<inorder.size() && posj+1<inorder.size() &&inorder[posi]==postorder[posj+1]&&inorder[posi+1]==postorder[posj]){
-			TreeNode*cur=(TreeNode*)new TreeNode(inorder[posi]);
-			TreeNode*right=(TreeNode*)new TreeNode(inorder[posi+1]);
-			cur->right=right;
-			if(isLeft){
-				cur->left=result;
-				result=cur;
-			}else{
-				vec_node.push_back(cur);
-			}
-	
-			posi+=2;
-			posj+=2;
-		}else{
-			isLeft=false;
-			vec_set.push_back(inorder[posi]);
-			last_in=inorder[posi];
-			posi++;
-		}
-	}
-	
-	return result;
+	return setTreeII(inorder,postorder,pair<int,int>(0,inorder.size()-1),pair<int,int>(0,inorder.size()-1));
 }
 
 void let_106(){
