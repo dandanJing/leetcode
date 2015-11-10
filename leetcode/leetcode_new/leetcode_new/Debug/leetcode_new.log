@@ -1,41 +1,10 @@
-﻿生成启动时间为 2015/11/10 21:14:57。
+﻿生成启动时间为 2015/11/10 21:21:26。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt balanced_binary_tree_110.cpp binary_tree_level_order_traversal_102.cpp binary_tree_level_order_traversal_II_107.cpp binary_tree_zigzag_level_order_travesal_103.cpp construct_binary_tree_from_inorder_and_postorder_traversal_106.cpp construct_binary_tree_from_preorder_and_inorder_traversal_105.cpp convert_sorted_array_to_BST_108.cpp convert_sorted_list_to_BST_109.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp LRU_cache_146.cpp main.cpp maximum_depth_of_binary_tree_104.cpp maximum_gap_164.cpp minimun_depth_of_binary_tree_111.cpp path_sum_112.cpp path_sum_II_113.cpp same_tree_100.cpp symmetric_tree_101.cpp ugly_num_II_264.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt same_tree_100.cpp
          same_tree_100.cpp
-         main.cpp
-         正在生成代码...
-         正在编译...
-         course_schedule_207.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(5): warning C4018: “>=”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\course_schedule_207.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         word_search_II_212.cpp
-         word_ladder_127.cpp
-         word_break_139.cpp
-         ugly_num_II_264.cpp
-         symmetric_tree_101.cpp
-         path_sum_II_113.cpp
-         path_sum_112.cpp
-         minimun_depth_of_binary_tree_111.cpp
-         maximum_gap_164.cpp
-         maximum_depth_of_binary_tree_104.cpp
-         LRU_cache_146.cpp
-         flatten_binary_tree_to_linked_list_114.cpp
-         dungeon_game_174.cpp
-         copy_list_with_random_pointer_138.cpp
-         convert_sorted_list_to_BST_109.cpp
-         convert_sorted_array_to_BST_108.cpp
-         construct_binary_tree_from_preorder_and_inorder_traversal_105.cpp
-         construct_binary_tree_from_inorder_and_postorder_traversal_106.cpp
-         binary_tree_zigzag_level_order_travesal_103.cpp
-         binary_tree_level_order_traversal_II_107.cpp
-         binary_tree_level_order_traversal_102.cpp
-         balanced_binary_tree_110.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\balanced_binary_tree_110.obj
          Debug\binary_tree_level_order_traversal_102.obj
@@ -63,10 +32,12 @@
          Debug\word_break_139.obj
          Debug\word_ladder_127.obj
          Debug\word_search_II_212.obj
-     1>same_tree_100.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall Solution::isSameTree(struct TreeNode *,struct TreeNode *)" (?isSameTree@Solution@@QAE_NPAUTreeNode@@0@Z)，该符号在函数 "void __cdecl let_100(void)" (?let_100@@YAXXZ) 中被引用
-     1>F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe : fatal error LNK1120: 1 个无法解析的外部命令
-     1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作 - 失败。
+         leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\leetcode_new.unsuccessfulbuild”。
+         正在对“Debug\leetcode_new.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:12.44
+已用时间 00:00:06.90
