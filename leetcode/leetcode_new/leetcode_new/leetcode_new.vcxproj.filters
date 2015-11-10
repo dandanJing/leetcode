@@ -53,64 +53,10 @@
     <ClCompile Include="word_ladder_127.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="path_sum_112.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="path_sum_II_113.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="minimun_depth_of_binary_tree_111.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="balanced_binary_tree_110.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="convert_sorted_list_to_BST_109.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="convert_sorted_array_to_BST_108.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="symmetric_tree_101.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_level_order_traversal_102.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_level_order_traversal_II_107.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_zigzag_level_order_travesal_103.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="maximum_depth_of_binary_tree_104.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="construct_binary_tree_from_preorder_and_inorder_traversal_105.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="construct_binary_tree_from_inorder_and_postorder_traversal_106.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="same_tree_100.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="recover_binary_search_tree_99.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="validate_BST_98.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="unique_BST_96.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="unique_BST_II_95.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary_tree_inorder_traversal_94.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

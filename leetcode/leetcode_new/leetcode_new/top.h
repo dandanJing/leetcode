@@ -131,11 +131,9 @@ public:
 	int sumNumbers(TreeNode* root);
 	int minimumTotal(vector<vector<int>>& triangle);
 	vector<vector<int>> generate(int numRows);
-	vector<int> getRow(int rowIndex);*/
-
+	vector<int> getRow(int rowIndex);
 	bool hasPathSum(TreeNode* root, int sum);
 	vector<vector<int>> pathSum(TreeNode* root, int sum);
-	void flatten(TreeNode* root);
 	int minDepth(TreeNode* root);
 	bool isBalanced(TreeNode* root);
 	TreeNode* sortedListToBST(ListNode* head);
@@ -148,12 +146,14 @@ public:
 	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
 	TreeNode* buildTreeII(vector<int>& inorder, vector<int>& postorder);
 	bool isSameTree(TreeNode* p, TreeNode* q);
-	void recoverTree(TreeNode* root);
 	bool isValidBST(TreeNode* root);
 	int numTrees(int n);
 	vector<TreeNode*> generateTrees(int n);
-	vector<int> inorderTraversal(TreeNode* root);
+	vector<int> inorderTraversal(TreeNode* root);*/
 
+	void recoverTree(TreeNode* root);
+
+	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
