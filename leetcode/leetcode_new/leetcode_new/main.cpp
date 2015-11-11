@@ -109,9 +109,12 @@ using namespace std;
 //void let_96();
 //void let_95();
 //void let_94();
+
+void let_58();
+void let_61();
+
+
 void let_99();
-
-
 void let_114();
 void let_187();
 void let_127();
@@ -239,8 +242,11 @@ int main(){
 	//let_96();
 	//let_95();
 	//let_94();
-	let_99();
+	
+	//let_58();
+	let_61();
 
+	//let_99();
 	//let_114();
 	//let_174();
 	//let_164();

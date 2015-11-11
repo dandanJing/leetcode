@@ -59,5 +59,11 @@
     <ClCompile Include="recover_binary_search_tree_99.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="length_of_last_word_58.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate_list_61.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

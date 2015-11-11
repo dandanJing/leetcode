@@ -83,10 +83,12 @@
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp" />
+    <ClCompile Include="length_of_last_word_58.cpp" />
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="recover_binary_search_tree_99.cpp" />
+    <ClCompile Include="rotate_list_61.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />

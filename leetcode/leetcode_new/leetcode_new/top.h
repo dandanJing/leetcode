@@ -152,6 +152,8 @@ public:
 	vector<int> inorderTraversal(TreeNode* root);*/
 
 	void recoverTree(TreeNode* root);
+	int lengthOfLastWord(string s);
+	ListNode* rotateRight(ListNode* head, int k);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
