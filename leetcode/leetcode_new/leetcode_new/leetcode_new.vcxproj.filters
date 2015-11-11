@@ -65,5 +65,11 @@
     <ClCompile Include="rotate_list_61.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_duplicates_from_sorted_list_83.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_duplicates_from_sorted_list_II_82.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -154,6 +154,8 @@ public:
 	void recoverTree(TreeNode* root);
 	int lengthOfLastWord(string s);
 	ListNode* rotateRight(ListNode* head, int k);
+	ListNode* deleteDuplicates(ListNode* head);
+	ListNode* deleteDuplicatesII(ListNode* head);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
