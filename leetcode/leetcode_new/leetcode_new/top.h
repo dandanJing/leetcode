@@ -156,6 +156,8 @@ public:
 	ListNode* rotateRight(ListNode* head, int k);
 	ListNode* deleteDuplicates(ListNode* head);
 	ListNode* deleteDuplicatesII(ListNode* head);
+	ListNode* removeNthFromEnd(ListNode* head, int n);
+	bool isValid(string s);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

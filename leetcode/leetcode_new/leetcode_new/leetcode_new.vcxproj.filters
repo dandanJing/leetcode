@@ -71,5 +71,8 @@
     <ClCompile Include="remove_duplicates_from_sorted_list_II_82.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_nth_node_end_of_list_19.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
