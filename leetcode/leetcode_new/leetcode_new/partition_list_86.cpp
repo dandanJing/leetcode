@@ -1,6 +1,26 @@
 #include"top.h"
 
 ListNode* Solution::partition(ListNode* head, int x){
+	ListNode*cur=NULL, *largehead=NULL;
+	ListNode* small=NULL, *large=NULL;
+	
+	cur=head;
+	while(cur){
+		if(cur->val<x){
+			if(small)small->next=cur;
+			else head=cur;
+			small=cur;
+		}else{
+			if(large)large->next=cur;
+			else largehead=cur;
+			large=cur;
+		}
+		cur=cur->next;
+	}
+	if(large)large->next=NULL;
+
+	if(small)small->next=largehead;
+	else head=largehead;
 	return head;
 }
 
@@ -23,7 +43,7 @@ void let_86(){
 		}
 	}
 	Solution sol;
-	temp=sol.partition(head,1);
+	temp=sol.partition(head,2);
 	while(temp){
 		cout<<temp->val<<",";
 		temp=temp->next;

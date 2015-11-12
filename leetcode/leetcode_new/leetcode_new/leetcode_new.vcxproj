@@ -88,6 +88,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="merge_two_sorted_lists_21.cpp" />
+    <ClCompile Include="partition_list_86.cpp" />
     <ClCompile Include="recover_binary_search_tree_99.cpp" />
     <ClCompile Include="remove_duplicates_from_sorted_list_83.cpp" />
     <ClCompile Include="remove_duplicates_from_sorted_list_II_82.cpp" />

@@ -80,5 +80,8 @@
     <ClCompile Include="merge_two_sorted_lists_21.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="partition_list_86.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
