@@ -74,5 +74,8 @@
     <ClCompile Include="remove_nth_node_end_of_list_19.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="valid_parentness_20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

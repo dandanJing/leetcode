@@ -93,6 +93,7 @@
     <ClCompile Include="remove_nth_node_end_of_list_19.cpp" />
     <ClCompile Include="rotate_list_61.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
+    <ClCompile Include="valid_parentness_20.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
