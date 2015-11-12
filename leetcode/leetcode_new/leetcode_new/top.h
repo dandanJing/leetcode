@@ -158,6 +158,8 @@ public:
 	ListNode* deleteDuplicatesII(ListNode* head);
 	ListNode* removeNthFromEnd(ListNode* head, int n);
 	bool isValid(string s);
+	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) ;
+	ListNode* partition(ListNode* head, int x);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
