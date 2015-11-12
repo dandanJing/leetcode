@@ -160,6 +160,7 @@ public:
 	bool isValid(string s);
 	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) ;
 	ListNode* partition(ListNode* head, int x);
+	ListNode* mergeKLists(vector<ListNode*>& lists) ;
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

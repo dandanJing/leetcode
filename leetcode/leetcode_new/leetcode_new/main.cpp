@@ -117,8 +117,8 @@ using namespace std;
 //void let_19();
 //void let_20();
 //void let_21();
-void let_86();
-
+//void let_86();
+void let_23();
 
 void let_99();
 void let_114();
@@ -256,7 +256,8 @@ int main(){
 	//let_19();
 	//let_20();
 	//let_21();
-	let_86();
+	//let_86();
+	let_23();
 
 
 	//let_99();
