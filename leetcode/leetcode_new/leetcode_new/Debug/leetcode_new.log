@@ -1,16 +1,10 @@
-﻿生成启动时间为 2015/11/19 22:04:08。
+﻿生成启动时间为 2015/11/19 22:58:04。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LRU_cache_146.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp serialize_deserialize_binary_tree_297.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
-         serialize_deserialize_binary_tree_297.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\serialize_deserialize_binary_tree_297.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>f:\google\leetcode\leetcode_new\leetcode_new\serialize_deserialize_binary_tree_297.cpp(59): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>f:\google\leetcode\leetcode_new\leetcode_new\serialize_deserialize_binary_tree_297.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\serialize_deserialize_binary_tree_297.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LRU_cache_146.cpp binary_tree_maximum_path_sum_124.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
+         binary_tree_maximum_path_sum_124.cpp
          正在生成代码...
          正在跳过...(未检测到相关更改)
          word_search_II_212.cpp
@@ -22,7 +16,8 @@
          copy_list_with_random_pointer_138.cpp
          LRU_cache_146.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\copy_list_with_random_pointer_138.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\binary_tree_maximum_path_sum_124.obj
+         Debug\copy_list_with_random_pointer_138.obj
          Debug\course_schedule_207.obj
          Debug\dungeon_game_174.obj
          Debug\flatten_binary_tree_to_linked_list_114.obj
@@ -43,4 +38,4 @@
 
 生成成功。
 
-已用时间 00:00:07.36
+已用时间 00:00:07.19
