@@ -166,6 +166,8 @@ public:
 	void setZeroes(vector<vector<int>>& matrix) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 	void merge(vector<int>& nums1, int m, vector<int>& nums2, int n);
+	int maxSubArray(vector<int>& nums);
+	int removeDuplicates(vector<int>& nums);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
