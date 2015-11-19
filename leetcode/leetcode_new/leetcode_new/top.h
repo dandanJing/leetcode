@@ -165,6 +165,7 @@ public:
 	vector<vector<int>> generateMatrix(int n);
 	void setZeroes(vector<vector<int>>& matrix) ;
 	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
+	void merge(vector<int>& nums1, int m, vector<int>& nums2, int n);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
