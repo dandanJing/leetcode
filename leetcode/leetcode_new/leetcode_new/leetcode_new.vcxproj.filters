@@ -95,5 +95,8 @@
     <ClCompile Include="set_matrix_zeros_73.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="search_a_2D_matrx_74.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

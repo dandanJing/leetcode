@@ -164,6 +164,7 @@ public:
 	vector<int> spiralOrder(vector<vector<int>>& matrix) ;
 	vector<vector<int>> generateMatrix(int n);
 	void setZeroes(vector<vector<int>>& matrix) ;
+	bool searchMatrix(vector<vector<int>>& matrix, int target) ;
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

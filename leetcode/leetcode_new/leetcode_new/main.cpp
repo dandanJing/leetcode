@@ -122,8 +122,8 @@ using namespace std;
 //void let_99();
 //void let_54();
 //void let_59();
-void let_73();
-
+//void let_73();
+ void let_74();
 
 void let_114();
 void let_187();
@@ -264,7 +264,8 @@ int main(){
 	//let_54();
 	//let_99();
 	//let_59();
-	let_73();
+	//let_73();
+	let_74();
 
 
 	//let_114();
