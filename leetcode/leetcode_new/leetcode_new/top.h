@@ -162,6 +162,7 @@ public:
 	ListNode* partition(ListNode* head, int x);
 	ListNode* mergeKLists(vector<ListNode*>& lists) ;
 	vector<int> spiralOrder(vector<vector<int>>& matrix) ;
+	vector<vector<int>> generateMatrix(int n);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
