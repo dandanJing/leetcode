@@ -149,8 +149,7 @@ public:
 	bool isValidBST(TreeNode* root);
 	int numTrees(int n);
 	vector<TreeNode*> generateTrees(int n);
-	vector<int> inorderTraversal(TreeNode* root);*/
-
+	vector<int> inorderTraversal(TreeNode* root);
 	void recoverTree(TreeNode* root);
 	int lengthOfLastWord(string s);
 	ListNode* rotateRight(ListNode* head, int k);
@@ -169,7 +168,9 @@ public:
 	int maxSubArray(vector<int>& nums);
 	int removeDuplicates(vector<int>& nums);
 	int search(vector<int>& nums, int target);
-	bool searchII(vector<int>& nums, int target) ;
+	bool searchII(vector<int>& nums, int target) ;*/
+
+	int maxPathSum(TreeNode* root);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
