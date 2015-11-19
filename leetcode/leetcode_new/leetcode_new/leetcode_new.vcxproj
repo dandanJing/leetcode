@@ -99,6 +99,7 @@
     <ClCompile Include="remove_nth_node_end_of_list_19.cpp" />
     <ClCompile Include="rotate_list_61.cpp" />
     <ClCompile Include="search_a_2D_matrx_74.cpp" />
+    <ClCompile Include="search_in_rotated_sorted_array_33.cpp" />
     <ClCompile Include="set_matrix_zeros_73.cpp" />
     <ClCompile Include="spiral_matrix_54.cpp" />
     <ClCompile Include="spiral_matrix_II_59.cpp" />

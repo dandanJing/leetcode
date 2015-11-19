@@ -168,6 +168,8 @@ public:
 	void merge(vector<int>& nums1, int m, vector<int>& nums2, int n);
 	int maxSubArray(vector<int>& nums);
 	int removeDuplicates(vector<int>& nums);
+	int search(vector<int>& nums, int target);
+	bool searchII(vector<int>& nums, int target) ;
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
