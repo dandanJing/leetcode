@@ -104,5 +104,8 @@
     <ClCompile Include="maxium_subarray_53.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_duplicates_sorted_array_80.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
