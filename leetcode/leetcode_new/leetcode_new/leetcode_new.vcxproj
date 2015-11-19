@@ -100,6 +100,7 @@
     <ClCompile Include="rotate_list_61.cpp" />
     <ClCompile Include="search_a_2D_matrx_74.cpp" />
     <ClCompile Include="search_in_rotated_sorted_array_33.cpp" />
+    <ClCompile Include="search_in_rotated_sorted_array_II_81.cpp" />
     <ClCompile Include="set_matrix_zeros_73.cpp" />
     <ClCompile Include="spiral_matrix_54.cpp" />
     <ClCompile Include="spiral_matrix_II_59.cpp" />
