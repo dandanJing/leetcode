@@ -68,5 +68,8 @@
     <ClCompile Include="longest_palindromic_substring_5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string_to_integer_8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

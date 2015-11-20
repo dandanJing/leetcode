@@ -173,6 +173,8 @@ public:
 	int maxPathSum(TreeNode* root);
 	int lengthOfLongestSubstring(string s);
 	string longestPalindrome(string s);
+	int myAtoi(string str);
+
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
