@@ -79,10 +79,10 @@ void let_124(){
 	TreeNode* node2=(TreeNode*) new TreeNode(3);
 	TreeNode* node3=(TreeNode*) new TreeNode(4);
 	TreeNode* node4=(TreeNode*) new TreeNode(5);
-	/*root->left=node1;
-	root->right=node2;*/
-	/*node2->left=node3;
-	node2->right=node4;*/
+	root->left=node1;
+	root->right=node2;
+	node2->left=node3;
+	node2->right=node4;
 	Solution sol;
 	cout<<sol.maxPathSum(root)<<endl;
 }
