@@ -89,6 +89,7 @@
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
+    <ClCompile Include="multiply_strings_43.cpp" />
     <ClCompile Include="serialize_deserialize_binary_tree_297.cpp" />
     <ClCompile Include="string_to_integer_8.cpp" />
     <ClCompile Include="substring_with_concatenation_of_all_words_30.cpp" />

@@ -74,5 +74,8 @@
     <ClCompile Include="substring_with_concatenation_of_all_words_30.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="multiply_strings_43.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
