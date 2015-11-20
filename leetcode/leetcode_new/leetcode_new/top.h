@@ -171,6 +171,8 @@ public:
 	bool searchII(vector<int>& nums, int target) ;*/
 
 	int maxPathSum(TreeNode* root);
+	int lengthOfLongestSubstring(string s);
+	string longestPalindrome(string s);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

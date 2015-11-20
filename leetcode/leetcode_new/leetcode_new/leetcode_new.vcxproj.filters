@@ -62,5 +62,8 @@
     <ClCompile Include="binary_tree_maximum_path_sum_124.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="longest_sumstring_without_repeating_characters_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
