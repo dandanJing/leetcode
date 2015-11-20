@@ -174,6 +174,7 @@ public:
 	int lengthOfLongestSubstring(string s);
 	string longestPalindrome(string s);
 	int myAtoi(string str);
+	vector<int> findSubstring(string s, vector<string>& words) ;
 
 
 	void flatten(TreeNode* root);

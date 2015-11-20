@@ -91,6 +91,7 @@
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="serialize_deserialize_binary_tree_297.cpp" />
     <ClCompile Include="string_to_integer_8.cpp" />
+    <ClCompile Include="substring_with_concatenation_of_all_words_30.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />

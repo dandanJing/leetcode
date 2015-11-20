@@ -71,5 +71,8 @@
     <ClCompile Include="string_to_integer_8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="substring_with_concatenation_of_all_words_30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
