@@ -177,6 +177,7 @@ public:
 	vector<int> findSubstring(string s, vector<string>& words) ;
 	string multiply(string num1, string num2);
 	vector<int> twoSum(vector<int>& nums, int target);
+	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

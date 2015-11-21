@@ -80,5 +80,8 @@
     <ClCompile Include="two_sum_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="add_two_numbers_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

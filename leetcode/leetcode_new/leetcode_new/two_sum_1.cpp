@@ -12,8 +12,8 @@ vector<int> Solution::twoSum(vector<int>& nums, int target){
 		if(it==map_int.end()){
 			map_int.insert(pair<int,int>(nums[i],i));
 		}else{
-			result.push_back(it->second);
-			result.push_back(i);
+			result.push_back(it->second+1);
+			result.push_back(i+1);
 			break;
 		}
 	}
