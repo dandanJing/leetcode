@@ -180,6 +180,7 @@ public:
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 	string convert(string s, int numRows);
 	int reverse(int x);
+	bool isPalindrome(int x) ;
 
 
 	void flatten(TreeNode* root);
