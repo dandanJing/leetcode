@@ -79,6 +79,7 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3sum_15.cpp" />
     <ClCompile Include="add_two_numbers_2.cpp" />
     <ClCompile Include="binary_tree_maximum_path_sum_124.cpp" />
     <ClCompile Include="contain_with_most_water_11.cpp" />
@@ -93,6 +94,7 @@
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="multiply_strings_43.cpp" />
     <ClCompile Include="palindrome_number_9.cpp" />
+    <ClCompile Include="remove_element_27.cpp" />
     <ClCompile Include="reverse_integer_7.cpp" />
     <ClCompile Include="serialize_deserialize_binary_tree_297.cpp" />
     <ClCompile Include="string_to_integer_8.cpp" />

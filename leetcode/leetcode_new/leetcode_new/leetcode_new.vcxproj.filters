@@ -95,5 +95,11 @@
     <ClCompile Include="contain_with_most_water_11.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_element_27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3sum_15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

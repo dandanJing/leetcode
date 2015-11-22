@@ -181,9 +181,11 @@ public:
 	string convert(string s, int numRows);
 	int reverse(int x);
 	bool isPalindrome(int x) ;
+	int removeElement(vector<int>& nums, int val);
+	vector<vector<int>> threeSum(vector<int>& nums);
+
+
 	int maxArea(vector<int>& height);
-
-
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
