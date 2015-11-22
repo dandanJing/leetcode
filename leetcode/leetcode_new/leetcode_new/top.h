@@ -186,6 +186,8 @@ public:
 	void nextPermutation(vector<int>& nums);
 	vector<int> searchRange(vector<int>& nums, int target);
 	int searchInsert(vector<int>& nums, int target);
+	int firstMissingPositive(vector<int>& nums) ;
+
 
 
 	vector<vector<int>> threeSum(vector<int>& nums);
