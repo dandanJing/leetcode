@@ -71,5 +71,8 @@
     <ClCompile Include="search_for_a_range_34.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="search_insert_position_35.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
