@@ -178,6 +178,9 @@ public:
 	string multiply(string num1, string num2);
 	vector<int> twoSum(vector<int>& nums, int target);
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+	string convert(string s, int numRows);
+	int reverse(int x);
+
 
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

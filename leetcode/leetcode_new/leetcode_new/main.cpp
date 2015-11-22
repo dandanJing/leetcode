@@ -136,7 +136,9 @@ using namespace std;
 //void let_30();
 //void let_43();
 //void let_1();
-void let_2();
+//void let_2();
+//void let_6();
+void let_7();
 
 
 void let_5();
@@ -293,7 +295,9 @@ int main(){
 	//let_30();
 	//let_43();
 	//let_1();
-	let_2();
+	//let_2();
+	//let_6();
+	let_7();
 
 
 	//let_5();

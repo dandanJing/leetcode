@@ -83,5 +83,8 @@
     <ClCompile Include="add_two_numbers_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="zigzag_conversion_6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

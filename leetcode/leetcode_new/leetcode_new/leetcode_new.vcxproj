@@ -100,6 +100,7 @@
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />
+    <ClCompile Include="zigzag_conversion_6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
