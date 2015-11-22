@@ -91,6 +91,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="multiply_strings_43.cpp" />
+    <ClCompile Include="palindrome_number_9.cpp" />
     <ClCompile Include="reverse_integer_7.cpp" />
     <ClCompile Include="serialize_deserialize_binary_tree_297.cpp" />
     <ClCompile Include="string_to_integer_8.cpp" />
