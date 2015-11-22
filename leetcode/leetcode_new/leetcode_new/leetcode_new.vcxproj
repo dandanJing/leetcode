@@ -93,6 +93,7 @@
     <ClCompile Include="next_permutation_31.cpp" />
     <ClCompile Include="search_for_a_range_34.cpp" />
     <ClCompile Include="search_insert_position_35.cpp" />
+    <ClCompile Include="trapping_rain_water_42.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />

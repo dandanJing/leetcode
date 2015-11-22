@@ -187,6 +187,7 @@ public:
 	vector<int> searchRange(vector<int>& nums, int target);
 	int searchInsert(vector<int>& nums, int target);
 	int firstMissingPositive(vector<int>& nums) ;
+	int trap(vector<int>& height);
 
 
 
