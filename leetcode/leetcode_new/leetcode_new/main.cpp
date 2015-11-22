@@ -143,8 +143,8 @@ using namespace std;
 //void let_27();
 //void let_15();
 //void let_4();
-void let_12();
-
+//void let_12();
+void let_31();
 
 
 void let_11();
@@ -297,6 +297,8 @@ int main(){
 	//let_297();
 	//let_124();
 	//let_3();
+	let_31();
+
 
 	//let_8();
 	//let_30();
@@ -309,7 +311,7 @@ int main(){
 	//let_27();
 	//let_15();
 	//let_4();
-	let_12();
+	//let_12();
 
 
 	//let_11();

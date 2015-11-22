@@ -30,7 +30,7 @@ string Solution::intToRoman(int num){
 				cur+="L";
 				val-=5;
 			}else if(val==4){
-				result+="XL";
+				cur+="XL";
 				val=0;
 			}
 			FOR(i,val)cur+="X";
@@ -45,7 +45,7 @@ string Solution::intToRoman(int num){
 				cur+="D";
 				val-=5;
 			}else if(val==4){
-				result+="CD";
+				cur+="CD";
 				val=0;
 			}
 			FOR(i,val)cur+="C";

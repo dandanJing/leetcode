@@ -168,11 +168,9 @@ public:
 	int maxSubArray(vector<int>& nums);
 	int removeDuplicates(vector<int>& nums);
 	int search(vector<int>& nums, int target);
-	bool searchII(vector<int>& nums, int target) ;*/
-
+	bool searchII(vector<int>& nums, int target) ;
 	int maxPathSum(TreeNode* root);
 	int lengthOfLongestSubstring(string s);
-	string longestPalindrome(string s);
 	int myAtoi(string str);
 	vector<int> findSubstring(string s, vector<string>& words) ;
 	string multiply(string num1, string num2);
@@ -182,11 +180,13 @@ public:
 	int reverse(int x);
 	bool isPalindrome(int x) ;
 	int removeElement(vector<int>& nums, int val);
-	vector<vector<int>> threeSum(vector<int>& nums);
 	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
-	string intToRoman(int num);
+	string intToRoman(int num);*/
+	
+	void nextPermutation(vector<int>& nums);
 
-
+	vector<vector<int>> threeSum(vector<int>& nums);
+	string longestPalindrome(string s);
 	int maxArea(vector<int>& height);
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
