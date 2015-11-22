@@ -101,5 +101,11 @@
     <ClCompile Include="3sum_15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="median_of_two_sorted_arrays_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_to_roman_12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

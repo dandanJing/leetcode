@@ -183,6 +183,8 @@ public:
 	bool isPalindrome(int x) ;
 	int removeElement(vector<int>& nums, int val);
 	vector<vector<int>> threeSum(vector<int>& nums);
+	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
+	string intToRoman(int num);
 
 
 	int maxArea(vector<int>& height);
