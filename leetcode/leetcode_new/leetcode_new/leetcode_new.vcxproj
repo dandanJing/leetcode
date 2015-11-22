@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="add_two_numbers_2.cpp" />
     <ClCompile Include="binary_tree_maximum_path_sum_124.cpp" />
+    <ClCompile Include="contain_with_most_water_11.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />

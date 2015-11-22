@@ -181,6 +181,7 @@ public:
 	string convert(string s, int numRows);
 	int reverse(int x);
 	bool isPalindrome(int x) ;
+	int maxArea(vector<int>& height);
 
 
 	void flatten(TreeNode* root);

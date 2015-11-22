@@ -92,5 +92,8 @@
     <ClCompile Include="palindrome_number_9.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="contain_with_most_water_11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
