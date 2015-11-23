@@ -101,5 +101,11 @@
     <ClCompile Include="minimum_path_sum_64.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="plus_one_66.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_colors_75.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

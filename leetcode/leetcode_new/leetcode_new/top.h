@@ -200,6 +200,8 @@ public:
 	int uniquePaths(int m, int n);
 	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
 	int minPathSum(vector<vector<int>>& grid);
+	vector<int> plusOne(vector<int>& digits) ;
+	void sortColors(vector<int>& nums) ;
 
 
 	vector<Interval> merge(vector<Interval>& intervals);

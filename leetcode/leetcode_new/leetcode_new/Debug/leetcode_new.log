@@ -1,10 +1,11 @@
-﻿生成启动时间为 2015/11/23 18:28:42。
+﻿生成启动时间为 2015/11/23 19:11:43。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt minimum_path_sum_64.cpp
-         minimum_path_sum_64.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sort_colors_75.cpp
+         sort_colors_75.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\sort_colors_75.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\3sum_15.obj
          Debug\contain_with_most_water_11.obj
@@ -21,9 +22,11 @@
          Debug\maximum_gap_164.obj
          Debug\merge_intervals_56.obj
          Debug\next_permutation_31.obj
+         Debug\plus_one_66.obj
          Debug\rotate_image_48.obj
          Debug\search_for_a_range_34.obj
          Debug\search_insert_position_35.obj
+         Debug\sort_colors_75.obj
          Debug\trapping_rain_water_42.obj
          Debug\ugly_num_II_264.obj
          Debug\unique_path_62.obj
@@ -41,4 +44,4 @@
 
 生成成功。
 
-已用时间 00:00:07.89
+已用时间 00:00:07.88

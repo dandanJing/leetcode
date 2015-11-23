@@ -94,9 +94,11 @@
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="merge_intervals_56.cpp" />
     <ClCompile Include="next_permutation_31.cpp" />
+    <ClCompile Include="plus_one_66.cpp" />
     <ClCompile Include="rotate_image_48.cpp" />
     <ClCompile Include="search_for_a_range_34.cpp" />
     <ClCompile Include="search_insert_position_35.cpp" />
+    <ClCompile Include="sort_colors_75.cpp" />
     <ClCompile Include="trapping_rain_water_42.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="unique_path_62.cpp" />
