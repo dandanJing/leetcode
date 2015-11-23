@@ -199,6 +199,7 @@ public:
 	void rotate(vector<vector<int>>& matrix);
 	int uniquePaths(int m, int n);
 	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
+	int minPathSum(vector<vector<int>>& grid);
 
 
 	vector<Interval> merge(vector<Interval>& intervals);

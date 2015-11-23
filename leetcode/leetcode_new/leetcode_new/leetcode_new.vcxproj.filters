@@ -98,5 +98,8 @@
     <ClCompile Include="unique_path_II_63.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="minimum_path_sum_64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
