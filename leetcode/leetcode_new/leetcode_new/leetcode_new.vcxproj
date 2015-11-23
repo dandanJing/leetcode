@@ -99,6 +99,7 @@
     <ClCompile Include="search_for_a_range_34.cpp" />
     <ClCompile Include="search_insert_position_35.cpp" />
     <ClCompile Include="sort_colors_75.cpp" />
+    <ClCompile Include="subsets_78.cpp" />
     <ClCompile Include="trapping_rain_water_42.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="unique_path_62.cpp" />

@@ -107,5 +107,8 @@
     <ClCompile Include="sort_colors_75.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="subsets_78.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
