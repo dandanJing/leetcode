@@ -203,6 +203,7 @@ public:
 	vector<int> plusOne(vector<int>& digits) ;
 	void sortColors(vector<int>& nums) ;
 	vector<vector<int>> subsets(vector<int>& nums);
+	vector<vector<int>> subsetsWithDup(vector<int>& nums);
 
 
 	vector<Interval> merge(vector<Interval>& intervals);
