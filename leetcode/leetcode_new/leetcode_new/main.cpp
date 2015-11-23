@@ -150,8 +150,8 @@ using namespace std;
 //void let_41();
 //void let_42();
 //void let_55();
-void let_45();
-
+//void let_45();
+void let_48();
 
 
 void let_11();
@@ -310,7 +310,8 @@ int main(){
 	//let_41();
 	//let_42();
 	//let_55();
-	let_45();
+	//let_45();
+	let_48();
 
 
 	//let_8();

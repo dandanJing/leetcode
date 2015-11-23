@@ -190,6 +190,7 @@ public:
 	int trap(vector<int>& height);
 	bool canJump(vector<int>& nums);
 	int jump(vector<int>& nums) ;
+	void rotate(vector<vector<int>>& matrix);
 
 
 
