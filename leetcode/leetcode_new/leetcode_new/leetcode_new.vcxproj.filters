@@ -80,5 +80,11 @@
     <ClCompile Include="trapping_rain_water_42.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jump_games_55.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jump_game_II_45.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

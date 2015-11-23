@@ -188,6 +188,8 @@ public:
 	int searchInsert(vector<int>& nums, int target);
 	int firstMissingPositive(vector<int>& nums) ;
 	int trap(vector<int>& height);
+	bool canJump(vector<int>& nums);
+	int jump(vector<int>& nums) ;
 
 
 
