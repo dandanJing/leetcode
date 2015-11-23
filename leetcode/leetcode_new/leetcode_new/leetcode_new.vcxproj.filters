@@ -110,5 +110,8 @@
     <ClCompile Include="subsets_78.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="subset_II_90.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
