@@ -41,7 +41,13 @@ struct ListNode {
      ListNode *next;
      ListNode(int x) : val(x), next(NULL) {}
 };
- 
+
+struct Interval {
+     int start;
+     int end;
+     Interval() : start(0), end(0) {}
+     Interval(int s, int e) : start(s), end(e) {}
+ };
 
 class Solution{
 public:
@@ -191,6 +197,7 @@ public:
 	bool canJump(vector<int>& nums);
 	int jump(vector<int>& nums) ;
 	void rotate(vector<vector<int>>& matrix);
+	vector<Interval> merge(vector<Interval>& intervals);
 
 
 
