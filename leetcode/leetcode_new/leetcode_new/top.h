@@ -197,10 +197,10 @@ public:
 	bool canJump(vector<int>& nums);
 	int jump(vector<int>& nums) ;
 	void rotate(vector<vector<int>>& matrix);
+	int uniquePaths(int m, int n);
+
+
 	vector<Interval> merge(vector<Interval>& intervals);
-
-
-
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);
 	int maxArea(vector<int>& height);
