@@ -100,6 +100,7 @@
     <ClCompile Include="trapping_rain_water_42.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="unique_path_62.cpp" />
+    <ClCompile Include="unique_path_II_63.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />

@@ -198,6 +198,7 @@ public:
 	int jump(vector<int>& nums) ;
 	void rotate(vector<vector<int>>& matrix);
 	int uniquePaths(int m, int n);
+	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
 
 
 	vector<Interval> merge(vector<Interval>& intervals);
