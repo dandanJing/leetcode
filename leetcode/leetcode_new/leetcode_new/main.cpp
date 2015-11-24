@@ -158,7 +158,8 @@ using namespace std;
 //void let_66();
 //void let_75();
 //void let_78();
-void let_67();
+//void let_67();
+void let_49();
 
 
 void let_90();
@@ -327,7 +328,8 @@ int main(){
 	//let_66();
 	//let_75();
 	//let_78();
-	let_67();
+	//let_67();
+	let_49();
 
 
 

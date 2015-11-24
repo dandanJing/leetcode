@@ -74,5 +74,8 @@
     <ClCompile Include="add_binary_67.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="group_anagrams_49.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
