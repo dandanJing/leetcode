@@ -77,5 +77,8 @@
     <ClCompile Include="group_anagrams_49.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="count_and_say_38.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

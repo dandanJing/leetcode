@@ -203,7 +203,7 @@ public:
 	void sortColors(vector<int>& nums) ;*/
 
 	string addBinary(string a, string b);
-	
+	string countAndSay(int n);
 
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
