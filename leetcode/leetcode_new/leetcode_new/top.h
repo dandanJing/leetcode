@@ -187,8 +187,7 @@ public:
 	bool isPalindrome(int x) ;
 	int removeElement(vector<int>& nums, int val);
 	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
-	string intToRoman(int num);*/
-	
+	string intToRoman(int num);
 	void nextPermutation(vector<int>& nums);
 	vector<int> searchRange(vector<int>& nums, int target);
 	int searchInsert(vector<int>& nums, int target);
@@ -201,11 +200,12 @@ public:
 	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
 	int minPathSum(vector<vector<int>>& grid);
 	vector<int> plusOne(vector<int>& digits) ;
-	void sortColors(vector<int>& nums) ;
+	void sortColors(vector<int>& nums) ;*/
+
+	string addBinary(string a, string b);
+	
 	vector<vector<int>> subsets(vector<int>& nums);
 	vector<vector<int>> subsetsWithDup(vector<int>& nums);
-
-
 	vector<Interval> merge(vector<Interval>& intervals);
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);

@@ -65,52 +65,13 @@
     <ClCompile Include="3sum_15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="next_permutation_31.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="search_for_a_range_34.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="search_insert_position_35.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="first_missing_positive_41.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="trapping_rain_water_42.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="jump_games_55.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="jump_game_II_45.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="rotate_image_48.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="merge_intervals_56.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="unique_path_62.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="unique_path_II_63.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="minimum_path_sum_64.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="plus_one_66.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="sort_colors_75.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="subsets_78.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="subset_II_90.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_binary_67.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

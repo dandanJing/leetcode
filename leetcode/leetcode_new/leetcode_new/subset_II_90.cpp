@@ -40,7 +40,7 @@ void let_90(){
 		nums.push_back(val);
 	}
 	Solution sol;
-	vector<vector<int>>result=sol.subsets(nums);
+	vector<vector<int>>result=sol.subsetsWithDup(nums);
 	FOR(i,result.size()){
 		FOR(j,result[i].size()){
 			cout<<result[i][j]<<",";
