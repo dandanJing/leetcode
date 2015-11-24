@@ -206,6 +206,7 @@ public:
 	string countAndSay(int n);
 	int numDecodings(string s) ;
 	vector<string> generateParenthesis(int n) ;
+	vector<string> restoreIpAddresses(string s);
 
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
