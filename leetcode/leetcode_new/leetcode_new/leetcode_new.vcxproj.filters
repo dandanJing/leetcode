@@ -80,5 +80,8 @@
     <ClCompile Include="count_and_say_38.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="decode_ways_91.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

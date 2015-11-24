@@ -85,6 +85,7 @@
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="count_and_say_38.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
+    <ClCompile Include="decode_ways_91.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp" />
     <ClCompile Include="group_anagrams_49.cpp" />
