@@ -205,6 +205,7 @@ public:
 	string addBinary(string a, string b);
 	string countAndSay(int n);
 	int numDecodings(string s) ;
+	vector<string> generateParenthesis(int n) ;
 
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;

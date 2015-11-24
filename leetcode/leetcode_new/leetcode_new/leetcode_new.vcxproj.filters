@@ -83,5 +83,8 @@
     <ClCompile Include="decode_ways_91.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="generate_parentness_22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
