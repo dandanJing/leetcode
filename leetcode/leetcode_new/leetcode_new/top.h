@@ -207,6 +207,7 @@ public:
 	int numDecodings(string s) ;
 	vector<string> generateParenthesis(int n) ;
 	vector<string> restoreIpAddresses(string s);
+	int divide(int dividend, int divisor);
 
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
