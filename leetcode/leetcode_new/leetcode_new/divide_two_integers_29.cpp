@@ -30,7 +30,7 @@ int Solution::divide(int dividend, int divisor){
         int val2=dividabs>>(base);
 		temp = val2;
         int tbase=0;
-        int tcum=0;
+        int tcum=dividabs;
         while(temp){
             if(temp%2){
                 tcum-=(divabs<<tbase);
@@ -42,10 +42,13 @@ int Solution::divide(int dividend, int divisor){
         bool isfit=false;
 		if(divabs==1<<base) {isfit=true; result=val2;}
 		else if(val2==1)result=val2;
-		else if(tcum>0 && tcum<=dividend) result=val2;
+		else if(tcum>0) result=val2;
         else{
             while(1){
-                if(val1+1>=val2) {result=val1;break;}
+                if(val1+1>=val2) {
+					result=val1;
+					break;
+				}
                 temp=(val1+val2)>>1;
                 int cur=temp;
                 int cum=0;
@@ -88,7 +91,7 @@ int Solution::divide(int dividend, int divisor){
 
 void let_29(){
 	Solution sol;
-	//cout<<sol.divide(2147483647,3)<<endl;
+	cout<<sol.divide(2147483647,3)<<endl;//715827882
 	cout<<sol.divide(-1048958272,336470323)<<endl;//-3
 	cout<<sol.divide(1026117192,-874002063)<<endl;//-1
 	cout<<sol.divide(-2147483648,2)<<endl;//-1073741824
