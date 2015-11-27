@@ -100,6 +100,7 @@
     <ClCompile Include="restore_ip_address_93.cpp" />
     <ClCompile Include="subset_II_90.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
+    <ClCompile Include="valid_number_65.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />

@@ -95,5 +95,8 @@
     <ClCompile Include="divide_two_integers_29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="valid_number_65.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

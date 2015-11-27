@@ -208,6 +208,7 @@ public:
 	vector<string> generateParenthesis(int n) ;
 	vector<string> restoreIpAddresses(string s);
 	int divide(int dividend, int divisor);
+	bool isNumber(string s) ;
 
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
