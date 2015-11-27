@@ -164,7 +164,7 @@ using namespace std;
 //void let_91();
 //void let_22();
 //void let_29();
-void let_65();
+//void let_65();
 
 
 void let_93();
@@ -340,13 +340,13 @@ int main(){
 	//let_91();
 	//let_22();
 	//let_29();
-	let_65();
+	//let_65();
 
 	
 
 	//let_93();
 	//let_90();
-	//let_56();
+	let_56();
 	//let_8();
 	//let_30();
 	//let_43();
