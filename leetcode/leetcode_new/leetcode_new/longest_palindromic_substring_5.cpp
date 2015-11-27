@@ -57,7 +57,7 @@ string Solution::longestPalindrome(string s){
 	int maxlen=1;
 	int pos;
 	for(pos=0;pos<s.size()/2;pos++){
-		if(s[pos]!=s[s.size()-1-i])break;
+		if(s[pos]!=s[s.size()-1-pos])break;
 	}
 	if(pos>=s.size()/2) return s;
 

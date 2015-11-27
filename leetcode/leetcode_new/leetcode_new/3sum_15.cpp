@@ -117,51 +117,81 @@ void findValue(vector<int> pos_vec,vector<int> neg_vec,int count1,int count2,vec
 }
 
 vector<vector<int>> Solution::threeSum(vector<int>& nums){
-	vector<vector<int>> result;
-	vector<int> neg_vec;
-	vector<int> pos_vec;
-	std::map<int,int>int_map;
-	std::map<int,int>::iterator it;
-	int zero_count=0;
-	FOR(i,nums.size()){
-		if(nums[i]==0)zero_count++;
-		else if(nums[i]>0)pos_vec.push_back(nums[i]);
-		else neg_vec.push_back(nums[i]);
+	//vector<vector<int>> result;
+	//vector<int> neg_vec;
+	//vector<int> pos_vec;
+	//std::map<int,int>int_map;
+	//std::map<int,int>::iterator it;
+	//int zero_count=0;
+	//FOR(i,nums.size()){
+	//	if(nums[i]==0)zero_count++;
+	//	else if(nums[i]>0)pos_vec.push_back(nums[i]);
+	//	else neg_vec.push_back(nums[i]);
 
-		/*it=int_map.find(nums[i]);
-		if(it!=int_map.end())it->second++;
-		else int_map.insert(pair<int,int>(nums[i],1));*/
-	}
-	FOR(i,pos_vec.size()){
-		int j,val=pos_vec[i];
-		for(j=i-1;j>=0;j--){
-			if(pos_vec[j]>val)pos_vec[j+1]=pos_vec[j];
-			else break;
-		}
-		pos_vec[j+1]=val;
-	}
-	FOR(i,neg_vec.size()){
-		int j,val=neg_vec[i];
-		for(j=i-1;j>=0;j--){
-			if(neg_vec[j]>val)neg_vec[j+1]=neg_vec[j];
-			else break;
-		}
-		neg_vec[j+1]=val;
-	}
-	if(zero_count){
-		if(zero_count>2){
-			vector<int>temp;
-			temp.push_back(0);temp.push_back(0);temp.push_back(0);
-			result.push_back(temp);
-		}
-		//findSumValue(int_map,pos_vec,neg_vec,1,1,result);
-		findValue(pos_vec,neg_vec,1,1,result);
-	}
-	//findSumValue(int_map,pos_vec,neg_vec,2,1,result);
-	//findSumValue(int_map,pos_vec,neg_vec,1,2,result);
-	findValue(pos_vec,neg_vec,2,1,result);
-	findValue(pos_vec,neg_vec,1,2,result);
-	return result;
+	//	/*it=int_map.find(nums[i]);
+	//	if(it!=int_map.end())it->second++;
+	//	else int_map.insert(pair<int,int>(nums[i],1));*/
+	//}
+	//FOR(i,pos_vec.size()){
+	//	int j,val=pos_vec[i];
+	//	for(j=i-1;j>=0;j--){
+	//		if(pos_vec[j]>val)pos_vec[j+1]=pos_vec[j];
+	//		else break;
+	//	}
+	//	pos_vec[j+1]=val;
+	//}
+	//FOR(i,neg_vec.size()){
+	//	int j,val=neg_vec[i];
+	//	for(j=i-1;j>=0;j--){
+	//		if(neg_vec[j]>val)neg_vec[j+1]=neg_vec[j];
+	//		else break;
+	//	}
+	//	neg_vec[j+1]=val;
+	//}
+	//if(zero_count){
+	//	if(zero_count>2){
+	//		vector<int>temp;
+	//		temp.push_back(0);temp.push_back(0);temp.push_back(0);
+	//		result.push_back(temp);
+	//	}
+	//	//findSumValue(int_map,pos_vec,neg_vec,1,1,result);
+	//	findValue(pos_vec,neg_vec,1,1,result);
+	//}
+	////findSumValue(int_map,pos_vec,neg_vec,2,1,result);
+	////findSumValue(int_map,pos_vec,neg_vec,1,2,result);
+	//findValue(pos_vec,neg_vec,2,1,result);
+	//findValue(pos_vec,neg_vec,1,2,result);
+	//return result;
+	vector<vector<int>> result;
+    	sort(nums.begin(),nums.end());
+    	int n=nums.size();
+    	FOR(i,n){
+    	    if(i && nums[i]==nums[i-1])continue;
+    	    int j=i+1;
+    	    int k=n-1;
+    	    while(j<k){
+    	        if(j>i+1 && nums[j]==nums[j-1]){
+    	            j++;continue;
+    	        }
+    	        if(k<n-1 && nums[k]==nums[k+1]){
+    	            k--;continue;
+    	        }
+    	        int twosum=nums[i]+nums[j];
+    	        if(twosum+nums[k]<0){
+    	            j++;
+    	        }else if(twosum+nums[k]>0){
+    	            k--;
+    	        }else{
+    	            vector<int>temp;
+    	            temp.push_back(nums[i]);
+    	            temp.push_back(nums[j]);
+    	            temp.push_back(nums[k]);
+					result.push_back(temp);
+    	            j++;k--;
+    	        }
+    	    }
+    	}
+    	return result;
 }
 
 void let_15(){
