@@ -50,11 +50,47 @@ string findLagest(string s,int start, int end){
 }
 
 string Solution::longestPalindrome(string s){
-	return findLagest(s,0,s.size()-1);
+	if(s.size()==0)return "";
+
+	string result="";
+	result+=s[0];
+	int maxlen=1;
+	int pos;
+	for(pos=0;pos<s.size()/2;pos++){
+		if(s[pos]!=s[s.size()-1-i])break;
+	}
+	if(pos>=s.size()/2) return s;
+
+	bool table[1000][1000] = {false};
+	FOR(i,s.size()){
+		 table[i][i] = true;  
+	}
+	FOR(i,s.size()-1){
+		if(s[i]==s[i+1]){
+			maxlen=2;
+			result=s.substr(i,2);
+			table[i][i+1]=true;
+		}
+	}
+	for(int len=3;len<=s.size();len++){
+		int j;
+		FOR(i,s.size()-len+1){
+			j=i+len-1;
+			if(s[j]==s[i] && table[i+1][j-1]){
+				table[i][j]=true;
+				maxlen=len;
+				result=s.substr(i,len);
+			}
+		}
+	}
+	return result;
+	//return findLagest(s,0,s.size()-1);
 }
 
  void let_5(){
 	 Solution sol;
 	 //cout<<sol.longestPalindrome("abcbacddsddcabc")<<endl;
-	 cout<<sol.longestPalindrome("abcbdsdbdcabc")<<endl;
+	 //cout<<sol.longestPalindrome("abcbdsdbdcabc")<<endl;
+	 cout<<sol.longestPalindrome("abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababa")<<endl;
+	 
  }

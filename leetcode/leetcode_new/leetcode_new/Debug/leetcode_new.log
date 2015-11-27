@@ -1,24 +1,29 @@
-﻿生成启动时间为 2015/11/27 16:19:55。
+﻿生成启动时间为 2015/11/27 22:09:49。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum_15.cpp LRU_cache_146.cpp contain_with_most_water_11.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp longest_palindromic_substring_5.cpp maximum_gap_164.cpp merge_intervals_56.cpp ugly_num_II_264.cpp
-         merge_intervals_56.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\merge_intervals_56.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\merge_intervals_56.cpp(192): warning C4018: “<”: 有符号/无符号不匹配
+     1>InitializeBuildStatus:
+         正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum_15.cpp LRU_cache_146.cpp contain_with_most_water_11.cpp copy_list_with_random_pointer_138.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp longest_palindromic_substring_5.cpp maximum_gap_164.cpp ugly_num_II_264.cpp
+         longest_palindromic_substring_5.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(36): warning C4018: “<=”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(39): warning C4018: “>”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(69): warning C4018: “<=”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\longest_palindromic_substring_5.cpp(71): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
          ugly_num_II_264.cpp
          maximum_gap_164.cpp
-         longest_palindromic_substring_5.cpp
          flatten_binary_tree_to_linked_list_114.cpp
          dungeon_game_174.cpp
-         course_schedule_207.cpp
          copy_list_with_random_pointer_138.cpp
          contain_with_most_water_11.cpp
          LRU_cache_146.cpp
          3sum_15.cpp
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\3sum_15.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\3sum_15.obj
          Debug\add_binary_67.obj
          Debug\contain_with_most_water_11.obj
          Debug\copy_list_with_random_pointer_138.obj
@@ -45,8 +50,11 @@
          Debug\word_ladder_127.obj
          Debug\word_search_II_212.obj
          leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\leetcode_new.unsuccessfulbuild”。
+         正在对“Debug\leetcode_new.lastbuildstate”执行 Touch 任务。
      1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.44
+已用时间 00:00:07.58

@@ -165,11 +165,11 @@ using namespace std;
 //void let_22();
 //void let_29();
 //void let_65();
-
+//void let_56();
 
 void let_93();
 void let_90();
-void let_56();
+
 void let_11();
 void let_5();
 void let_114();
@@ -346,7 +346,7 @@ int main(){
 
 	//let_93();
 	//let_90();
-	let_56();
+	//let_56();
 	//let_8();
 	//let_30();
 	//let_43();
@@ -362,7 +362,7 @@ int main(){
 
 
 	//let_11();
-	//let_5();
+	let_5();
 	//let_114();
 	//let_174();
 	//let_164();
