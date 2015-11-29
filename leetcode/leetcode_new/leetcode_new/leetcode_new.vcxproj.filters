@@ -56,16 +56,7 @@
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="longest_palindromic_substring_5.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="contain_with_most_water_11.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3sum_15.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="merge_intervals_56.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="subset_II_90.cpp">
@@ -74,31 +65,10 @@
     <ClCompile Include="add_binary_67.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="group_anagrams_49.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="count_and_say_38.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="decode_ways_91.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="generate_parentness_22.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="implement_strStr_28.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="restore_ip_address_93.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="divide_two_integers_29.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="valid_number_65.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="additive_number_306.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
