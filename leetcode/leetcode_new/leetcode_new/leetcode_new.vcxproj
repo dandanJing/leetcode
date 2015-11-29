@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3sum_15.cpp" />
+    <ClCompile Include="additive_number_306.cpp" />
     <ClCompile Include="add_binary_67.cpp" />
     <ClCompile Include="contain_with_most_water_11.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />

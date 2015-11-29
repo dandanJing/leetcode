@@ -1,14 +1,17 @@
-﻿生成启动时间为 2015/11/29 22:15:51。
+﻿生成启动时间为 2015/11/29 23:11:39。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\leetcode_new.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LRU_cache_146.cpp contain_with_most_water_11.cpp copy_list_with_random_pointer_138.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp ugly_num_II_264.cpp valid_number_65.cpp
-         valid_number_65.cpp
-     1>f:\google\leetcode\leetcode_new\leetcode_new\valid_number_65.cpp(6): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\valid_number_65.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\valid_number_65.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\valid_number_65.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LRU_cache_146.cpp additive_number_306.cpp contain_with_most_water_11.cpp copy_list_with_random_pointer_138.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp ugly_num_II_264.cpp
+         additive_number_306.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(9): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(22): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(26): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(45): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(49): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>f:\google\leetcode\leetcode_new\leetcode_new\additive_number_306.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
          ugly_num_II_264.cpp
@@ -20,6 +23,7 @@
          LRU_cache_146.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\3sum_15.obj
+         Debug\additive_number_306.obj
          Debug\add_binary_67.obj
          Debug\contain_with_most_water_11.obj
          Debug\copy_list_with_random_pointer_138.obj
@@ -53,4 +57,4 @@
 
 生成成功。
 
-已用时间 00:00:06.47
+已用时间 00:00:06.88

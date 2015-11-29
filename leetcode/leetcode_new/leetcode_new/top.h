@@ -209,7 +209,7 @@ public:
 	vector<string> restoreIpAddresses(string s);
 	int divide(int dividend, int divisor);
 	bool isNumber(string s) ;
-
+	bool isAdditiveNumber(string num);
 
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
 	vector<vector<int>> subsets(vector<int>& nums);
