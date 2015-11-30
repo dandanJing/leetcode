@@ -200,17 +200,17 @@ public:
 	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
 	int minPathSum(vector<vector<int>>& grid);
 	vector<int> plusOne(vector<int>& digits) ;
-	void sortColors(vector<int>& nums) ;*/
-
-	string addBinary(string a, string b);
+	void sortColors(vector<int>& nums) ;
 	string countAndSay(int n);
 	int numDecodings(string s) ;
 	vector<string> generateParenthesis(int n) ;
-	vector<string> restoreIpAddresses(string s);
-	int divide(int dividend, int divisor);
 	bool isNumber(string s) ;
 	bool isAdditiveNumber(string num);
+	bool isMatch(string s, string p);*/
 
+	string addBinary(string a, string b);
+	int divide(int dividend, int divisor);
+	vector<string> restoreIpAddresses(string s);
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
 	vector<vector<int>> subsets(vector<int>& nums);
 	vector<vector<int>> subsetsWithDup(vector<int>& nums);

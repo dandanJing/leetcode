@@ -10,8 +10,8 @@ void findVal(vector<int>& height, int start1, int end1,int start2,int end2){
 		for(int i=start1;i<=end1;i++){
 			for(int j=start2;j<=end2;j++){
 				temph=min(height[i],height[j]);
-				if(temph*(i-j)<=maxHeight)continue;
-				else maxHeight=temph*(i-j);
+				if(temph*(j-i)<=maxHeight)continue;
+				else maxHeight=temph*(j-i);
 			}
 		}
 	}else{
@@ -44,9 +44,19 @@ void findMaxVal(vector<int>& height, int start, int end){
 	}
 }
 int Solution::maxArea(vector<int>& height){
-	maxHeight=0;
+	int capacity=0;
+	int left=0,right=height.size()-1;
+	int temp;
+	while(left<right){
+		temp=min(height[left],height[right])*(right-left);
+		if(temp>capacity) capacity=temp;
+		if(height[left]<height[right])left++;
+		else right--;
+	}
+	return capacity;
+	/*maxHeight=0;
 	findMaxVal(height,0,height.size()-1);
-	return maxHeight;
+	return maxHeight;*/
 	/*int result=0;
 	int temph;
 	FOR(i,height.size()){
