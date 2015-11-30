@@ -206,7 +206,10 @@ public:
 	vector<string> generateParenthesis(int n) ;
 	bool isNumber(string s) ;
 	bool isAdditiveNumber(string num);
-	bool isMatch(string s, string p);*/
+	bool isMatch(string s, string p);
+	int maxArea(vector<int>& height);*/
+
+	int threeSumClosest(vector<int>& nums, int target);
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
@@ -217,7 +220,7 @@ public:
 	vector<Interval> merge(vector<Interval>& intervals);
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);
-	int maxArea(vector<int>& height);
+	
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);

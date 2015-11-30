@@ -56,9 +56,6 @@
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="contain_with_most_water_11.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="subset_II_90.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -69,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="divide_two_integers_29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3sum_closest_16.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
