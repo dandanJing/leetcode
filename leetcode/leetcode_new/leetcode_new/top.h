@@ -211,6 +211,7 @@ public:
 
 	int threeSumClosest(vector<int>& nums, int target);
 	ListNode* reverseKGroup(ListNode* head, int k);
+	bool isMatch44(string s, string p);
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);

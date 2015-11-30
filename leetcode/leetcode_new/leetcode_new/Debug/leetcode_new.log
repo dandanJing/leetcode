@@ -1,13 +1,11 @@
-﻿生成启动时间为 2015/11/30 15:42:00。
+﻿生成启动时间为 2015/11/30 17:00:21。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp reverse_node_i_kgroup_25.cpp subset_II_90.cpp ugly_num_II_264.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
-         reverse_node_i_kgroup_25.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp subset_II_90.cpp ugly_num_II_264.cpp wildcard_matching_44.cpp
+         wildcard_matching_44.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\wildcard_matching_44.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
-         word_search_II_212.cpp
-         word_ladder_127.cpp
-         word_break_139.cpp
          ugly_num_II_264.cpp
          subset_II_90.cpp
          maximum_gap_164.cpp
@@ -31,6 +29,7 @@
          Debug\subset_II_90.obj
          Debug\ugly_num_II_264.obj
          Debug\var_define.obj
+         Debug\wildcard_matching_44.obj
          Debug\word_break_139.obj
          Debug\word_ladder_127.obj
          Debug\word_search_II_212.obj
@@ -39,4 +38,4 @@
 
 生成成功。
 
-已用时间 00:00:01.39
+已用时间 00:00:01.32
