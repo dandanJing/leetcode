@@ -210,6 +210,7 @@ public:
 	int maxArea(vector<int>& height);*/
 
 	int threeSumClosest(vector<int>& nums, int target);
+	ListNode* reverseKGroup(ListNode* head, int k);
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);

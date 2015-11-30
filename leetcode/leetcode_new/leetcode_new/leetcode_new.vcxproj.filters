@@ -71,5 +71,8 @@
     <ClCompile Include="3sum_closest_16.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="reverse_node_i_kgroup_25.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
