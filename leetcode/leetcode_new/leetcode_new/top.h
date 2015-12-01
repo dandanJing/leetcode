@@ -223,6 +223,7 @@ public:
 	vector<Interval> merge(vector<Interval>& intervals);
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);
+	string minWindow(string s, string t);
 	
 	void flatten(TreeNode* root);
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);

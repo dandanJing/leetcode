@@ -90,6 +90,7 @@
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
+    <ClCompile Include="minimum_window_substring_76.cpp" />
     <ClCompile Include="restore_ip_address_93.cpp" />
     <ClCompile Include="reverse_node_i_kgroup_25.cpp" />
     <ClCompile Include="subset_II_90.cpp" />
