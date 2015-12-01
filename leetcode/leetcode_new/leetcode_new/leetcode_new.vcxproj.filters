@@ -77,5 +77,8 @@
     <ClCompile Include="wildcard_matching_44.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="edit_distance_72.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

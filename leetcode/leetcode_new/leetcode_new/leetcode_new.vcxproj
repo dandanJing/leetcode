@@ -85,6 +85,7 @@
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="divide_two_integers_29.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
+    <ClCompile Include="edit_distance_72.cpp" />
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp" />
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
