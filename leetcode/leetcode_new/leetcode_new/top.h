@@ -214,7 +214,7 @@ public:
 	bool isMatch44(string s, string p);
 	int minDistance(string word1, string word2);
 	int largestRectangleArea(vector<int>& height);
-
+	bool isScramble(string s1, string s2) ;
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
