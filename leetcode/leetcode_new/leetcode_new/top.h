@@ -213,6 +213,8 @@ public:
 	ListNode* reverseKGroup(ListNode* head, int k);
 	bool isMatch44(string s, string p);
 	int minDistance(string word1, string word2);
+	int largestRectangleArea(vector<int>& height);
+
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);

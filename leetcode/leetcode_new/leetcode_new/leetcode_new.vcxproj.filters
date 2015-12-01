@@ -83,5 +83,8 @@
     <ClCompile Include="minimum_window_substring_76.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="largest_rectangle_in_histogram_84.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

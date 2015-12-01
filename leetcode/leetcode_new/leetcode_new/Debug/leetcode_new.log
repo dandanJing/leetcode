@@ -1,19 +1,34 @@
-﻿生成启动时间为 2015/12/1 14:08:26。
+﻿生成启动时间为 2015/12/1 14:21:42。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt copy_list_with_random_pointer_138.cpp course_schedule_207.cpp dungeon_game_174.cpp flatten_binary_tree_to_linked_list_114.cpp maximum_gap_164.cpp minimum_window_substring_76.cpp subset_II_90.cpp ugly_num_II_264.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum_closest_16.cpp add_binary_67.cpp copy_list_with_random_pointer_138.cpp course_schedule_207.cpp divide_two_integers_29.cpp dungeon_game_174.cpp edit_distance_72.cpp flatten_binary_tree_to_linked_list_114.cpp largest_rectangle_in_histogram_84.cpp LRU_cache_146.cpp main.cpp maximum_gap_164.cpp minimum_window_substring_76.cpp restore_ip_address_93.cpp reverse_node_i_kgroup_25.cpp subset_II_90.cpp ugly_num_II_264.cpp wildcard_matching_44.cpp word_break_139.cpp word_ladder_127.cpp word_search_II_212.cpp
          minimum_window_substring_76.cpp
      1>f:\google\leetcode\leetcode_new\leetcode_new\minimum_window_substring_76.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
      1>f:\google\leetcode\leetcode_new\leetcode_new\minimum_window_substring_76.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+         largest_rectangle_in_histogram_84.cpp
+     1>f:\google\leetcode\leetcode_new\leetcode_new\largest_rectangle_in_histogram_84.cpp(5): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\largest_rectangle_in_histogram_84.cpp(6): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
+         word_search_II_212.cpp
+         word_ladder_127.cpp
+         word_break_139.cpp
+         wildcard_matching_44.cpp
          ugly_num_II_264.cpp
          subset_II_90.cpp
+         reverse_node_i_kgroup_25.cpp
+         restore_ip_address_93.cpp
          maximum_gap_164.cpp
+         LRU_cache_146.cpp
          flatten_binary_tree_to_linked_list_114.cpp
+         edit_distance_72.cpp
          dungeon_game_174.cpp
+         divide_two_integers_29.cpp
          course_schedule_207.cpp
          copy_list_with_random_pointer_138.cpp
+         add_binary_67.cpp
+         3sum_closest_16.cpp
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\3sum_closest_16.obj
          Debug\add_binary_67.obj
@@ -23,6 +38,7 @@
          Debug\dungeon_game_174.obj
          Debug\edit_distance_72.obj
          Debug\flatten_binary_tree_to_linked_list_114.obj
+         Debug\largest_rectangle_in_histogram_84.obj
          Debug\LRU_cache_146.obj
          Debug\main.obj
          Debug\maximum_gap_164.obj
@@ -41,4 +57,4 @@
 
 生成成功。
 
-已用时间 00:00:01.52
+已用时间 00:00:02.56
