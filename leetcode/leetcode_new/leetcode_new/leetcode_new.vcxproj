@@ -79,26 +79,19 @@
     <ClInclude Include="top.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3sum_closest_16.cpp" />
     <ClCompile Include="add_binary_67.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="divide_two_integers_29.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
-    <ClCompile Include="edit_distance_72.cpp" />
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp" />
-    <ClCompile Include="largest_rectangle_in_histogram_84.cpp" />
     <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
-    <ClCompile Include="minimum_window_substring_76.cpp" />
     <ClCompile Include="restore_ip_address_93.cpp" />
-    <ClCompile Include="reverse_node_i_kgroup_25.cpp" />
-    <ClCompile Include="scramble_string_87.cpp" />
     <ClCompile Include="subset_II_90.cpp" />
     <ClCompile Include="ugly_num_II_264.cpp" />
     <ClCompile Include="var_define.cpp" />
-    <ClCompile Include="wildcard_matching_44.cpp" />
     <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
     <ClCompile Include="word_search_II_212.cpp" />

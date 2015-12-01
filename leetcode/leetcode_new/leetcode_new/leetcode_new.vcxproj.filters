@@ -68,26 +68,5 @@
     <ClCompile Include="divide_two_integers_29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="3sum_closest_16.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse_node_i_kgroup_25.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="wildcard_matching_44.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="edit_distance_72.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="minimum_window_substring_76.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="largest_rectangle_in_histogram_84.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="scramble_string_87.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

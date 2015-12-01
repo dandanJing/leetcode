@@ -4,6 +4,12 @@ bool Solution::isScramble(string s1, string s2) {
 	if(s1.size()!=s2.size())return false;
         if(s1.size()==0) return true;
         
+		string t1(s1);
+        string t2(s2);
+        sort(t1.begin(),t1.end());
+        sort(t2.begin(),t2.end());
+        if(t1.compare(t2)!=0) return false;
+
         if(s1[0]==s2[0])return isScramble(s1.substr(1,s1.size()-1),s2.substr(1,s2.size()-1));
         for(int i=1;i<s1.size();i++){
 			string str1=s1.substr(0,i);

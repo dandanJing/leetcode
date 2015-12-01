@@ -207,14 +207,13 @@ public:
 	bool isNumber(string s) ;
 	bool isAdditiveNumber(string num);
 	bool isMatch(string s, string p);
-	int maxArea(vector<int>& height);*/
-
+	int maxArea(vector<int>& height)
 	int threeSumClosest(vector<int>& nums, int target);
 	ListNode* reverseKGroup(ListNode* head, int k);
 	bool isMatch44(string s, string p);
 	int minDistance(string word1, string word2);
 	int largestRectangleArea(vector<int>& height);
-	bool isScramble(string s1, string s2) ;
+	bool isScramble(string s1, string s2) ;*/
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
