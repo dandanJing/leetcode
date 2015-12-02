@@ -29,6 +29,7 @@ void getResult(vector<int>& nums, vector<vector<int>>&result,queue<vector<int>>&
 }
 
 vector<vector<int>> Solution::subsetsWithDup(vector<int>& nums){
+	sort(nums.begin(),nums.end());
 	vector<vector<int>>result;
 	vector<int>temp;
 	queue<vector<int>>cur;
