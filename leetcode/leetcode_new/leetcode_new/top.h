@@ -215,7 +215,8 @@ public:
 	int largestRectangleArea(vector<int>& height);
 	bool isScramble(string s1, string s2) ;
 	vector<vector<int>> subsetsWithDup(vector<int>& nums);
-	vector<string> restoreIpAddresses(string s);*/
+	vector<string> restoreIpAddresses(string s);
+	void flatten(TreeNode* root);*/
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
@@ -228,7 +229,7 @@ public:
 	string longestPalindrome(string s);
 	string minWindow(string s, string t);
 	
-	void flatten(TreeNode* root);
+	
 	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
