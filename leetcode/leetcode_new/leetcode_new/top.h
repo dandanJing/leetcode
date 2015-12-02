@@ -214,11 +214,12 @@ public:
 	int minDistance(string word1, string word2);
 	int largestRectangleArea(vector<int>& height);
 	bool isScramble(string s1, string s2) ;
-	vector<vector<int>> subsetsWithDup(vector<int>& nums);*/
+	vector<vector<int>> subsetsWithDup(vector<int>& nums);
+	vector<string> restoreIpAddresses(string s);*/
 
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
-	vector<string> restoreIpAddresses(string s);
+	
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
 	vector<vector<int>> subsets(vector<int>& nums);
 	

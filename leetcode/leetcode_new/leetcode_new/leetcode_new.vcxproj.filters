@@ -56,13 +56,7 @@
     <ClCompile Include="flatten_binary_tree_to_linked_list_114.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="subset_II_90.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="add_binary_67.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="restore_ip_address_93.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="divide_two_integers_29.cpp">
