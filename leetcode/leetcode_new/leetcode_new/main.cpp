@@ -180,9 +180,8 @@ using namespace std;
 //void let_90();
 //void let_93();
 //void let_114();
-
-void let_187();
 void let_127();
+void let_187();
 void let_139();
 void let_146();
 void let_174();
@@ -287,7 +286,7 @@ int main(){
 	//let_120();
 	//let_118();
 	//let_119();
-	//let_127();
+	let_127();
 	//let_139();
 	//let_112();
 	//let_113();

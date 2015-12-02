@@ -230,7 +230,8 @@ public:
 	string minWindow(string s, string t);
 	
 	
-	int ladderLength(string beginWord, string endWord, vector<string>& wordList);
+	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
+
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
