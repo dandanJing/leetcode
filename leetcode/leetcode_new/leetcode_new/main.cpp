@@ -180,6 +180,10 @@ using namespace std;
 //void let_90();
 //void let_93();
 //void let_114();
+//void let_117();
+void let_121();
+void let_122();
+
 void let_127();
 void let_187();
 void let_139();
@@ -250,7 +254,6 @@ int main(){
 	//let_189();
 	//let_190();
 	//let_199();
-
 	//let_212();
 	//let_207();
 	//let_264();
@@ -286,7 +289,7 @@ int main(){
 	//let_120();
 	//let_118();
 	//let_119();
-	let_127();
+	//let_127();
 	//let_139();
 	//let_112();
 	//let_113();
@@ -375,6 +378,11 @@ int main(){
 	//let_12();
 	//let_5();
 	//let_114();
+	//let_117();
+	let_121();
+	let_122();
+
+
 	//let_174();
 	//let_164();
 	//let_146();

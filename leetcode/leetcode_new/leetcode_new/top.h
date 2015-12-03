@@ -34,7 +34,11 @@ struct TreeNode {
       TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-
+struct TreeLinkNode {
+  int val;
+  TreeLinkNode *left, *right, *next;
+  TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
+};
 
 struct ListNode {
      int val;
@@ -228,10 +232,12 @@ public:
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);
 	string minWindow(string s, string t);
-	
-	
-	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
+	void connect(TreeLinkNode *root);
+	int maxProfit(vector<int>& prices);
+	int maxProfitII(vector<int>& prices);
 
+
+	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
 	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);

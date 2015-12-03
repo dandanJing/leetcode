@@ -53,10 +53,13 @@
     <ClCompile Include="word_ladder_127.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="add_binary_67.cpp">
+    <ClCompile Include="populating_next_right_pointers_in_each_node_II_117.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="divide_two_integers_29.cpp">
+    <ClCompile Include="best_time_to_buy_sell_stock_121.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="best_time_to_buy_sell_stock_II_122.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

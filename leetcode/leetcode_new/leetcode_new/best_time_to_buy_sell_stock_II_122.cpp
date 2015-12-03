@@ -29,9 +29,42 @@ int findMaxProfit(vector<int> prices, int start,int end){
 
 int Solution::maxProfitII(vector<int>& prices){
 	if(prices.size()<2) return 0;
-	int size = prices.size();
+	
 
-	return findMaxProfit(prices,0,size);
+	int pos1=0;
+	vector<int>temp_vec;
+	while(pos1<prices.size()-1){
+		if(prices[pos1]<prices[pos1+1]){
+			temp_vec.push_back(prices[pos1]);
+			temp_vec.push_back(prices[pos1+1]);
+		}
+
+		pos1++;
+	}
+	temp_vec.push_back(prices.back());
+
+	int size = temp_vec.size();
+	vector<int>result;
+	result.push_back(0);
+	result.push_back(0);
+	int maxval=0;
+	for(int i=1;i<size;i++){
+		int mval=temp_vec[i-1];
+		int cur=temp_vec[i]-temp_vec[i-1]+result[i-1];
+		int temp;
+		
+		for(int j=i-2; j>=0;j--){
+			if(maxval==0) break;
+			if(temp_vec[j]<mval) mval=temp_vec[j];
+			temp = temp_vec[i]-mval;
+			if(j>=0) temp+=result[j];
+			if(temp>cur)cur=temp;
+		}
+		if(cur>maxval)maxval=cur;
+		result.push_back(cur);
+	}
+	return maxval;
+	//return findMaxProfit(prices,0,size);
 }
 
 void let_122(){
