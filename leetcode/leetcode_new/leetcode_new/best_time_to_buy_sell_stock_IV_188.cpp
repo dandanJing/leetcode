@@ -110,6 +110,9 @@ int Solution::maxProfitIV(int k, vector<int>& prices){
 
 	result[0][0]=0;
 	for(int i=0;i<k;i++){
+		for(int j=0;j<prices.size();j++){
+
+		}
 	}
 	
 }
