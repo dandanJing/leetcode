@@ -62,5 +62,8 @@
     <ClCompile Include="best_time_to_buy_sell_stock_II_122.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="best_time_to_buy_sell_stock_IV_188.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

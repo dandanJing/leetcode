@@ -181,8 +181,11 @@ using namespace std;
 //void let_93();
 //void let_114();
 //void let_117();
-void let_121();
-void let_122();
+//void let_121();
+//void let_122();
+void let_188();
+
+
 
 void let_127();
 void let_187();
@@ -379,9 +382,9 @@ int main(){
 	//let_5();
 	//let_114();
 	//let_117();
-	let_121();
-	let_122();
-
+	//let_121();
+	//let_122();
+	let_188();
 
 	//let_174();
 	//let_164();

@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="best_time_to_buy_sell_stock_121.cpp" />
     <ClCompile Include="best_time_to_buy_sell_stock_II_122.cpp" />
+    <ClCompile Include="best_time_to_buy_sell_stock_IV_188.cpp" />
     <ClCompile Include="copy_list_with_random_pointer_138.cpp" />
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
