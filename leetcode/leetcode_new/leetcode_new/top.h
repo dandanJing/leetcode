@@ -237,6 +237,8 @@ public:
 	int maxProfitII(vector<int>& prices);
 	int maxProfitIV(int k, vector<int>& prices);
 	vector<vector<string>> partition(string s);
+	int maxProfit(vector<int>& prices);
+
 
 	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
