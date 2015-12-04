@@ -20,7 +20,7 @@ int findResult(vector<int>& prices, int ** dp, int i, int j){
     return dp[i][j];
 }
 
-int Solution::maxProfit(vector<int>& prices){
+int Solution::maxProfit309(vector<int>& prices){
 	if(prices.size() < 2) return 0;
         
         int len = prices.size();
@@ -36,4 +36,16 @@ int Solution::maxProfit(vector<int>& prices){
 }
 
 void let_309(){
+	ifstream fin;
+	fin.open("let_309.txt");
+	int value;
+
+	vector<int> prices;
+	while(!fin.eof()){
+		fin>>value;
+		prices.push_back(value);
+	}
+
+	Solution sol;
+	cout<<sol.maxProfit309(prices)<<endl;
 }

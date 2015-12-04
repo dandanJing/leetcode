@@ -237,7 +237,8 @@ public:
 	int maxProfitII(vector<int>& prices);
 	int maxProfitIV(int k, vector<int>& prices);
 	vector<vector<string>> partition(string s);
-	int maxProfit(vector<int>& prices);
+	int maxProfit309(vector<int>& prices);
+	int nthSuperUglyNumber(int n, vector<int>& primes);
 
 
 	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
