@@ -234,15 +234,17 @@ public:
 	int maxProfitIV(int k, vector<int>& prices);
 	int nthUglyNumber(int n);
 	int maxProfit309(vector<int>& prices);
-	int nthSuperUglyNumber(int n, vector<int>& primes);*/
+	int nthSuperUglyNumber(int n, vector<int>& primes);
+	bool wordBreak(string s, vector<string>& wordDict);
+	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);*/
 
 	int longestConsecutive(vector<int>& nums);
 	void connect(TreeLinkNode *root);
 	vector<vector<string>> partition(string s);
 	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
-	bool wordBreak(string s, vector<string>& wordDict);
+	
 	int maximumGap(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
-	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);
+	
 	int calculateMinimumHP(vector<vector<int>>& dungeon);
 };
