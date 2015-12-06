@@ -220,30 +220,27 @@ public:
 	bool isScramble(string s1, string s2) ;
 	vector<vector<int>> subsetsWithDup(vector<int>& nums);
 	vector<string> restoreIpAddresses(string s);
-	void flatten(TreeNode* root);*/
-
+	void flatten(TreeNode* root);
 	string addBinary(string a, string b);
 	int divide(int dividend, int divisor);
-	
 	vector<vector<string>> groupAnagrams(vector<string>& strs) ;
 	vector<vector<int>> subsets(vector<int>& nums);
-	
 	vector<Interval> merge(vector<Interval>& intervals);
 	vector<vector<int>> threeSum(vector<int>& nums);
 	string longestPalindrome(string s);
 	string minWindow(string s, string t);
-	void connect(TreeLinkNode *root);
 	int maxProfit(vector<int>& prices);
 	int maxProfitII(vector<int>& prices);
 	int maxProfitIV(int k, vector<int>& prices);
-	vector<vector<string>> partition(string s);
+	int nthUglyNumber(int n);
 	int maxProfit309(vector<int>& prices);
-	int nthSuperUglyNumber(int n, vector<int>& primes);
+	int nthSuperUglyNumber(int n, vector<int>& primes);*/
 
-
+	int longestConsecutive(vector<int>& nums);
+	void connect(TreeLinkNode *root);
+	vector<vector<string>> partition(string s);
 	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
 	bool wordBreak(string s, vector<string>& wordDict);
-	int nthUglyNumber(int n);
 	int maximumGap(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	vector<string> findWords(vector<vector<char>>& board, vector<string>& words);

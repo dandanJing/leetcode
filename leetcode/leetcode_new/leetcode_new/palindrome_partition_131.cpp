@@ -53,4 +53,5 @@ void let_131(){
 	Solution sol;
 	vector<vector<string>> result=sol.partition("abb");
 	cout<<result.size()<<endl;
+	
 }
