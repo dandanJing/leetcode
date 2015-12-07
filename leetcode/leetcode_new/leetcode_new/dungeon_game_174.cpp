@@ -56,19 +56,38 @@ int calcuResult(vector<vector<int>>& dungeon,int posi,int posj,int temp){
 //}
 
 int Solution::calculateMinimumHP(vector<vector<int>>& dungeon){
-	/*if(dungeon.size()<=0)return 0;
-	size1=dungeon.size();
-	size2=dungeon[0].size();
+	if(dungeon.size()<=0)return 0;
+	int size1=dungeon.size();
+	int size2=dungeon[0].size();
 
-	vector<vector<int>> res;
+	//int result;
+
+	/*vector<vector<int>> res;
 	FOR(i,size1){
 		vector<int>temp;
 		FOR(j,size2){
-			temp.push_back(0x80000000);
+			temp.push_back(0);
 		}
 		res.push_back(temp);
 	}
-	vector<vector<int>> mid;
+	res[0][0] = dungeon[0][0];*/
+	int * result = (int*) new int[size2];
+	for(int i=size1-1; i>=0; i--){
+		for(int j=size2-1; j>=0; j--){
+			if(i==size1-1 && j==size2-1){
+				result[j] = max(1,1-dungeon[i][j]);
+			}else if(i==size1-1){
+				result[j] = max(1,result[j+1]-dungeon[i][j]);
+			}else if(j==size2-1){
+				result[j] = max(1,result[j]-dungeon[i][j]);
+			}else{
+				result[j] = min(result[j+1]-dungeon[i][j],result[j]-dungeon[i][j]);
+				if(result[j] <= 0) result[j] = 1;
+			}
+		}
+	}
+	return result[0];
+	/*vector<vector<int>> mid;
 	FOR(i,size1){
 		vector<int>temp;
 		FOR(j,size2){
@@ -85,8 +104,8 @@ int Solution::calculateMinimumHP(vector<vector<int>>& dungeon){
 		}
 		if(curi==0 && curj==0)break;
 	}
-	return res[0][0];*/
-	return 5;
+	return res[0][0];
+	return 5;*/
 }
 void let_174(){
 	ifstream fin;

@@ -83,15 +83,12 @@
     <ClCompile Include="course_schedule_207.cpp" />
     <ClCompile Include="dungeon_game_174.cpp" />
     <ClCompile Include="longest_consecutive_sequence_128.cpp" />
-    <ClCompile Include="LRU_cache_146.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="palindrome_partition_131.cpp" />
     <ClCompile Include="populating_next_right_pointers_in_each_node_II_117.cpp" />
     <ClCompile Include="var_define.cpp" />
-    <ClCompile Include="word_break_139.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
-    <ClCompile Include="word_search_II_212.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

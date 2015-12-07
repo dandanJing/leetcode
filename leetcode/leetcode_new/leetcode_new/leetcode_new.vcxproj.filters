@@ -29,19 +29,10 @@
     <ClCompile Include="course_schedule_207.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="word_search_II_212.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="maximum_gap_164.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="dungeon_game_174.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LRU_cache_146.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="word_break_139.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="copy_list_with_random_pointer_138.cpp">

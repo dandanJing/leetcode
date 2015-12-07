@@ -25,7 +25,33 @@ bool canFindCicle(vector<bool>& exist_vec,vector<vector<int>> list,int start_pos
 bool Solution::canFinish(int numCourses, vector<pair<int, int>>& prerequisites){
 	if(prerequisites.size()<=1) return true;
 
-	vector<vector<int>> list;
+	vector<vector<int> > graph(numCourses, vector<int>(0));
+	vector<int> in(numCourses, 0);
+	for(auto a : prerequisites){
+		graph[a.second].push_back(a.first);
+		in[a.first]++;
+	}
+	queue<int> q;
+	for(int i=0; i<numCourses; i++){
+		if(in[i] == 0) q.push(i);
+	}
+	while(q.size()){
+		int tmp = q.front();
+		q.pop();
+		for(auto a : graph[tmp]){
+			in[a]--;
+			if(in[a] == 0) q.push(a);
+		}
+		/*for(int i=0; i<graph[tmp].size(); i++){
+			in[graph[tmp][i]]--;
+			if(in[graph[tmp][i]] == 0 )q.push(graph[tmp][i]);
+		}*/
+	}
+	for(auto a : in){
+		if(a != 0) return false;
+	}
+	return true;
+	/*vector<vector<int>> list;
 	vector<bool> exist_vec;
 	int min_val=numCourses;
 	FOR(i,numCourses){
@@ -45,7 +71,7 @@ bool Solution::canFinish(int numCourses, vector<pair<int, int>>& prerequisites){
 
 		if(canFindCicle(exist_vec,list,min_val,contain)) return false;
 	}
-	return true;
+	return true;*/
 }
 
 void let_207(){
