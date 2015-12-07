@@ -50,5 +50,8 @@
     <ClCompile Include="longest_consecutive_sequence_128.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="shortest_palindrome_214.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

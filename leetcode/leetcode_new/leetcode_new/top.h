@@ -247,4 +247,5 @@ public:
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	
 	int calculateMinimumHP(vector<vector<int>>& dungeon);
+	string shortestPalindrome(string s);
 };

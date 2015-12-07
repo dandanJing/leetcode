@@ -87,6 +87,7 @@
     <ClCompile Include="maximum_gap_164.cpp" />
     <ClCompile Include="palindrome_partition_131.cpp" />
     <ClCompile Include="populating_next_right_pointers_in_each_node_II_117.cpp" />
+    <ClCompile Include="shortest_palindrome_214.cpp" />
     <ClCompile Include="var_define.cpp" />
     <ClCompile Include="word_ladder_127.cpp" />
   </ItemGroup>

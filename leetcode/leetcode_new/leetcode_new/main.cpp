@@ -198,6 +198,7 @@ void let_174();
 void let_164();
 void let_212();
 void let_207();
+void let_214();
 
 int main(){
 	//let_290();
@@ -261,7 +262,7 @@ int main(){
 	//let_190();
 	//let_199();
 	//let_212();
-	let_207();
+	//let_207();
 	//let_264();
 	//let_187();
 	//let_172();
@@ -389,13 +390,13 @@ int main(){
 	//let_122();
 	//let_188();
     //let_131();
-	 //let_309();
-	 //let_313();
+	//let_309();
+	//let_313();
 	//let_174();
 	//let_164();
 	//let_128();
 	//let_146();
-
+	let_214();
     
 	printf("press any key to continue....");
 	getchar();
