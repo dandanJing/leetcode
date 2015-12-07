@@ -22,6 +22,34 @@ bool canFindCicle(vector<bool>& exist_vec,vector<vector<int>> list,int start_pos
 	return false;
 }
 
+vector<int> Solution::findOrder(int numCourses, vector<pair<int, int>>& prerequisites) {
+        vector<int> result;
+		if(prerequisites.size()<=0) {vector<int> res; res.push_back(0);return res;}
+
+    	vector<vector<int> > graph(numCourses, vector<int>(0));
+    	vector<int> in(numCourses, 0);
+    	for(auto a : prerequisites){
+    		graph[a.second].push_back(a.first);
+    		in[a.first]++;
+    	}
+    	queue<int> q;
+    	for(int i=0; i<numCourses; i++){
+    		if(in[i] == 0) q.push(i);
+    	}
+    	while(q.size()){
+    		int tmp = q.front();
+    		q.pop();
+    		for(auto a : graph[tmp]){
+    			in[a]--;
+    			if(in[a] == 0) q.push(a);
+    		}
+    		result.push_back(tmp);
+    	}
+    	
+    	if(result.size() < numCourses) {vector<int> res; res.push_back(0);return res;}
+    	return result;
+    }
+
 bool Solution::canFinish(int numCourses, vector<pair<int, int>>& prerequisites){
 	if(prerequisites.size()<=1) return true;
 
@@ -88,9 +116,12 @@ void let_207(){
 		fin>>val1>>c>>val2;
 		fin>>c;
 		fin>>c;
-		req.push_back(pair<int,int>(val1,val2));
+		//req.push_back(pair<int,int>(val1,val2));
 	}
 
 	Solution sol;
-	cout<<sol.canFinish(numCourses,req)<<endl;
+	//cout<<sol.canFinish(numCourses,req)<<endl;
+	vector<int> result = sol.findOrder(numCourses,req);
+	FOR(i,result.size())cout<<result[i]<<",";
+	cout<<endl;
 }

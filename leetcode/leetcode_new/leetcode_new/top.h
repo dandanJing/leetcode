@@ -242,7 +242,7 @@ public:
 	void connect(TreeLinkNode *root);
 	vector<vector<string>> partition(string s);
 	vector<vector<string>> ladderLength(string beginWord, string endWord, std::map<string,int>& wordList);
-	
+	vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites);
 	int maximumGap(vector<int>& nums);
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites);
 	
