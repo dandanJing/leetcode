@@ -30,4 +30,5 @@ string Solution::shortestPalindrome(string s){
 void let_214(){
 	Solution sol;
 	cout<<sol.shortestPalindrome("abcd")<<endl;
+	
 }
