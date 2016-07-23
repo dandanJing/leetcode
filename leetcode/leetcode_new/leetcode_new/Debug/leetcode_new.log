@@ -1,12 +1,15 @@
-﻿生成启动时间为 2015/12/7 13:54:56。
+﻿生成启动时间为 2016/3/8 22:04:08。
      1>项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“Debug\leetcode_new.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\leetcode_new.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt copy_list_with_random_pointer_138.cpp maximum_gap_164.cpp palindrome_partition_131.cpp populating_next_right_pointers_in_each_node_II_117.cpp shortest_palindrome_214.cpp word_ladder_127.cpp
          shortest_palindrome_214.cpp
      1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(4): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(32): error C2026: 字符串太大，已截断尾部字符
+     1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\google\leetcode\leetcode_new\leetcode_new\shortest_palindrome_214.cpp(207): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
          正在跳过...(未检测到相关更改)
          word_ladder_127.cpp
@@ -14,8 +17,24 @@
          palindrome_partition_131.cpp
          maximum_gap_164.cpp
          copy_list_with_random_pointer_138.cpp
-     1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作 - 失败。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Google\leetcode\leetcode_new\Debug\leetcode_new.lib" /MACHINE:X86 Debug\copy_list_with_random_pointer_138.obj
+         Debug\course_schedule_207.obj
+         Debug\dungeon_game_174.obj
+         Debug\longest_consecutive_sequence_128.obj
+         Debug\main.obj
+         Debug\maximum_gap_164.obj
+         Debug\palindrome_partition_131.obj
+         Debug\populating_next_right_pointers_in_each_node_II_117.obj
+         Debug\shortest_palindrome_214.obj
+         Debug\var_define.obj
+         Debug\word_ladder_127.obj
+         leetcode_new.vcxproj -> F:\Google\leetcode\leetcode_new\Debug\leetcode_new.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\leetcode_new.unsuccessfulbuild”。
+         正在对“Debug\leetcode_new.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Google\leetcode\leetcode_new\leetcode_new\leetcode_new.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:01.63
+已用时间 00:00:10.07
